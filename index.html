@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="page1" name="page">
+            <p style="margin-left:20vw" id="header">Hello!!! </p><p>Welcome to my "How To" where you will create a How To Website!</p>
+            <p class="list">- Meaning a website that shows you how to make a website that shows you how to make a website... and so on.</p>
+            <p>What you will need:</p>
+            <div style="margin-bottom: 25px;">
+            <p class="list" style="margin-bottom:0px;">- 1 computer (with monitor and has Windows).</p>
+            <p class="list" style="margin-bottom:0px;">- Visual Studio Code.</p>
+            </div>
+            <p>That's all! Now lets begin the tutorial (Use the &lt and &gt buttons to switch pages)</p>
+        </div>
+        <div id="page2" name="page">
+            <p>1. Getting Started</p>
+            <p class="list">- Go to the desktop.</p>
+            <p class="list">- Create a folder.</p>
+            <p class="list">- Rename the folder to "How To Website How To".</p>
+            <img src="assets/ss1.png" style="width: 120px; height: 120px;">
+            <p class="list">- Take a screenshot of the folder (Windows + Shift + S).</p>
+            <p class="list">- Open the image in Snip & Sketch.</p>
+            <p class="list">- Save the image to the desktop (Ctrl + S).</p>
+            <p class="list">- Close Snip & Sketch (Always close after you're done with a screenshot and it's saved).</p>
+            <p class="list">- Rename the image "ss1.png" (or "ss1" if view file extensions is disabled).</p>
+        </div>
+        <div id="page3" name="page">
+            <p>2. Making the Proper Files</p>
+            <p class="list">- Open the folder (When I say "the folder" I'm talking about the "How To Website How To" folder).</p>
+            <p class="list">- Create another folder in the folder.</p>
+            <p class="list">- Rename the new folder inside the folder "assets".</p>
+            <p class="list">- Move all screenshots taken into "assets" folder from now on (Don't forget to move "ss1.png" from the desktop to the "assets" folder).</p>
+            <p class="list">- Go to the view tab near the top of file explorer.</p>
+            <p class="list">- In the Show/Hide section; Toggle on "File name extensions".</p>
+            <p class="list">- Inside of the folder create a new text file using the right click menu; name the file "index.html"; select yes on the pop-up.</p>
+            <p class="list">- Inside of the folder create a new text file using the right click menu; name the file "style.css"; select yes on the pop-up.</p>
+            <p class="list">- Inside of the folder create a new text file using the right click menu; name the file "main.js"; select yes on the pop-up.</p>
+            <img src="assets/ss2.png">
+            <p class="list">- Repeat the steps to take a screenshot but take one of the files in the folder (You can save them directly to the assets folder now that it's been created).</p>
+            <p class="list">- Rename the image to "ss2.png"</p>
+        </div>
+        <div id="page4" name="page">
+            <p>3. Getting Ready to Code 😨</p>
+            <p class="list">- Open Visual Studio Code (vs for short... I am not typing that another 30 times).</p>
+            <p class="list">- In the file explorer, select "index.html", "style.css", and "main.js"</p>
+            <p class="list">- Drag and drop the files into vs. (They should appear).</p>
+            <p class="list">- If prompted with untrusted files alert agree to using the files.</p>
+            <p class="list">- Click into index.html in the top bar of vs if you're not already inside of it.</p>
+            <p class="list">- Go to the folder in file explorer and double click open "index.html".</p>
+            <p class="list">- Repeat the steps to take a screenshot but take one of the top bar of the web browser that should've opened (If it didn't open... well... good luck).</p>
+            <p class="list">- Rename the image to "ss3.png"</p>
+            <p class="list">- Click and drag the middle of the top bar of the web browser all the way to the left edge of the screen.</p>
+            <img src="assets/ss3.png">
+            <p class="list">- Let go of the mouse.</p>
+            <p class="list">- When the grid of applications shows up you must select visual studio code.</p>
+            <p class="list">- Your screen should now be split-screen between the web browser and vs.</p>
+            <p class="list">- Click into vs on line 1 of "index.html".</p>
+        </div>
+        <div id="page5" name="page">
+            <p>4. Coding 😎</p>
+            <p class="list">- Add the code between the "*" symbols (Don't add "*" symbols into the actual code, only what is between them):</p>
+            <pre class="list">
+                <code> 
+* 
+&lt!DOCTYPE html&gt
+&lthtml&gt
+    &ltbody&gt
+        
+    &lt/body&gt
+    &ltscript src="main.js"&gt&lt/script&gt
+    &ltlink rel="stylesheet" href="style.css"&gt
+&lt/html&gt
+*
+                </code>
+            </pre>
+            <img src="assets/ss4.png">
+            <p class="list">- After every change to code in vs press (Ctrl + S) to save it.</p>
+            <p class="list">- To see your changes you can refresh the browser.</p>
+            <p class="list">- Repeat the steps to take a screenshot but take one of the code that was just added (Include the line numbers in the screenshots).</p>
+            <p class="list">- Rename the image to "ss4.png".</p>
+        </div>
+        <div id="page6" name="page">
+            <p>5. More Coding</p>
+            <p class="list">Switch to the "style.css" tab in vs (The tabs are near the top of the application).</p>
+            <p class="list">- Add the following code to "style.css" (Remember don't add in the "*" symbols):</p>
+            <pre class="list">
+                <code> 
+* 
+html{background-color: black;
+    font-family:system-ui,
+     -apple-system,
+      BlinkMacSystemFont,
+       'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell,
+         'Open Sans', 'Helvetica Neue', sans-serif;
+         color: lime;
+         width: 100%; height: 100%;
+         display:grid;
+         text-wrap:pretty;
+         font-size: x-large;
+}
+body{
+    display: block;
+    margin-top:25px;
+    margin-left: 20%;
+    margin-right: auto;
+}
+p{width: 50vw; margin-top:auto;}
+img{margin-left:5vw;object-fit:scale-down; width:40vw;}
+.list{margin-left:35px}
+.b{background-color: rgb(20, 20, 20); color: lime;
+    font-size: xx-large;
+    font-weight:900;
+    padding:5%;
+    margin: 3px;
+    width: 50px;
+    border: 0px;
+    border-radius: 15px;}
+*
+                </code>
+            </pre>
+            <img src="assets/ss5.png">
+            <p class="list">- Repeat the steps to take a screenshot but take one of the code that was just added.</p>
+            <p class="list">- Rename the image to "ss5.png".</p>
+        </div>
+        <div id="page7" name="page">
+            <p>6. Moreeee Coding</p>
+            <p class="list">Switch to the "index.html" tab in vs.</p>
+            <p class="list">- Add the following code to "index.html" between &ltbody&gt and &lt/body&gt:</p>
+            <pre class="list">
+                <code> 
+* 
+&ltdiv id="page1" name="page"&gt
+            &ltp style="margin-left:20vw" id="header"&gtHello!!! &lt/p&gt&ltp&gtWelcome to my "How To" where you will create a How To Website!&lt/p&gt
+            &ltp class="list"&gt- Meaning a website that shows you how to make a website that shows you how to make a website... and so on.&lt/p&gt
+            &ltp&gtWhat you will need:&lt/p&gt
+            &ltdiv style="margin-bottom: 25px;"&gt
+            &ltp class="list" style="margin-bottom:0px;"&gt- 1 computer (with monitor and has Windows).&lt/p&gt
+            &ltp class="list" style="margin-bottom:0px;"&gt- Visual Studio Code.&lt/p&gt
+            &lt/div&gt
+            &ltp&gtThat's all! Now lets begin the tutorial (Use the &amp;lt and &amp;gt buttons to switch pages)&lt/p&gt
+        &lt/div&gt
+
+*
+                </code>
+            </pre>
+            <img src="assets/ss6.png">
+            <p class="list">- Repeat the steps to take a screenshot but take one of the code that was just added.</p>
+            <p class="list">- Rename the image to "ss6.png".</p>
+        </div>
+        <div id="page8" name="page">
+            <p>7. Even MOREEE Coding</p>
+            <p class="list">Switch to the "index.html" tab in vs.</p>
+            <p class="list">- Add the following code to "index.html" on line 14 which should be blank:</p>
+            <pre class="list">
+                <code> 
+* 
+&ltdiv style="display: grid; grid-template-columns: min-content min-content; margin-left:27%;"&gt
+            &ltbutton class="b" id="leftButton"&gt&amp;lt&lt/button&gt
+            &ltbutton class="b" id="rightButton"&gt&amp;gt&lt/button&gt
+            &ltdiv hidden&gtby Jacob Tapper&lt/div&gt
+        &lt/div&gt
+        
+*
+                </code>
+            </pre>
+            <img src="assets/ss7.png">
+            <p class="list">- Repeat the steps to take a screenshot but take one of the code that was just added.</p>
+            <p class="list">- Rename the image to "ss7.png".</p>
+        </div>
+        <div id="page9" name="page">
+            <p>8. Lotssss of Coding</p>
+            <p class="list">Switch to the "main.js" tab in vs.</p>
+            <p class="list">- Add the following code to "main.js":</p>
+            <pre class="list">
+                <code> 
+* 
+let page=1;
+window.onload = (e)=>{
+    hideAllPages();
+    document.getElementById("loop").innerHTML=returnString();
+    document.getElementById("page1").hidden=false;
+    rainbow();
+    document.getElementById("leftButton").onclick=(e)=>{
+        changePage(false);
+    }
+    document.getElementById("rightButton").onclick=(e)=>{
+        changePage(true);
+    }
+}
+function changePage(right){
+    let pages = document.getElementsByName("page");
+    (right)?page++:page--;
+    if(page==0)page++;
+    if(page>pages.length)page--;
+    hideAllPages();
+    unhidePage();
+}
+function hideAllPages(){
+    document.getElementsByName("page").forEach((i)=>{i.hidden=true;})  
+}
+function unhidePage(){
+    document.getElementById("page"+page).hidden=false;
+}
+function rainbow(){
+    let header = document.getElementById("header").style;
+    header.backgroundImage="linear-gradient(to left, blue, blue, blue, blue, blue, red)"
+    header.webkitBackgroundClip="text"
+    header.color="transparent"
+}
+function returnString(){
+    return `
+    * 
+    &amp;amp;ltdiv id="page2" name="page"&amp;amp;gt
+                &amp;amp;ltp&amp;amp;gt1. Getting Started&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Go to the desktop.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Create a folder.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Rename the folder to "How To Website How To".&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltimg src="assets/ss1.png" style="width: 120px; height: 120px;"&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Take a screenshot of the folder (Windows + Shift + S).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Open the image in Snip &amp;amp; Sketch.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Save the image to the desktop (Ctrl + S).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Close Snip &amp;amp; Sketch (Always close after you're done with a screenshot and it's saved).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Rename the image "ss1.png" (or "ss1" if view file extensions is disabled).&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;lt/div&amp;amp;gt
+    &amp;amp;ltdiv id="page3" name="page"&amp;amp;gt
+                &amp;amp;ltp&amp;amp;gt2. Making the Proper Files&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Open the folder (When I say "the folder" I'm talking about the "How To Website How To" folder).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Create another folder in the folder.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Rename the new folder inside the folder "assets".&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Move all screenshots taken into "assets" folder from now on (Don't forget to move "ss1.png" from the desktop to the "assets" folder).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Go to the view tab near the top of file explorer.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- In the Show/Hide section; Toggle on "File name extensions".&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Inside of the folder create a new text file using the right click menu; name the file "index.html"; select yes on the pop-up.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Inside of the folder create a new text file using the right click menu; name the file "style.css"; select yes on the pop-up.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Inside of the folder create a new text file using the right click menu; name the file "main.js"; select yes on the pop-up.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltimg src="assets/ss2.png"&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the files in the folder (You can save them directly to the assets folder now that it's been created).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss2.png"&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;lt/div&amp;amp;gt
+    &amp;amp;ltdiv id="page4" name="page"&amp;amp;gt
+                &amp;amp;ltp&amp;amp;gt3. Getting Ready to Code 😨&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Open Visual Studio Code (vs for short... I am not typing that another 30 times).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- In the file explorer, select "index.html", "style.css", and "main.js"&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Drag and drop the files into vs. (They should appear).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- If prompted with untrusted files alert agree to using the files.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Click into index.html in the top bar of vs if you're not already inside of it.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Go to the folder in file explorer and double click open "index.html".&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the top bar of the web browser that should've opened (If it didn't open... well... good luck).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss3.png"&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Click and drag the middle of the top bar of the web browser all the way to the left edge of the screen.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltimg src="assets/ss3.png"&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Let go of the mouse.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- When the grid of applications shows up you must select visual studio code.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Your screen should now be split-screen between the web browser and vs.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Click into vs on line 1 of "index.html".&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;lt/div&amp;amp;gt
+    &amp;amp;ltdiv id="page5" name="page"&amp;amp;gt
+                &amp;amp;ltp&amp;amp;gt4. Coding 😎&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Add the code between the "*" symbols (Don't add "*" symbols into the actual code, only what is between them):&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltpre class="list"&amp;amp;gt
+                    &amp;amp;ltcode&amp;amp;gt 
+    * 
+    &amp;amp;amp;lt!DOCTYPE html&amp;amp;amp;gt
+    &amp;amp;amp;lthtml&amp;amp;amp;gt
+        &amp;amp;amp;ltbody&amp;amp;amp;gt
+            
+        &amp;amp;amp;lt/body&amp;amp;amp;gt
+        &amp;amp;amp;ltscript src="main.js"&amp;amp;amp;gt&amp;amp;amp;lt/script&amp;amp;amp;gt
+        &amp;amp;amp;ltlink rel="stylesheet" href="style.css"&amp;amp;amp;gt
+    &amp;amp;amp;lt/html&amp;amp;amp;gt
+    *
+                    &amp;amp;lt/code&amp;amp;gt
+                &amp;amp;lt/pre&amp;amp;gt
+                &amp;amp;ltimg src="assets/ss4.png"&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- After every change to code in vs press (Ctrl + S) to save it.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- To see your changes you can refresh the browser.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the code that was just added (Include the line numbers in the screenshots).&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss4.png".&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;lt/div&amp;amp;gt
+            &amp;amp;ltdiv id="page6" name="page"&amp;amp;gt
+            &amp;amp;ltp&amp;amp;gt5. More Coding&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;ltp class="list"&amp;amp;gtSwitch to the "style.css" tab in vs (The tabs are near the top of the application).&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "style.css" (Remember don't add in the "*" symbols):&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;ltpre class="list"&amp;amp;gt
+                &amp;amp;ltcode&amp;amp;gt 
+    * 
+    html{background-color: black;
+    font-family:system-ui,
+     -apple-system,
+      BlinkMacSystemFont,
+       'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell,
+         'Open Sans', 'Helvetica Neue', sans-serif;
+         color: lime;
+         width: 100%; height: 100%;
+         display:grid;
+         text-wrap:pretty;
+         font-size: x-large;
+    }
+    body{
+    display: block;
+    margin-top:25px;
+    margin-left: 20%;
+    margin-right: auto;
+    }
+    p{width: 50vw; margin-top:auto;}
+    img{margin-left:5vw;object-fit:scale-down; width:40vw;}
+    .list{margin-left:35px}
+    .b{background-color: rgb(20, 20, 20); color: lime;
+    font-size: xx-large;
+    font-weight:900;
+    padding:5%;
+    margin: 3px;
+    width: 50px;
+    border: 0px;
+    border-radius: 15px;}
+    *
+                &amp;amp;lt/code&amp;amp;gt
+            &amp;amp;lt/pre&amp;amp;gt
+            &amp;amp;ltimg src="assets/ss5.png"&amp;amp;gt
+            &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the code that was just added.&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss5.png".&amp;amp;lt/p&amp;amp;gt
+        &amp;amp;lt/div&amp;amp;gt
+    &amp;amp;ltdiv id="page7" name="page"&amp;amp;gt
+                &amp;amp;ltp&amp;amp;gt6. Moreeee Coding&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gtSwitch to the "index.html" tab in vs.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "index.html" between &amp;amp;ltbody&amp;amp;gt and &amp;amp;lt/body&amp;amp;gt:&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltpre class="list"&amp;amp;gt
+                    &amp;amp;ltcode&amp;amp;gt 
+    * 
+    &amp;amp;amp;ltdiv id="page1" name="page"&amp;amp;amp;gt
+                &amp;amp;amp;ltp style="margin-left:20vw" id="header"&amp;amp;amp;gtHello!!! &amp;amp;amp;lt/p&amp;amp;amp;gt&amp;amp;amp;ltp&amp;amp;amp;gtWelcome to my "How To" where you will create a How To Website!&amp;amp;amp;lt/p&amp;amp;amp;gt
+                &amp;amp;amp;ltp class="list"&amp;amp;amp;gt- Meaning a website that shows you how to make a website that shows you how to make a website... and so on.&amp;amp;amp;lt/p&amp;amp;amp;gt
+                &amp;amp;amp;ltp&amp;amp;amp;gtWhat you will need:&amp;amp;amp;lt/p&amp;amp;amp;gt
+                &amp;amp;amp;ltdiv style="margin-bottom: 25px;"&amp;amp;amp;gt
+                &amp;amp;amp;ltp class="list" style="margin-bottom:0px;"&amp;amp;amp;gt- 1 computer (with monitor and has Windows).&amp;amp;amp;lt/p&amp;amp;amp;gt
+                &amp;amp;amp;ltp class="list" style="margin-bottom:0px;"&amp;amp;amp;gt- Visual Studio Code.&amp;amp;amp;lt/p&amp;amp;amp;gt
+                &amp;amp;amp;lt/div&amp;amp;amp;gt
+                &amp;amp;amp;ltp&amp;amp;amp;gtThat's all! Now lets begin the tutorial (Use the &amp;amp;amp;amp;lt and &amp;amp;amp;amp;gt buttons to switch pages)&amp;amp;amp;lt/p&amp;amp;amp;gt
+            &amp;amp;amp;lt/div&amp;amp;amp;gt
+    
+    *
+                    &amp;amp;lt/code&amp;amp;gt
+                &amp;amp;lt/pre&amp;amp;gt
+                &amp;amp;ltimg src="assets/ss6.png"&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the code that was just added.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss6.png".&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;lt/div&amp;amp;gt
+    &amp;amp;ltdiv id="page8" name="page"&amp;amp;gt
+                &amp;amp;ltp&amp;amp;gt7. Even MOREEE Coding&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gtSwitch to the "index.html" tab in vs.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "index.html" on line 14 which should be blank:&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltpre class="list"&amp;amp;gt
+                    &amp;amp;ltcode&amp;amp;gt 
+    * 
+    &amp;amp;amp;ltdiv style="display: grid; grid-template-columns: min-content min-content; margin-left:27%;"&amp;amp;amp;gt
+                &amp;amp;amp;ltbutton class="b" id="leftButton"&amp;amp;amp;gt&amp;amp;amp;amp;lt&amp;amp;amp;lt/button&amp;amp;amp;gt
+                &amp;amp;amp;ltbutton class="b" id="rightButton"&amp;amp;amp;gt&amp;amp;amp;amp;gt&amp;amp;amp;lt/button&amp;amp;amp;gt
+                &amp;amp;amp;ltdiv hidden&amp;amp;amp;gtby Jacob Tapper&amp;amp;amp;lt/div&amp;amp;amp;gt
+            &amp;amp;amp;lt/div&amp;amp;amp;gt
+            
+    *
+                    &amp;amp;lt/code&amp;amp;gt
+                &amp;amp;lt/pre&amp;amp;gt
+                &amp;amp;ltimg src="assets/ss7.png"&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the code that was just added.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss7.png".&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;lt/div&amp;amp;gt
+    &amp;amp;ltdiv id="page9" name="page"&amp;amp;gt
+                &amp;amp;ltp&amp;amp;gt8. Lotssss of Coding&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gtSwitch to the "main.js" tab in vs.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "main.js":&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltpre class="list"&amp;amp;gt
+                    &amp;amp;ltcode&amp;amp;gt 
+    * 
+    let page=1;
+    window.onload = (e)=&amp;amp;gt{
+        hideAllPages();
+        document.getElementById("page1").hidden=false;
+        rainbow();
+        document.getElementById("leftButton").onclick=(e)=&amp;amp;gt{
+            changePage(false);
+        }
+        document.getElementById("rightButton").onclick=(e)=&amp;amp;gt{
+            changePage(true);
+        }
+    }
+    function changePage(right){
+        let pages = document.getElementsByName("page");
+        (right)?page++:page--;
+        if(page==0)page++;
+        if(page&amp;amp;gtpages.length)page--;
+        hideAllPages();
+        unhidePage();
+    }
+    function hideAllPages(){
+        document.getElementsByName("page").forEach((i)=&amp;amp;gt{i.hidden=true;})  
+    }
+    function unhidePage(){
+        document.getElementById("page"+page).hidden=false;
+    }
+    function rainbow(){
+        let header = document.getElementById("header").style;
+        header.backgroundImage="linear-gradient(to left, blue, blue, blue, blue, blue, red)"
+        header.webkitBackgroundClip="text"
+        header.color="transparent"
+    }
+            
+    *
+                    &amp;amp;lt/code&amp;amp;gt
+                &amp;amp;lt/pre&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- There's too much code to screenshot. (👁‍🗨👄👁‍🗨)&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;lt/div&amp;amp;gt
+            &amp;amp;ltdiv id="page10" name="page"&amp;amp;gt
+            &amp;amp;ltp&amp;amp;gt9. .....&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gtSwitch to the "index.html" tab in vs.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "index.html" in line 14 if it's free, if not then select the space at the end of "&amp;amp;amp;lt/div&amp;amp;amp;gt" and press enter so a new blank line is formed before the button "&amp;amp;amp;ltdiv&amp;amp;amp;gt" but after the page1 "&amp;amp;amp;lt/div&amp;amp;amp;gt":&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;ltpre class="list"&amp;amp;gt
+                    &amp;amp;ltcode id="loop"&amp;amp;gt&amp;amp;lt/code&amp;amp;gt
+                    &amp;amp;lt/pre&amp;amp;gt
+                    &amp;amp;ltp class="list"&amp;amp;gt- There's too much code here to get a screenshot.&amp;amp;lt/p&amp;amp;gt
+                &amp;amp;lt/div&amp;amp;gt
+            &amp;amp;ltdiv id="page11" name="page"&amp;amp;gt
+            &amp;amp;ltp style="font-size: xx-large;"&amp;amp;gtThe END!&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;ltp class="list"&amp;amp;gtI've somehow avoided going into an endless loop. 🎉 Me the next day: (nvm it totally is and will break after the 2nd made website probably)&amp;amp;lt/p&amp;amp;gt
+            &amp;amp;ltpre&amp;amp;gt
+                &amp;amp;ltcode style="font-size: xx-small;"&amp;amp;gt
+    ⡢⡒⡕⡕⡕⡕⡌⡎⡪⡪⡢⡂⠄⠡⡩⠪⠊⡀⡂⡇⡣⢣⢣⢳⢕⢝⠜⢈⠈⡌⡎⢎⠄⠄⢐⠱⡱⡱⠁⢇⢇⢇⢇⢇⢧⢣⡣⣇⠢⡂⡢⡀⠄⠈⠂⠅⢂⠄⢆⠪⡐⡁⠠⡱⡨⡂⡢⠄⠄⠄⢂⠐⠄⡐⡐⡀⠂⠄⠄⠄⢀⠄⠄⠄⠄⠠⠄⠄⢀⠠⠄⠄⠄⠄⠄⠄⠄⡀⠄⠄⠄⠄⠄⠄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+    ⡪⡪⡪⡪⡊⠂⠠⢈⠢⡱⠸⡰⠄⠠⠈⠄⡂⢔⢕⢑⠡⠈⢪⠪⡊⢆⢎⢂⠃⠌⠐⠈⢄⠠⢀⠂⡕⡜⡜⠌⠂⠣⡫⡳⡝⡵⡱⡓⢅⢣⢪⢪⡑⠈⡇⣇⢤⢄⢐⠐⠈⠂⠈⢎⢢⢑⠄⠄⡈⡐⢐⠄⠡⢐⢐⢀⠡⠄⠁⠠⠄⠂⠠⠈⠄⠡⢈⠄⠄⠄⠂⠄⠄⠄⠄⠄⠠⠄⠄⠁⠈⡀⠁⠠⠄⠄⠄⢀⠄⠄⠄⠠⠄⠄⠄⠄⠄⠂⠄⠂⠄⠐⠄⠄
+    ⢪⢪⠪⠂⠂⡈⢌⠢⡑⠈⠄⠠⠄⠠⡀⢇⢊⠢⠁⢄⢢⠂⠄⠅⡊⠔⢀⢄⢜⠬⡐⠠⢀⠐⠄⡑⠨⣀⡐⡌⢀⠁⠇⠫⡑⠡⡐⠰⡑⠅⢕⢕⢌⠐⡕⡜⡜⡕⢸⢨⢣⢱⢠⢀⠄⠑⠐⠄⡐⠠⡁⠂⠨⡐⡐⠠⠄⠄⠠⠐⠈⠄⠂⡁⡊⡐⠠⠄⠌⠄⠄⡀⠁⠄⠂⡀⠄⠄⠐⠈⢀⠄⠂⠄⠄⠄⠐⠄⠄⢀⠄⠂⠄⠐⠄⢀⠄⠠⠄⠐⠈⠄⠄⠄
+    ⠨⠈⠌⠄⡂⡊⠆⠡⢀⢢⠢⡅⢈⠐⠅⠕⢀⢢⢱⢱⠱⡁⡂⢠⢠⢢⢣⢣⢪⢪⢢⢂⢄⢌⢆⢆⢗⢢⢣⢣⠂⡀⢊⢈⢄⢡⢠⢡⢐⠄⡐⠕⠐⡈⢔⢡⢑⠨⠸⡸⡸⡸⡸⣕⢝⡔⡆⠄⠠⠁⠌⠠⢈⠢⠨⠨⠄⠄⢂⠨⢈⠄⢌⠐⠄⢂⠄⠂⠄⠄⠄⠄⠂⠐⡀⠄⢀⠄⠄⠁⠄⠄⢀⠄⢀⠁⠠⠐⠈⠄⠄⠠⠈⠄⠐⠄⠄⠄⠄⠄⠄⠄⠄⠄
+    ⠄⠄⠂⢡⢊⢂⢁⢐⠔⡅⡣⡱⡀⡀⢅⠬⡪⡪⡪⡪⡪⡪⡰⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡕⣕⢕⢕⢜⢜⢜⢜⢜⢜⢜⢔⠠⠄⠄⠡⠈⠊⡂⠡⡈⠌⠐⡕⣝⢞⡎⡇⡇⠇⠄⢅⢄⠈⠄⢈⠪⡈⡊⠄⡈⠄⠌⠄⠐⠄⠅⠅⠂⢀⠄⠂⠁⠠⠈⠠⠁⠄⠂⢀⠄⡀⠄⠠⠄⠄⡀⢀⠄⠄⠄⠄⠐⠈⠄⠄⠂⠁⠄⠂⠄⠄⠄⠄⠄⠈⠄
+    ⡪⡀⠐⠐⠐⡀⡢⡱⡡⡣⡱⡨⡒⡜⡜⡜⡜⡜⢜⢌⢎⢎⢎⢎⢎⢎⢎⢎⢎⢎⢮⢪⡪⡪⡎⡞⣜⢜⢜⢜⢕⢝⢜⢕⡕⣇⢗⢕⡕⡎⣎⢮⢪⢝⢕⢭⢣⡃⠄⠁⠄⡀⠅⢌⢄⠢⡠⢁⠜⡰⠄⠕⢄⠄⠐⠄⢀⠂⡅⠅⠄⠅⢕⠁⠅⢀⠄⠄⠄⢈⠄⠌⠄⠡⠨⠄⢐⠠⠄⠄⠄⠄⠠⠄⡀⠄⠄⠂⠄⠂⠐⠈⢀⠐⠈⠄⠄⠄⠠⠐⠄⠁⠄⠄
+    ⡪⡸⡠⢁⢌⢪⢸⠰⡑⡕⡱⡸⡸⡘⡜⡌⡎⡎⡎⡎⡎⡎⡎⡎⡎⣎⠮⡪⡣⣣⢣⡣⡣⡳⡱⡕⣕⢕⡝⣜⢕⢝⡜⣕⢵⢱⢕⢇⢗⢝⢼⢸⡱⡕⣝⢜⢎⢦⢪⢄⢥⢰⢨⢠⢂⢅⠐⢐⠕⡐⠄⢡⠱⡨⡂⠄⡀⠑⠌⡂⠡⡡⠡⠨⠄⠄⢀⠐⡈⠄⢐⠨⠠⠑⠄⡈⠄⠄⠄⠠⠄⠄⠐⢀⠠⠄⡈⢀⠁⠄⠁⠐⠄⠄⠄⠄⠄⠐⠄⠄⠄⢀⠄⠂
+    ⢢⢱⢘⢌⢎⢪⢢⢋⢎⠎⡎⡪⡸⡨⡪⡊⡎⡎⡎⡎⡎⡎⣎⢮⢪⢪⢺⢸⢪⢪⢪⡪⡺⡸⡪⣪⢪⡪⡎⡮⡪⣣⢳⡱⡕⣇⢗⢝⢎⢧⢳⢕⢇⡏⣎⢧⢫⡺⡜⣎⢧⢫⢎⢗⢝⢔⠈⠄⠨⡠⡁⡂⡑⡁⡐⠄⡢⡠⠐⠄⠪⡐⠅⠅⠈⠄⠠⠐⠄⢐⢐⠨⠐⠁⡀⠂⠄⠄⠐⠄⠠⠄⠄⠄⢂⠐⠄⠄⠐⡀⠁⠄⠠⠄⠄⠄⠁⠄⠂⠁⢀⠄⢀⠄
+    ⠕⡅⡇⡕⡕⢕⠕⡕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⡕⡇⡧⡳⡱⡣⣣⢳⢹⡸⡜⣎⢮⢺⢜⢮⢺⡸⡜⣎⢮⢪⢇⢯⢺⢜⢎⢧⢫⡪⣎⢇⢧⢳⡱⡵⡹⣪⢳⡹⣜⢜⣔⢥⡰⡨⡐⡨⠘⠨⡐⡜⢌⢪⠢⡐⠈⠌⠄⠠⠈⠄⠡⢈⢐⢐⠨⠄⠁⠄⠄⠠⠈⠄⠌⢐⠄⠂⠄⠄⡂⠁⠌⠄⠄⠄⠄⠄⠄⠂⠄⠐⠄⠂⠄⠄⠄⡀⠄
+    ⢕⢱⢸⢘⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢎⢎⢇⡇⣏⢎⠮⡺⠸⠪⠪⡃⢇⠣⡃⡣⢃⠇⡃⠕⢑⠩⢊⠪⠪⠪⠳⠱⢝⢎⢗⢵⢝⣜⢵⢝⢮⢺⢜⡕⡧⡳⡕⡧⡳⡕⡧⣳⢹⡪⡎⠌⠠⠈⡊⠎⠆⢕⠸⠄⢀⠄⢂⢁⢊⠄⡐⡀⢂⠐⠄⠠⠄⠂⠐⠄⠨⢐⠐⡈⠄⠄⠄⠄⠁⠄⠄⠂⠄⠄⠠⠄⠐⠈⠄⠐⠄⠐⠄⠠⠄⠄
+    ⢕⢕⢱⠱⣑⢅⢇⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢵⢹⢸⠱⢩⢊⢊⠢⡡⡑⢌⠪⡘⢌⠢⡂⠕⡈⡢⢂⠊⠄⡁⡂⢐⠄⡂⠐⡈⢀⠡⠄⠂⠁⠁⡁⠑⠱⠹⡪⡳⣕⡝⣎⢗⢽⡸⡵⣹⢪⢮⡣⡳⣕⢬⡐⡀⡂⠢⡊⠄⡈⠄⢀⠐⡀⠂⠄⢐⢀⢂⠂⠁⠄⠠⠄⠌⠄⠌⠌⡐⢐⠄⢐⠐⠄⠄⠄⠈⠄⠐⠄⠂⠠⠈⢀⠈⡀⠁⠄⠁⠐⢀⠐⠄
+    ⢕⢜⢜⢜⢔⢕⢕⢕⢕⢕⢅⢇⢇⢇⢇⢇⢇⢓⠕⠅⢕⠐⠅⢕⢈⠪⡨⢂⢊⠢⢑⠨⡐⠌⠄⡁⠂⡐⢀⠂⢁⠠⢀⠂⠄⡂⠡⠠⠄⠄⢂⠡⠈⠄⢂⠡⢈⠄⠄⠄⢂⠙⠸⡹⣪⡺⡺⣜⣕⢧⡫⡳⣕⢧⡫⡺⡜⡦⣢⢁⠂⢁⢐⠐⠄⡂⠄⡂⡂⠂⠄⠐⠄⡂⡁⠂⡈⡂⠅⡂⠂⠐⠄⠄⠄⡀⠄⡈⢀⠡⠈⡀⠂⡈⢀⠠⠄⢂⠠⠁⠈⠄⠄⠄
+    ⢕⠕⡅⡇⡇⡣⡣⡣⡣⡣⡣⡣⡣⠣⡃⢕⠡⠢⠡⢃⠅⠪⡈⡂⡢⠑⡈⠢⠡⠨⠐⡈⠄⢂⠡⡠⡱⡰⡄⢂⠢⡨⡠⡡⡡⡢⣱⢱⡁⡂⡐⡐⡈⡐⡐⡨⢐⢀⠡⠈⢄⠨⠐⡠⢈⢊⠣⢗⢮⢺⡪⡳⡕⡧⣫⢳⡹⡪⡎⡆⠁⠄⢂⠂⠐⠨⡂⠄⠠⠄⠐⡀⠅⡂⢀⢐⠐⠄⠅⠄⠄⠂⠄⠈⡀⠄⠄⠄⢂⠐⡀⠂⡐⠠⠄⠄⠨⠄⢀⠄⠁⠄⠄⠄
+    ⢕⢕⢕⢕⢕⢕⢕⢕⢕⠕⢅⢑⠌⢌⢌⠢⡑⢅⢑⠡⠨⢂⢂⢂⠂⠅⡂⡱⡈⠄⠅⡆⣎⢲⢕⣗⡽⣝⣷⡱⣱⡱⡵⣕⣗⣿⣺⣿⣮⢢⣒⢦⡣⡮⣪⣞⣞⡆⠠⢑⠐⠄⢅⠢⠡⡂⡂⠄⠅⡃⠯⡳⡝⡞⣎⢗⡝⣝⢮⡲⡱⣈⠐⢌⠢⡁⠄⠂⠄⠄⢂⢂⠅⠄⡂⡂⠅⡑⠈⠄⠄⠐⠈⠄⠠⢈⠄⠈⢀⠂⠄⡁⠄⢂⠡⠈⠄⠄⠄⢀⠠⠈⠄⡀
+    ⢕⢕⢕⢕⢜⢜⠜⡨⠢⡑⡐⠔⡡⢁⠢⡁⡊⠔⡠⠡⠡⡁⡂⡢⡸⢨⢪⢪⢪⢎⣎⢮⣺⣪⢯⣞⣽⣳⢯⡿⣮⡯⣯⣷⣻⣾⣻⣷⣿⣳⣷⣻⣽⣟⣿⣾⣻⡮⣜⢼⣜⡵⣵⢽⢼⣜⠄⠌⢔⢐⠡⡑⡙⡺⣪⡳⣹⢜⢮⢮⡫⡮⡳⢥⠌⠌⠂⠄⢌⠨⡀⢂⠈⡐⡐⠄⠁⠄⡀⢀⠈⠄⢁⠨⢈⠔⠠⠄⠄⠌⡐⠠⠈⠄⠄⠄⠄⡈⠄⡀⢀⠐⢀⠄
+    ⢕⢕⢕⠕⢕⠡⡊⢔⢑⢌⢂⠅⢂⢐⠰⢐⠠⢑⢄⠅⢅⢂⢎⢜⢜⢜⣜⢮⡳⣝⣮⣗⢷⢽⣳⢯⡾⣽⢯⡿⣯⣿⣽⡾⣷⣟⣯⣿⣽⣿⢾⣟⣯⣿⢷⣿⣻⡽⣯⣿⣾⢿⣻⣿⢿⡞⣌⣎⢆⢇⢕⢌⢆⢪⠐⠝⣎⢗⣝⢮⢺⡪⣫⡣⡑⠈⠄⠨⠐⢅⠪⡀⠄⡂⠄⠄⡀⠁⠠⠐⠐⢀⠂⢌⢐⠨⠄⡀⠄⠈⠄⠄⡀⠄⠐⠈⢀⠄⢂⠠⠄⡐⠄⠄
+    ⢕⢇⠣⢑⠡⢊⢐⢑⢔⢐⠅⡂⡂⡢⢑⠠⡱⡸⢨⠣⡣⡕⣕⢵⡱⣣⡳⣕⡗⣗⡵⣿⣽⣻⣞⣯⢿⢽⣻⣻⣯⣷⣿⣽⢿⣾⣻⣽⣷⢿⣟⣿⣻⣽⣿⣽⣟⣯⡿⣿⣾⣿⣿⢿⣿⡝⣾⡾⣯⢯⣗⡯⣞⡬⢐⢑⢌⠳⢵⡹⣕⢽⢜⢮⣪⡪⡀⠅⠌⠄⠁⠌⠄⠠⠄⠠⠄⠌⡐⠁⠨⢐⠨⠐⠠⠄⠐⠄⠄⠄⠈⢀⠄⠄⢂⠨⠄⠌⡀⢐⠠⠄⡂⠄
+    ⢑⠔⡡⢡⠨⢂⢑⢐⠅⡢⢊⠢⡑⡰⡰⡱⡑⡜⡜⡜⡎⣗⢵⡣⡯⣺⣪⡳⣝⣗⣯⢷⣻⢷⣻⣞⣯⢿⢽⣻⣞⣯⣷⣿⣟⣯⣿⣽⣾⡿⣿⡽⣿⣽⣾⢷⡿⣷⣻⣿⣽⣾⣿⣻⣷⡫⣿⣟⣿⣻⣽⢯⡷⡑⡔⣕⢜⢌⢎⡺⣪⢳⢝⢮⡲⣣⢏⢮⠨⡈⠄⠄⠄⡀⠄⡂⠅⠡⠄⠌⡐⢐⠈⠄⠁⠄⠐⠄⠠⠄⠁⠄⡂⡁⡂⠔⢁⢂⠐⠄⠂⡁⠄⠠
+    ⢐⠅⡊⢔⢑⢐⠔⠡⠨⠢⡅⡕⡌⡎⡆⡇⡎⡎⡎⡮⡺⡸⣕⢯⣗⡧⣗⡽⣳⢽⣺⢽⣞⣿⣻⡾⣽⣻⢯⣯⢿⡽⣯⣷⣿⢿⣽⣷⣟⣿⣽⡿⣽⣾⣟⣿⣻⣟⣾⣯⡿⣷⣟⣿⣽⡺⣯⣿⣯⣿⡽⣯⡇⣕⢯⣞⢵⢝⡼⡸⡌⢗⢝⢵⡹⣪⢳⡹⠨⠄⠂⠈⢀⠄⠄⠄⠅⠂⠄⠅⠂⠠⠄⠠⠐⠈⠠⠈⡀⠄⠈⡂⡂⡂⢄⢑⠐⡠⠨⠐⠡⠐⠈⠄
+    ⢐⢑⠌⡂⡪⠠⡡⢑⢱⢩⢪⢪⢪⣪⢪⡪⣺⢸⡪⡺⣪⡫⡮⣳⢳⣫⣗⣯⢯⣻⣺⢽⣺⢮⡯⣿⣯⡿⣽⣾⣻⣟⣯⣿⣟⣿⣻⣾⣯⣿⡾⣿⢯⣷⣟⣷⢿⣽⢾⢷⣿⣻⣽⣯⣿⢺⣯⣷⡿⣾⣻⡟⢆⣗⣟⡮⣯⡳⡽⡝⠨⡐⢭⢳⡹⣪⡣⣏⢧⢅⢂⠐⡀⠄⠌⡂⠄⠊⠄⡀⠐⠄⢐⠄⠔⢈⢀⢂⠢⠄⠄⡂⡂⡂⡂⠢⠨⠄⠁⠈⠄⠄⡀⠄
+    ⠨⡂⠕⠌⠔⡁⡢⡣⡣⡱⡸⡨⡢⡣⡳⣝⡎⡧⣫⡺⣜⢮⡫⣞⣝⢮⣻⣺⡯⣗⣯⡯⣯⢯⡯⣷⣻⣿⣽⡾⣷⣻⣷⣻⣽⣿⣽⡷⣿⢾⣟⣿⣻⡷⣿⡽⣿⣽⣻⣯⢿⣯⣿⢾⡯⣻⢾⡷⣿⣻⣽⠣⡱⣗⣯⢟⣮⢯⡏⠪⢨⢪⡪⡎⣞⢮⢺⡸⢵⡹⡢⡌⡐⡀⠁⢀⠄⡁⢀⠠⢀⠅⡢⠡⢁⢐⠐⢔⠡⠂⠄⢂⠂⠂⠈⢀⠠⠄⠂⠁⠄⠄⠠⠄
+    ⢌⠢⠡⢃⢕⢸⢨⢢⢣⢣⢪⢪⢪⢪⢪⢢⡫⡯⣞⢮⢮⡳⣝⢮⡺⡵⣳⣳⣻⣻⡾⣽⣳⢯⣻⣞⣗⡿⣾⣻⣽⢷⣻⣽⣯⣿⣾⣟⣿⣟⣯⣿⣽⣟⣷⣿⣻⣾⣳⣟⣿⣳⣿⣻⣝⢾⣻⣟⣿⣽⡟⢜⣺⡽⣞⣯⣷⡻⠨⡊⣎⡧⣳⢝⣜⢮⢳⡹⣕⢝⡝⡎⠔⠄⠂⠄⠄⠄⢀⠪⡐⠅⢂⢐⠔⡐⠅⠡⠄⠄⠄⠄⢀⠈⠄⡀⢀⠠⢀⠂⡁⢂⠡⠈
+    ⠪⡘⡬⡂⡆⢅⢣⠣⡣⡱⡱⡱⡱⡱⡱⡱⡕⡵⡹⣝⢷⣝⡾⣕⡯⣫⣳⡳⣵⣳⣻⢷⣻⣽⣳⣻⣺⡽⣯⢿⣾⣟⣯⣷⡿⣾⣻⣽⣯⣿⣯⣷⣿⣽⣾⣯⣿⢾⣗⣿⡽⣟⣾⣟⢮⢯⡿⣾⣻⣾⠕⡵⣳⣟⣯⣷⡻⡈⢌⡮⣗⣽⡺⣕⠧⠃⢕⢽⡸⣕⠽⡬⠐⠄⡀⠨⠨⠢⠄⡃⠊⠠⡐⠔⠁⠄⠁⡀⠄⠄⠄⠄⠄⡐⡀⡂⡐⡐⡐⡐⠨⢀⠂⡁
+    ⢊⠢⢪⠨⡪⢪⢸⡘⡜⢜⢜⢜⢜⡜⣜⢵⢹⢜⣕⢧⢳⡹⡽⣞⣞⣗⣗⢯⣗⢷⣝⣯⢿⢷⡯⣷⢯⡿⣽⢽⢷⣿⣽⢾⣻⢿⢽⠻⢚⢓⡋⣓⢝⢑⢝⣘⢙⢙⠫⠳⢻⢻⢷⢿⢕⣿⣻⡿⣽⡗⣅⡯⣿⣞⣷⣻⠐⢌⢮⢯⣗⣗⡯⡏⠅⡑⡔⡵⡹⣜⢝⡎⡧⡁⡀⠄⠄⠡⠁⠄⠈⠂⠄⠄⠐⠄⠄⠄⠄⡈⠄⠠⠡⡂⡂⡪⢐⢐⠔⠨⠨⠐⡐⠠
+    ⠡⡃⢕⠱⡨⢢⢑⠜⢜⢎⢮⡪⡣⡳⡕⡧⡫⡮⣪⢮⢳⡹⡺⡪⡯⡾⣮⢗⡯⣗⡯⣾⢽⢯⣟⣯⡿⡽⣯⢿⠝⡓⣋⢵⣴⡜⣾⢽⢹⣽⡧⢺⣿⢌⣿⣗⢼⡿⡕⣟⡷⣰⣦⢤⢑⢙⠳⡻⣟⢌⢖⣟⣷⣻⣞⠢⡨⣳⢯⣟⣞⡷⠩⠠⢱⡸⣪⡳⣝⢎⢧⡫⡮⡳⡀⡂⠈⠄⠄⠂⠄⠠⠈⠠⡈⢄⠌⠌⠠⡐⠄⠠⢑⠔⡡⢊⠔⠡⡨⠨⡈⡂⡂⠅
+    ⡱⡘⡌⢎⠜⡔⢅⠇⡇⢎⢎⢪⠳⡝⣮⡫⡮⣫⡺⣪⡳⣝⣝⢝⢮⡫⣞⢿⢽⣳⣫⢯⡯⣟⡾⣝⠿⢝⢩⡵⡜⡽⣷⠩⣷⣗⢸⢿⣆⣿⣯⡺⣯⡧⣿⢾⣸⣿⡣⣟⣯⢺⣯⠇⣯⡗⢵⢮⡈⡐⠯⡿⣽⡞⢅⢢⣫⣾⣻⣺⠳⡁⠅⡕⡵⡽⡵⣫⢞⢝⣕⢧⢳⡹⠐⠄⠁⠄⠂⠄⠁⡐⡨⢂⠪⠐⢐⠨⡊⢌⠄⠐⡐⠅⠪⠐⠌⠊⠄⠁⢀⠄⠄⠄
+    ⢪⢨⢪⢊⢪⠸⡘⡜⡜⡜⡜⢜⢜⢜⢜⢜⢝⣞⣮⡳⣝⢮⢮⢏⣗⡽⣪⢗⣏⢯⢾⡯⡯⡳⢝⡁⢷⣳⠎⣟⣷⡨⣟⣗⢜⣯⣧⣻⢷⠹⡳⡫⣫⡣⣙⣝⡊⣋⢇⢻⢳⢽⢯⠣⣗⡏⣞⡯⢸⢼⢂⣌⠙⡑⡌⣞⡾⣞⡷⢍⢐⢰⡱⡯⡯⡯⣯⠫⠁⠌⡞⡮⣳⢹⡠⠁⡀⠂⠄⠡⠐⡐⠌⠐⡀⡪⠐⠌⠔⠄⠄⠄⠄⠁⠐⠄⢀⠠⠄⠁⠄⡀⢈⠄
+    ⢕⢅⢇⢕⢕⢕⢕⢕⢜⢔⢕⢕⢕⢅⢇⢇⢗⢜⡔⣏⢗⣯⣳⡫⣞⣞⢽⣝⢮⢯⡳⡽⣙⠌⢯⣻⡌⢾⢯⡎⢷⣷⡑⣿⢣⣣⢧⣶⢐⡿⣟⢿⡯⡟⢯⠻⡦⡾⡻⡽⣟⣾⣮⡪⡎⢊⠺⢇⢽⡽⣸⡯⠣⡠⡘⢳⣟⢏⢃⠔⡬⣺⣺⢯⢯⢋⢂⢐⠡⡡⡳⣝⢮⡳⡵⡅⠄⠂⠁⠐⠄⠐⠈⠐⠄⠐⡈⠄⠁⠄⠁⠄⢈⠄⡐⢀⠄⡠⢐⠈⢄⠂⠔⠠
+    ⠡⡱⡑⠧⡣⣣⢣⡣⡣⡣⣣⢣⡣⡣⡳⡱⣣⢳⡱⡕⡵⡱⣕⡻⡳⣵⢯⣺⢽⡹⣊⡂⢯⢯⣊⠳⡿⣌⢝⡷⢹⣺⢞⣾⢯⢯⢳⢉⢇⢯⢵⡱⡵⣝⢮⡺⣪⡺⡼⡸⡭⣕⢕⣙⠷⡽⣏⢢⣍⡣⠿⢈⢜⡜⣴⣢⠉⢔⢰⣱⢯⣗⡯⠏⠅⡂⡐⣔⢵⡹⡪⣗⢯⣞⢵⡣⠊⠐⠄⠐⠄⠄⠐⡀⠌⢀⠄⠄⡈⠄⠄⢂⢂⢂⠢⠡⡂⡢⢂⠕⡠⠡⠡⠡
+    ⢌⠢⢪⢘⢌⢢⠣⡹⢸⢱⠧⡧⣳⢹⡸⣕⢕⢧⢳⡹⣪⢳⢕⣕⢯⡪⣏⢏⡇⡅⡳⣽⡢⢹⡺⣧⠹⡽⡕⢯⢌⢮⡳⡭⡱⣕⣗⢽⣝⣮⣷⣻⣾⢾⡷⣟⣷⢿⣞⣿⣺⡾⣕⢧⢯⢮⡢⡓⣗⢿⢁⢂⠱⣱⢷⠁⢆⠄⠱⣯⣟⠎⠌⡐⡡⡪⣮⡺⣕⢯⠋⢪⣳⢯⣗⡅⠈⠄⢀⠐⠄⠈⠠⡐⡐⢔⠡⡑⡈⠄⠄⠢⡑⢌⢌⠪⡐⢌⢂⠪⡐⡡⢑⠡
+    ⡰⡑⢕⢔⢱⢘⢌⢎⢪⠢⡣⢣⢱⢙⡚⡎⣗⢽⣜⢮⢎⡗⣝⢮⡳⣝⢪⡊⢸⡪⡦⡙⡾⣧⡜⢷⢥⡻⡸⡜⣕⢵⢝⣞⣽⣺⣾⣻⡾⣯⣿⣽⣾⢿⣻⣿⣽⢿⣽⢾⣯⢿⣏⢯⣟⡷⡯⢹⣪⣪⢰⣢⢼⠌⡐⡸⡜⣼⠥⠘⡀⡂⡕⣜⢮⣻⢮⠛⡈⠄⠌⢄⣯⢷⣳⡇⡂⠠⠄⢀⠁⠨⡈⠢⡊⠂⢅⢂⠪⠄⠄⢕⠨⡂⡢⢑⠌⡢⡑⠌⢔⠨⢂⠅
+    ⠔⡜⢔⢅⠇⡕⢜⢌⢪⢊⢎⢎⢪⠪⡪⡪⡪⡲⡸⡱⡫⡻⡪⣗⢽⢰⠃⢮⢇⡌⢞⢵⣌⠪⣇⠃⡯⡺⢜⡮⣗⢯⣻⣞⣾⣳⣟⣷⣻⣟⣾⣟⣾⣿⣻⣷⣻⡿⣽⣻⣾⣻⡗⣯⢿⡽⡇⡯⣾⣺⢕⢧⡣⡁⡢⣪⠸⠊⡈⣂⠄⢎⣞⡞⢝⢂⢐⠠⡂⡥⡹⣜⢾⣻⣗⣯⡂⡂⠈⠄⡀⠄⠂⠁⠄⠃⠅⡂⡑⠄⠈⠄⠁⠂⠈⡀⠐⠄⠄⠈⠄⠄⠄⠄
+    ⢕⢜⢜⢔⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⡕⡇⡗⡵⡹⣜⢜⠎⡇⡧⣊⠕⡟⡦⡑⢇⡅⡠⡱⡹⡮⣗⣟⣞⡽⣳⣗⣷⣳⣟⡾⣷⣻⣗⣿⢷⣻⡽⡾⠷⢟⠯⠷⢯⢷⡫⣯⢿⡝⣜⣾⡻⡞⢄⣗⣗⢧⡫⠪⠐⠄⡢⢂⡮⠄⢃⢁⢂⢢⢢⣣⡳⣝⢽⠸⣽⡷⣿⡺⠐⠠⠄⠠⠄⢀⠐⠄⡀⠢⠈⠄⠄⠄⠄⠠⠐⠄⡀⢀⠠⠄⡈⡀⡈⢀⠈⡀
+    ⢑⠕⡑⡣⠣⡓⢕⢕⠵⡕⣥⡣⣕⣕⢕⢕⢕⢕⢝⢜⢎⠧⡳⡱⡱⡠⠓⢕⣇⢎⢊⠃⠄⡂⣝⡪⣯⡻⡺⣞⣞⣞⢷⢽⢾⣞⣷⣻⡽⡾⣓⢫⣏⣮⣪⣖⢵⢵⡧⣯⢲⢦⢸⡜⣙⠔⢵⡷⡏⡂⣗⣗⡯⠃⡟⡤⣅⠢⡈⢊⠐⢌⠐⢌⢮⢮⣳⠵⡙⢊⠡⠁⣞⣿⣻⡆⡂⠄⡀⠂⠄⠄⠠⠁⠄⡂⠄⠅⠄⢐⠨⡐⢄⢅⢂⠢⡨⢂⠢⡂⡂⠅⡂⡂
+    ⢐⠅⡊⢔⠑⢌⠢⡂⡣⠪⡰⡘⡔⡌⡇⡫⡙⡎⡗⠯⢮⢳⠵⢱⠅⡫⣹⣐⡌⢝⠂⠕⡡⡸⡴⣻⢮⡫⣝⢮⣳⢯⡯⡯⣗⣟⡞⣗⡱⣇⢟⢞⠗⣝⣼⡼⡽⣌⢾⢼⣵⣣⡹⣘⠇⡯⣲⡘⠰⡹⣵⠳⢁⣪⢾⢝⣜⠄⠂⠄⡕⢕⡠⠸⢙⢁⢂⢂⢂⢢⢨⢢⢿⣟⣯⡗⠄⠂⡀⠠⠄⡀⠂⡁⢅⠢⠩⠄⠂⢠⠑⢌⠢⡂⢅⠕⡨⢂⠕⡐⡐⡁⡂⡢
+    ⢐⠅⡊⡢⡑⢅⠕⡌⡪⡘⡔⢕⠜⡌⡎⡎⡪⡪⡪⡹⡸⢌⠇⣕⢑⢆⢅⠱⠱⠡⠨⠨⡪⣏⣾⣻⢳⣝⡮⡯⣺⣳⣫⢟⡗⣕⢳⡕⣗⣯⡞⡝⡪⣣⣣⣳⣕⣮⢮⡮⣲⣅⢇⡏⡪⣞⠮⡁⢇⢮⢈⢪⣪⠾⠝⡈⣜⢆⢅⠑⢈⠄⡂⡐⡐⣅⢆⣇⢧⡳⣕⢯⣿⣿⢟⢏⠌⠐⠄⠂⠄⠄⠂⡈⠄⢐⠐⠄⢀⠢⢑⠡⡊⢔⠡⡊⢔⠡⡊⢔⠨⡐⡐⡐
+    ⡑⢌⠢⡑⢌⢢⠱⡨⢢⠱⡸⡨⡪⡸⡨⡪⡪⢪⢪⢪⢪⢱⠡⡧⡨⡊⢎⠣⢅⠁⠠⡁⡯⣯⡿⡪⣇⢧⡻⡽⣵⣳⣕⠏⣎⢗⡗⡥⡣⡧⣣⣯⢯⣟⣷⣻⣞⡾⡯⡯⣗⣗⢽⢾⢱⣪⡪⡢⡪⠐⢔⢤⠩⠡⡢⡮⡾⡹⡄⢈⠄⡂⡎⠂⡸⡮⠯⢚⠙⡊⠃⢅⣿⣿⢕⠄⠄⢀⠄⠁⠠⠄⡀⡀⠄⠄⠄⡀⠄⠈⠄⠁⠐⠄⠁⡈⠐⠈⠐⠁⠑⠈⠂⠊
+    ⢜⢔⢅⢇⡕⡥⡣⡕⡥⡣⣕⢬⡢⢵⢸⠬⡪⢎⢎⢎⠮⡪⢊⡇⠣⡣⠣⠡⠁⡊⠆⡹⣺⣽⡯⡺⣜⡵⡕⡯⣪⢎⢎⠯⡎⣗⢕⢵⢽⣽⣻⣞⡯⡗⣏⢧⢕⢵⠸⡜⡴⡅⣝⠝⢜⢮⢃⢮⡆⡇⠇⡀⢢⠘⠝⡑⡐⢬⢧⠅⠂⠌⠨⠁⠠⡐⢨⠠⡡⡂⡅⣷⣿⣿⡑⠄⢀⠂⡀⠡⢀⠂⢊⠠⠠⠐⠄⡀⠌⠠⠐⡀⢐⠄⠁⡀⠄⠄⠂⠄⠄⠄⡀⠄
+    ⠁⠅⠅⠅⢌⠂⢅⠊⢄⢑⢐⡐⢌⠢⡡⡑⢌⢊⢢⠡⡃⡎⠔⣇⢕⠨⡈⡂⠅⢌⠂⢜⣽⣷⢗⢕⢕⢭⢫⢺⡪⡣⡹⠌⢅⢮⢮⣗⡿⣺⢳⢝⢮⡳⡱⡝⡎⡇⡇⡏⡣⡳⡸⢌⢎⠂⢌⠇⡱⣜⠦⡒⠄⠡⡂⣲⠪⠏⣳⡁⠐⡈⡌⡂⢱⢸⡰⡵⣕⢵⢽⣿⣿⣻⢐⠡⠐⠠⠄⠄⠠⠐⣀⢂⠂⠄⠐⠄⢅⠕⡡⢊⠔⡨⢂⠢⡑⡐⡐⠅⡂⠢⢐⢀
+    ⠨⠨⡨⡈⡂⠅⢅⠪⢐⠡⡂⡪⡐⠕⢌⠌⡆⡣⢱⠡⡣⠪⡈⡧⡈⡒⢔⢐⠄⢕⠅⣷⣻⣿⢕⣕⣝⢜⢎⡇⡎⣎⠪⠈⣜⣮⣳⡳⣏⢧⢏⢮⢻⠘⢜⠸⡘⢜⢘⢘⢜⢐⠕⠡⡥⢃⠇⡰⡘⢑⢰⡢⡂⡑⠐⠄⢅⢢⣸⢆⠁⡀⢑⠄⠌⡡⠡⡁⡂⢡⣾⣿⣗⠂⠂⠄⢈⠄⡐⠄⠂⠑⡀⠄⠄⠠⢁⢑⠠⠡⠨⢂⠑⢌⠢⢑⢐⠅⡪⢈⠢⠡⠡⢂
+    ⠨⠨⡐⡐⢨⠨⢂⢊⠔⡡⢂⢒⢌⠪⡂⢇⠪⣘⢔⡕⡜⠬⡂⢵⠘⢔⠠⠠⢈⠢⠂⢪⢿⣾⡣⡲⡸⡸⡱⡱⡑⠆⢌⢺⣺⡪⣎⢯⢪⢳⢕⠑⢐⠨⠐⢐⠈⢂⠑⠠⠑⡀⠅⠪⠄⠕⢑⢔⠠⠂⡑⢄⢇⠄⠌⠈⠊⡃⢹⡅⠠⠄⡂⡂⢌⢆⢕⢔⢬⣺⣿⣽⠪⢀⠄⠄⠠⠄⠄⠐⢈⢀⠄⢀⠄⠁⠐⠄⠌⠨⢈⠂⢕⢐⠌⡢⢑⠌⡂⢅⠪⠨⢊⢐
+    ⠨⡨⢐⠨⢂⢊⢔⢐⢅⢌⡢⡱⠴⠱⡪⠪⡉⡪⠨⠨⡈⡂⡂⠸⣎⠠⠁⢑⠐⠌⠐⠼⣽⢿⣎⢪⢊⢎⢎⢎⠎⠌⠄⡷⡯⣪⢳⠍⡂⡧⠡⠈⠄⠠⢁⠐⠈⡀⠄⠂⠁⡀⠐⠈⢀⠁⠂⠁⠌⠄⠂⢉⢸⡁⠄⠅⡌⡆⣯⠃⠂⢁⠂⠂⡘⠜⠕⠝⣞⣿⡟⡇⡃⠢⢐⠠⠠⠑⠌⠈⠠⠄⢀⠄⠠⠄⠂⢀⠄⠠⠄⠈⠄⠄⠁⠌⠂⡑⠌⠢⡡⢑⠡⡂
+    ⡨⢔⠆⠇⡃⠣⡈⡊⠅⢅⢂⠢⠡⡑⢄⠕⡐⠔⡡⢑⢐⠌⡐⡈⢪⠡⠑⠢⢑⠌⡊⢈⢺⢿⣇⢣⠱⡑⢕⠸⡨⠨⡂⣻⡯⡺⡸⠐⣜⠄⠄⠡⠈⠄⠄⠐⠄⡀⠠⠄⠂⠄⠄⠠⠄⠈⠄⢁⠐⢑⠄⢁⠹⡄⠁⠄⠂⢔⣗⠡⢈⢐⠈⢐⢐⠌⡐⣼⣿⡯⡃⠄⡀⠁⠂⠄⠄⢂⠠⡁⠐⠄⠠⠈⢄⠡⠈⠄⡂⢐⢀⠂⡈⢀⠐⠄⠄⡀⠄⠁⠄⠄⠁⠐
+    ⢐⠠⢈⠂⢌⢐⢐⠔⠡⡂⡢⠡⡑⡨⢐⠌⡂⠕⡠⢁⢂⢂⠔⠠⠄⢯⠨⢰⢐⢐⠨⠄⡴⣽⣿⡜⡌⡌⢆⠕⠨⠂⠆⡻⣇⢇⠣⡈⡮⠐⠄⡂⠐⠄⠈⠄⠁⠄⠄⠄⠄⠄⠁⠄⠄⠄⡀⠠⠄⠂⡂⠄⢹⠂⠂⠠⠉⣿⡁⠐⡀⢂⠨⠐⠡⢃⢧⣿⡯⡃⠄⡀⠄⠈⠂⠊⠈⠄⠄⠄⢀⠡⠈⡀⢂⠨⠠⢁⠂⠅⡂⠌⡐⡐⠄⢅⠢⡀⡂⡐⢈⠄⡈⠄
+    ⢀⠂⡂⡑⡐⡐⠔⡨⠨⡐⠌⡂⡂⡂⡂⡊⡄⡅⠆⠕⢐⠁⠄⡁⢂⠈⠇⢄⢐⢄⢁⠕⡀⠜⡾⣿⡔⡨⢐⠈⠸⡡⠡⠚⣗⠄⡃⡂⣗⠄⠂⡂⠄⠐⠄⠁⠄⠄⠄⠄⠁⠄⠄⠄⠄⠄⠄⠄⠄⠐⠄⠈⡜⠌⠄⠅⡮⠇⢂⠄⠢⢐⠠⠡⡈⣸⡿⠻⢈⢐⢐⢐⠄⡅⢌⠄⠅⠄⠄⡀⢀⠄⠐⠄⠂⡐⢐⠠⠨⢐⠠⢁⠢⠨⠨⢐⢐⢐⢐⢐⢐⠐⢄⠡
+    ⠐⡐⢐⢐⢐⢈⠢⡈⡂⠢⡁⡂⡆⡪⠂⠅⡁⢂⠡⠈⠄⢂⠡⠐⡀⢂⠁⠨⠈⠈⠂⠂⡐⡐⠨⢻⣻⡄⡢⠨⠐⠨⡊⡂⢸⡅⢐⢈⠲⠄⡁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠐⠄⡨⠄⢜⠆⠠⠁⣢⠋⡀⢐⠈⡀⠂⠅⡑⣼⡯⠩⠄⠄⡀⠈⠠⠄⢂⠐⡀⠄⡀⠂⠄⠄⡀⠂⠐⠄⢀⠄⠈⠐⠐⢌⢐⠨⠨⠨⡐⡐⡐⠄⡂⡂⠅⠢⢈
+    ⢐⠐⡐⡀⡂⡂⢅⢔⠌⠊⢊⠐⡀⡂⡁⡂⡂⢂⠂⠡⠈⠄⠐⡀⢂⠂⢁⠄⠡⠨⢄⢅⠠⡀⡂⠄⡙⡿⣆⠅⠡⢁⠊⠂⠅⠸⣢⠈⡂⠣⡄⠂⡀⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠁⡐⠨⠄⢤⠡⢀⢡⠴⠑⠈⠐⡀⢂⠢⡁⣆⣾⠓⡁⠂⠁⠐⠄⠂⠂⠒⠐⠄⠠⠐⡀⠅⠂⡂⠄⡁⠂⡁⠄⠠⠈⢀⠐⠄⠐⠈⢈⢂⠢⢂⠪⢐⢐⠄⡅⠕⡐
+    ⢐⢐⠄⠆⠪⢈⠐⡀⠂⠅⠂⢌⠠⢂⠐⠄⢂⠂⠨⠄⠅⡨⠐⠄⠂⠐⠄⢂⠠⠄⠐⡀⠄⠄⠐⠠⠄⠌⠝⣯⣊⠔⡈⠄⡈⠄⠂⠫⣄⠁⠌⢆⢐⠄⡈⠄⠄⠄⠄⠄⠄⠄⠄⠄⠠⠐⢀⠄⡡⠪⢂⢠⡰⢃⠅⠌⡀⠁⠄⢂⣢⢾⠝⠔⢈⠠⠨⡀⢄⡈⡄⡐⠠⠁⠠⠄⠁⠐⡈⠄⢂⠐⢀⠡⠐⡈⢐⠈⠄⡀⢂⠄⠂⠄⠄⠄⠁⠌⠢⠡⢊⠔⡑⢌
+    ⠈⡐⢈⠠⢁⢐⠐⡈⠌⠨⠈⠄⢂⠐⡈⢐⠠⢈⢐⠨⠄⠄⠂⢁⠈⡈⡈⢀⠐⢈⠠⠄⢈⠈⡈⠈⠐⠠⠐⠈⠱⠷⣆⡕⠄⠂⠐⢀⠈⠑⢆⣂⡁⠢⡐⡠⡐⢀⢀⠐⢀⠠⠐⡀⡢⡈⢔⠊⢄⡡⠖⠅⡁⠔⠈⠠⠠⣡⡱⡞⠎⡁⠐⢈⠄⡡⡂⡂⠄⡐⠐⠈⢀⠂⡐⠄⠄⠁⠄⠈⠄⡂⠂⠄⠡⠐⠠⠨⠐⢐⠐⡈⠄⠅⡨⢀⠠⠄⢀⠈⠄⠁⠊⠢
+    ⠄⡐⠠⠐⡀⢂⠐⡐⠈⠄⠡⢈⠐⡀⠢⠐⠐⠠⠄⠄⠂⡐⠈⡀⠐⡀⢐⠠⠈⠄⠄⠂⠄⠠⠄⡐⠐⠐⠁⠂⡐⢀⠑⢛⢧⢬⣐⠠⠐⠠⠄⠌⠚⢘⠤⡬⣘⡒⡐⡑⡑⡘⣘⣘⢬⢬⢔⢊⠣⠑⠠⠁⡐⡀⣀⣥⢗⠏⡃⠁⠄⠠⠈⠄⠈⠐⠑⡘⠈⠂⠠⡁⢂⠐⡀⠡⠄⠅⡈⠠⠄⢀⠈⠈⠄⠅⠌⠄⠅⢂⠂⡂⠅⡁⠢⢐⠠⠡⠠⠄⠄⠂⠄⠄
+    ⠄⠂⠄⠡⠐⢐⠐⡀⠅⠨⢈⢀⠢⠈⠄⠁⠌⢀⠂⡈⠄⠐⡀⠄⡁⠐⠄⠄⠄⠠⠄⠐⠄⠠⡐⡀⠁⢂⠢⠰⠐⠢⠈⢔⠐⡈⠊⠟⠷⣅⣂⣐⢐⠐⠠⢠⢀⢌⢁⠍⡉⡊⢐⢐⢀⡂⡐⠤⠨⣂⣁⣆⢶⠻⠕⠅⠅⠠⡐⠐⠈⠈⠘⢘⠰⠌⠂⢀⠄⠁⠅⢂⠂⠅⠄⠡⠈⠄⠂⠄⡁⠄⠄⠄⠐⠈⠐⠡⠨⢐⢐⠠⠡⠨⠨⢐⠈⠌⠌⠌⠄⠅⠌⡀
+    ⣄⡡⠈⠄⡁⠂⡐⢀⠌⢐⠄⠂⡀⢂⠈⠄⠨⢀⠐⠠⠈⠄⠄⠂⠄⠁⠄⡀⠄⠄⠄⡂⠌⠂⠂⡀⢄⠄⠠⠁⠂⠔⡠⢒⠐⠠⠈⡠⠈⡀⠉⡉⠫⠺⠺⢖⠧⢧⢥⢥⢵⢬⡪⠮⡞⢞⠞⠞⠍⢃⠩⠈⡀⡂⠌⢌⢊⠠⠈⡈⡒⡌⠌⠌⢈⠔⡈⠄⠄⠄⠄⡀⠈⠐⡁⠅⠡⢈⠠⠁⠄⠂⠡⠐⡀⠄⢀⠈⠈⠐⡐⢌⠌⢌⠌⡐⠌⠌⠌⠌⠌⢂⠡⢐
+    ⣿⣿⣦⣢⢀⠅⠐⠁⠠⠄⠄⢁⠠⠄⠂⡁⠌⠠⠈⠄⠁⡀⠄⢀⠄⠠⠄⢀⠠⢈⠂⠄⠄⢔⠨⡂⢕⠜⡀⠄⠁⠄⠈⠂⠑⠄⡖⡁⢁⠐⡠⠄⡐⡀⡂⠠⠈⠠⠠⡁⡂⠅⠠⠁⠄⠂⡐⢐⠨⡀⠂⠂⢆⠄⠐⡀⣑⢆⠖⠚⠈⡀⢄⠤⡀⠈⠊⢔⠠⡀⠂⠄⠄⠄⠄⠈⠨⢐⠠⠈⠄⠅⠌⡐⢀⠂⠄⠄⠐⠄⠄⡀⠑⠡⡊⠄⠅⠅⡡⠁⢅⣢⣮⣾
+    ⣿⣯⣿⡿⣷⣧⣆⡁⠐⠄⠂⠠⠐⠈⠠⠄⠂⠁⠄⠄⠄⢀⠄⢀⠠⠐⠈⠄⠠⠄⠄⠅⠕⠅⡌⡢⡀⠊⡐⢅⠕⠠⢂⠁⡀⠁⠄⡈⠑⠙⠢⠢⢤⢤⣃⣁⢈⢨⡃⠈⠄⢕⠅⠁⠈⡣⡄⣀⣈⣪⢤⡢⡢⠋⠋⠊⠄⠄⠠⡐⡱⡘⡔⢕⠱⡑⡌⡀⠈⠄⠅⢔⠄⠄⠐⠄⢀⠄⠈⠨⠠⢁⠂⠔⢐⠈⠄⠌⠄⠡⠠⠄⠠⠄⠄⠃⠅⢕⣤⣽⢿⣾⢷⣿
+    ⣿⡿⣷⣿⣿⣟⣷⣿⣾⣤⡡⡐⢀⠡⠈⠄⠄⠂⠄⠄⠄⠠⠐⠄⠐⠈⢀⠂⠡⠨⠨⢆⠣⢑⠠⠱⠨⡐⢠⢃⡑⢅⡐⡅⢆⠢⡠⢀⢈⠄⠄⠠⠠⠄⠈⢈⠉⠑⠉⡊⠃⠋⢃⠙⠘⠨⠑⠁⠁⠁⠁⠄⢀⢀⢄⢂⢎⢜⢸⢐⣑⢲⡘⡌⢇⢇⢇⠑⡅⣂⢈⠄⠑⠨⡀⠐⠄⠄⠠⠄⠐⠄⠅⠊⠄⠊⠌⠌⠌⠌⠄⡁⡂⢄⣀⣦⣾⡾⣿⣾⢿⣻⣟⣿
+    ⣿⣿⣟⣿⣾⡿⣟⣿⣽⣿⢿⣷⣶⣤⢀⠄⠂⠄⠂⡁⠄⠁⢀⠂⠐⡈⠄⠌⠌⠌⢌⠂⠕⡐⠅⡅⡑⡨⡂⡂⠎⢢⠱⡐⡌⡪⢢⢑⠔⡑⡔⡐⡄⡢⢁⠠⡀⡁⢀⢀⢈⠄⠄⡀⢂⢀⢢⢐⢄⠕⡔⢕⠰⡱⡕⡕⢅⠡⢡⠁⢔⢱⢸⢐⢅⢇⢪⢠⢣⢣⢢⢃⠢⠁⠄⠡⠡⠐⠄⠄⠄⠄⡀⠈⠄⠅⠅⠅⡊⡐⣡⣶⣺⣾⣿⣻⣾⡿⣿⣾⢿⣟⣯⣿
+    ⣕⢯⡻⣻⣷⣿⣿⣿⣟⣿⡿⣟⣿⡿⣿⣿⣼⣬⢄⡀⠄⠌⠠⠨⠐⠠⠡⢁⠡⢈⠢⢑⠡⡨⢊⢔⠌⡢⢊⢐⢑⢑⠌⢆⠪⠨⢂⠡⡨⣂⠢⡢⠱⢘⠔⡁⢇⠕⢅⠕⡜⢬⢸⢸⢸⢰⢨⢢⢸⢸⠘⡢⢊⠜⠘⣘⢌⠎⡎⡆⠠⡑⢜⢸⢨⠢⡐⡕⡱⡑⢜⢐⢌⠊⠌⢄⢀⠁⠅⠡⠠⠄⢀⠄⠁⡠⣠⣵⣮⣿⢿⣾⣟⣯⣿⣯⣷⣿⡿⣾⣿⣻⢯⡻
+    ⣗⢷⣝⣞⢮⣫⢷⢿⣟⣿⡿⣿⡿⣿⣿⣽⣿⣾⣿⣷⣷⣮⣄⡅⡈⢄⢑⠐⡨⢐⠈⡂⢅⢊⢐⠡⠨⡐⠡⡂⡕⠄⠅⢅⢃⢃⠢⡨⢂⢆⠣⡊⡌⢆⢑⢌⢌⠎⢆⢪⢘⢌⢪⢸⡰⡡⡣⡃⡣⡑⢕⢨⢂⠣⡑⢜⢄⢑⠰⡘⡌⡪⢢⡑⡅⠇⡕⢌⠪⡪⢒⢐⢅⢅⢕⡐⡅⡢⡠⢁⢈⣌⣴⣴⣷⡿⣿⣽⣾⣿⣻⣷⡿⣟⣷⣿⣽⡾⣟⢯⢎⣗⢵⢝
+    ⠵⡝⡮⣺⡳⣳⣝⣗⢽⡺⡽⣻⢿⣻⣷⣿⣯⣿⣯⣿⣯⣿⣟⣿⣿⣶⣶⣕⣄⢅⠢⢐⠐⡐⠠⠡⡑⢌⢐⠔⢌⠜⡨⢢⢑⢐⠌⡢⢁⠢⡑⠌⡎⢌⠢⡊⢂⠡⢁⢇⢑⠈⡐⡡⡨⡨⢊⢎⢢⠌⡎⡢⢢⠣⡡⢃⠆⡆⠅⠕⢜⠨⡢⡱⡐⢕⠜⡜⡌⡪⡨⢢⠱⡐⢅⣢⣪⡶⣾⡾⣟⣿⣽⣾⣟⣿⣿⣽⣷⡿⣯⣷⣿⣟⣟⢞⣕⢝⣜⣮⣳⡳⣝⣝
+    ⠑⡑⡱⡱⡹⡪⣺⢺⡻⣺⢽⢮⢯⢮⣓⢯⡻⡷⡿⣯⣿⣯⣿⡿⣷⣿⣟⣿⡿⣿⡿⣷⣵⣤⡦⣅⢆⢂⠂⢌⠢⠨⠨⡐⡐⡐⢑⠨⢐⠐⠌⠌⠄⠅⡣⡑⢅⠕⡐⢌⠢⢅⠢⠑⡨⠘⢐⠱⡘⠈⠢⡊⡰⡑⠌⡢⡑⠌⢌⠝⡌⡊⡢⢑⠸⡐⡕⡬⣬⣦⣮⣮⣷⣿⢿⣻⣯⣿⡿⣿⢿⣟⣿⣽⣿⣽⣾⢿⣞⢟⢯⡳⣕⢮⡲⣳⢳⡻⣪⢺⢸⢸⠪⡒
+    ⠄⠄⠐⠨⠨⠊⠎⡎⡞⡕⡯⡫⡯⣻⣺⢵⢽⣪⢯⣺⣪⡳⣻⡻⡿⣽⢿⣻⣿⢿⣿⢿⣻⣿⢿⣿⣿⣿⣿⣷⣷⣵⣕⣔⣬⣀⣢⣑⢔⠨⡊⡂⡂⠕⡰⠨⢐⠅⡌⠢⠡⢑⢐⠔⡈⠪⡊⡪⢌⢪⠨⡂⡢⢊⣊⣀⣂⣅⣕⣔⣵⣲⣵⣷⣿⡿⣿⢿⣿⣽⣾⣿⣽⣾⣿⡿⣟⣯⣿⡿⣟⣿⢽⢷⢻⣪⡪⣓⢮⣳⡳⣝⢞⡵⢽⢸⢪⢪⠪⠪⠘⠄⠡⠄
+    
+                &amp;amp;lt/code&amp;amp;gt
+            &amp;amp;lt/pre&amp;amp;gt
+        &amp;amp;lt/div&amp;amp;gt
+    *`
+}
+
+        
+*
+                </code>
+            </pre>
+            <p class="list">- There's too much code to screenshot. (👁‍🗨👄👁‍🗨)</p>
+        </div>
+        <div id="page10" name="page">
+            <p>9. .....</p>
+            <p class="list">Switch to the "index.html" tab in vs.</p>
+            <p class="list">- Add the following code to "index.html" in line 14 if it's free, if not then select the space at the end of "&lt/div&gt" and press enter so a new blank line is formed before the button "&ltdiv&gt" but after the page1 "&lt/div&gt":</p>
+            <pre class="list">
+                <code> 
+* 
+&ltdiv id="page2" name="page"&gt
+            &ltp&gt1. Getting Started&lt/p&gt
+            &ltp class="list"&gt- Go to the desktop.&lt/p&gt
+            &ltp class="list"&gt- Create a folder.&lt/p&gt
+            &ltp class="list"&gt- Rename the folder to "How To Website How To".&lt/p&gt
+            &ltimg src="assets/ss1.png" style="width: 120px; height: 120px;"&gt
+            &ltp class="list"&gt- Take a screenshot of the folder (Windows + Shift + S).&lt/p&gt
+            &ltp class="list"&gt- Open the image in Snip & Sketch.&lt/p&gt
+            &ltp class="list"&gt- Save the image to the desktop (Ctrl + S).&lt/p&gt
+            &ltp class="list"&gt- Close Snip & Sketch (Always close after you're done with a screenshot and it's saved).&lt/p&gt
+            &ltp class="list"&gt- Rename the image "ss1.png" (or "ss1" if view file extensions is disabled).&lt/p&gt
+        &lt/div&gt
+&ltdiv id="page3" name="page"&gt
+            &ltp&gt2. Making the Proper Files&lt/p&gt
+            &ltp class="list"&gt- Open the folder (When I say "the folder" I'm talking about the "How To Website How To" folder).&lt/p&gt
+            &ltp class="list"&gt- Create another folder in the folder.&lt/p&gt
+            &ltp class="list"&gt- Rename the new folder inside the folder "assets".&lt/p&gt
+            &ltp class="list"&gt- Move all screenshots taken into "assets" folder from now on (Don't forget to move "ss1.png" from the desktop to the "assets" folder).&lt/p&gt
+            &ltp class="list"&gt- Go to the view tab near the top of file explorer.&lt/p&gt
+            &ltp class="list"&gt- In the Show/Hide section; Toggle on "File name extensions".&lt/p&gt
+            &ltp class="list"&gt- Inside of the folder create a new text file using the right click menu; name the file "index.html"; select yes on the pop-up.&lt/p&gt
+            &ltp class="list"&gt- Inside of the folder create a new text file using the right click menu; name the file "style.css"; select yes on the pop-up.&lt/p&gt
+            &ltp class="list"&gt- Inside of the folder create a new text file using the right click menu; name the file "main.js"; select yes on the pop-up.&lt/p&gt
+            &ltimg src="assets/ss2.png"&gt
+            &ltp class="list"&gt- Repeat the steps to take a screenshot but take one of the files in the folder (You can save them directly to the assets folder now that it's been created).&lt/p&gt
+            &ltp class="list"&gt- Rename the image to "ss2.png"&lt/p&gt
+        &lt/div&gt
+&ltdiv id="page4" name="page"&gt
+            &ltp&gt3. Getting Ready to Code 😨&lt/p&gt
+            &ltp class="list"&gt- Open Visual Studio Code (vs for short... I am not typing that another 30 times).&lt/p&gt
+            &ltp class="list"&gt- In the file explorer, select "index.html", "style.css", and "main.js"&lt/p&gt
+            &ltp class="list"&gt- Drag and drop the files into vs. (They should appear).&lt/p&gt
+            &ltp class="list"&gt- If prompted with untrusted files alert agree to using the files.&lt/p&gt
+            &ltp class="list"&gt- Click into index.html in the top bar of vs if you're not already inside of it.&lt/p&gt
+            &ltp class="list"&gt- Go to the folder in file explorer and double click open "index.html".&lt/p&gt
+            &ltp class="list"&gt- Repeat the steps to take a screenshot but take one of the top bar of the web browser that should've opened (If it didn't open... well... good luck).&lt/p&gt
+            &ltp class="list"&gt- Rename the image to "ss3.png"&lt/p&gt
+            &ltp class="list"&gt- Click and drag the middle of the top bar of the web browser all the way to the left edge of the screen.&lt/p&gt
+            &ltimg src="assets/ss3.png"&gt
+            &ltp class="list"&gt- Let go of the mouse.&lt/p&gt
+            &ltp class="list"&gt- When the grid of applications shows up you must select visual studio code.&lt/p&gt
+            &ltp class="list"&gt- Your screen should now be split-screen between the web browser and vs.&lt/p&gt
+            &ltp class="list"&gt- Click into vs on line 1 of "index.html".&lt/p&gt
+        &lt/div&gt
+&ltdiv id="page5" name="page"&gt
+            &ltp&gt4. Coding 😎&lt/p&gt
+            &ltp class="list"&gt- Add the code between the "*" symbols (Don't add "*" symbols into the actual code, only what is between them):&lt/p&gt
+            &ltpre class="list"&gt
+                &ltcode&gt 
+* 
+&amp;lt!DOCTYPE html&amp;gt
+&amp;lthtml&amp;gt
+    &amp;ltbody&amp;gt
+        
+    &amp;lt/body&amp;gt
+    &amp;ltscript src="main.js"&amp;gt&amp;lt/script&amp;gt
+    &amp;ltlink rel="stylesheet" href="style.css"&amp;gt
+&amp;lt/html&amp;gt
+*
+                &lt/code&gt
+            &lt/pre&gt
+            &ltimg src="assets/ss4.png"&gt
+            &ltp class="list"&gt- After every change to code in vs press (Ctrl + S) to save it.&lt/p&gt
+            &ltp class="list"&gt- To see your changes you can refresh the browser.&lt/p&gt
+            &ltp class="list"&gt- Repeat the steps to take a screenshot but take one of the code that was just added (Include the line numbers in the screenshots).&lt/p&gt
+            &ltp class="list"&gt- Rename the image to "ss4.png".&lt/p&gt
+        &lt/div&gt
+        &ltdiv id="page6" name="page"&gt
+        &ltp&gt5. More Coding&lt/p&gt
+        &ltp class="list"&gtSwitch to the "style.css" tab in vs (The tabs are near the top of the application).&lt/p&gt
+        &ltp class="list"&gt- Add the following code to "style.css" (Remember don't add in the "*" symbols):&lt/p&gt
+        &ltpre class="list"&gt
+            &ltcode&gt 
+* 
+html{background-color: black;
+font-family:system-ui,
+ -apple-system,
+  BlinkMacSystemFont,
+   'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+     color: lime;
+     width: 100%; height: 100%;
+     display:grid;
+     text-wrap:pretty;
+     font-size: x-large;
+}
+body{
+display: block;
+margin-top:25px;
+margin-left: 20%;
+margin-right: auto;
+}
+p{width: 50vw; margin-top:auto;}
+img{margin-left:5vw;object-fit:scale-down; width:40vw;}
+.list{margin-left:35px}
+.b{background-color: rgb(20, 20, 20); color: lime;
+font-size: xx-large;
+font-weight:900;
+padding:5%;
+margin: 3px;
+width: 50px;
+border: 0px;
+border-radius: 15px;}
+*
+            &lt/code&gt
+        &lt/pre&gt
+        &ltimg src="assets/ss5.png"&gt
+        &ltp class="list"&gt- Repeat the steps to take a screenshot but take one of the code that was just added.&lt/p&gt
+        &ltp class="list"&gt- Rename the image to "ss5.png".&lt/p&gt
+    &lt/div&gt
+&ltdiv id="page7" name="page"&gt
+            &ltp&gt6. Moreeee Coding&lt/p&gt
+            &ltp class="list"&gtSwitch to the "index.html" tab in vs.&lt/p&gt
+            &ltp class="list"&gt- Add the following code to "index.html" between &amp;ltbody&amp;gt and &amp;lt/body&amp;gt:&lt/p&gt
+            &ltpre class="list"&gt
+                &ltcode&gt 
+* 
+&amp;ltdiv id="page1" name="page"&amp;gt
+            &amp;ltp style="margin-left:20vw" id="header"&amp;gtHello!!! &amp;lt/p&amp;gt&amp;ltp&amp;gtWelcome to my "How To" where you will create a How To Website!&amp;lt/p&amp;gt
+            &amp;ltp class="list"&amp;gt- Meaning a website that shows you how to make a website that shows you how to make a website... and so on.&amp;lt/p&amp;gt
+            &amp;ltp&amp;gtWhat you will need:&amp;lt/p&amp;gt
+            &amp;ltdiv style="margin-bottom: 25px;"&amp;gt
+            &amp;ltp class="list" style="margin-bottom:0px;"&amp;gt- 1 computer (with monitor and has Windows).&amp;lt/p&amp;gt
+            &amp;ltp class="list" style="margin-bottom:0px;"&amp;gt- Visual Studio Code.&amp;lt/p&amp;gt
+            &amp;lt/div&amp;gt
+            &amp;ltp&amp;gtThat's all! Now lets begin the tutorial (Use the &amp;amp;lt and &amp;amp;gt buttons to switch pages)&amp;lt/p&amp;gt
+        &amp;lt/div&amp;gt
+
+*
+                &lt/code&gt
+            &lt/pre&gt
+            &ltimg src="assets/ss6.png"&gt
+            &ltp class="list"&gt- Repeat the steps to take a screenshot but take one of the code that was just added.&lt/p&gt
+            &ltp class="list"&gt- Rename the image to "ss6.png".&lt/p&gt
+        &lt/div&gt
+&ltdiv id="page8" name="page"&gt
+            &ltp&gt7. Even MOREEE Coding&lt/p&gt
+            &ltp class="list"&gtSwitch to the "index.html" tab in vs.&lt/p&gt
+            &ltp class="list"&gt- Add the following code to "index.html" on line 14 which should be blank:&lt/p&gt
+            &ltpre class="list"&gt
+                &ltcode&gt 
+* 
+&amp;ltdiv style="display: grid; grid-template-columns: min-content min-content; margin-left:27%;"&amp;gt
+            &amp;ltbutton class="b" id="leftButton"&amp;gt&amp;amp;lt&amp;lt/button&amp;gt
+            &amp;ltbutton class="b" id="rightButton"&amp;gt&amp;amp;gt&amp;lt/button&amp;gt
+            &amp;ltdiv hidden&amp;gtby Jacob Tapper&amp;lt/div&amp;gt
+        &amp;lt/div&amp;gt
+        
+*
+                &lt/code&gt
+            &lt/pre&gt
+            &ltimg src="assets/ss7.png"&gt
+            &ltp class="list"&gt- Repeat the steps to take a screenshot but take one of the code that was just added.&lt/p&gt
+            &ltp class="list"&gt- Rename the image to "ss7.png".&lt/p&gt
+        &lt/div&gt
+&ltdiv id="page9" name="page"&gt
+            &ltp&gt8. Lotssss of Coding&lt/p&gt
+            &ltp class="list"&gtSwitch to the "main.js" tab in vs.&lt/p&gt
+            &ltp class="list"&gt- Add the following code to "main.js":&lt/p&gt
+            &ltpre class="list"&gt
+                &ltcode&gt 
+* 
+let page=1;
+window.onload = (e)=>{
+    hideAllPages();
+    document.getElementById("loop").innerHTML=returnString();
+    document.getElementById("page1").hidden=false;
+    rainbow();
+    document.getElementById("leftButton").onclick=(e)=>{
+        changePage(false);
+    }
+    document.getElementById("rightButton").onclick=(e)=>{
+        changePage(true);
+    }
+}
+function changePage(right){
+    let pages = document.getElementsByName("page");
+    (right)?page++:page--;
+    if(page==0)page++;
+    if(page>pages.length)page--;
+    hideAllPages();
+    unhidePage();
+}
+function hideAllPages(){
+    document.getElementsByName("page").forEach((i)=>{i.hidden=true;})  
+}
+function unhidePage(){
+    document.getElementById("page"+page).hidden=false;
+}
+function rainbow(){
+    let header = document.getElementById("header").style;
+    header.backgroundImage="linear-gradient(to left, blue, blue, blue, blue, blue, red)"
+    header.webkitBackgroundClip="text"
+    header.color="transparent"
+}
+function returnString(){
+    return `
+    * 
+    &amp;amp;ltdiv id="page2" name="page"&amp;amp;gt
+    &amp;amp;ltp&amp;amp;gt1. Getting Started&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Go to the desktop.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Create a folder.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Rename the folder to "How To Website How To".&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltimg src="assets/ss1.png" style="width: 120px; height: 120px;"&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Take a screenshot of the folder (Windows + Shift + S).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Open the image in Snip &amp;amp; Sketch.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Save the image to the desktop (Ctrl + S).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Close Snip &amp;amp; Sketch (Always close after you're done with a screenshot and it's saved).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Rename the image "ss1.png" (or "ss1" if view file extensions is disabled).&amp;amp;lt/p&amp;amp;gt
+&amp;amp;lt/div&amp;amp;gt
+&amp;amp;ltdiv id="page3" name="page"&amp;amp;gt
+    &amp;amp;ltp&amp;amp;gt2. Making the Proper Files&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Open the folder (When I say "the folder" I'm talking about the "How To Website How To" folder).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Create another folder in the folder.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Rename the new folder inside the folder "assets".&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Move all screenshots taken into "assets" folder from now on (Don't forget to move "ss1.png" from the desktop to the "assets" folder).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Go to the view tab near the top of file explorer.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- In the Show/Hide section; Toggle on "File name extensions".&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Inside of the folder create a new text file using the right click menu; name the file "index.html"; select yes on the pop-up.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Inside of the folder create a new text file using the right click menu; name the file "style.css"; select yes on the pop-up.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Inside of the folder create a new text file using the right click menu; name the file "main.js"; select yes on the pop-up.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltimg src="assets/ss2.png"&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the files in the folder (You can save them directly to the assets folder now that it's been created).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss2.png"&amp;amp;lt/p&amp;amp;gt
+&amp;amp;lt/div&amp;amp;gt
+&amp;amp;ltdiv id="page4" name="page"&amp;amp;gt
+    &amp;amp;ltp&amp;amp;gt3. Getting Ready to Code 😨&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Open Visual Studio Code (vs for short... I am not typing that another 30 times).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- In the file explorer, select "index.html", "style.css", and "main.js"&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Drag and drop the files into vs. (They should appear).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- If prompted with untrusted files alert agree to using the files.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Click into index.html in the top bar of vs if you're not already inside of it.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Go to the folder in file explorer and double click open "index.html".&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the top bar of the web browser that should've opened (If it didn't open... well... good luck).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss3.png"&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Click and drag the middle of the top bar of the web browser all the way to the left edge of the screen.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltimg src="assets/ss3.png"&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Let go of the mouse.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- When the grid of applications shows up you must select visual studio code.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Your screen should now be split-screen between the web browser and vs.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Click into vs on line 1 of "index.html".&amp;amp;lt/p&amp;amp;gt
+&amp;amp;lt/div&amp;amp;gt
+&amp;amp;ltdiv id="page5" name="page"&amp;amp;gt
+    &amp;amp;ltp&amp;amp;gt4. Coding 😎&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Add the code between the "*" symbols (Don't add "*" symbols into the actual code, only what is between them):&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltpre class="list"&amp;amp;gt
+        &amp;amp;ltcode&amp;amp;gt 
+* 
+&amp;amp;amp;lt!DOCTYPE html&amp;amp;amp;gt
+&amp;amp;amp;lthtml&amp;amp;amp;gt
+&amp;amp;amp;ltbody&amp;amp;amp;gt
+
+&amp;amp;amp;lt/body&amp;amp;amp;gt
+&amp;amp;amp;ltscript src="main.js"&amp;amp;amp;gt&amp;amp;amp;lt/script&amp;amp;amp;gt
+&amp;amp;amp;ltlink rel="stylesheet" href="style.css"&amp;amp;amp;gt
+&amp;amp;amp;lt/html&amp;amp;amp;gt
+*
+        &amp;amp;lt/code&amp;amp;gt
+    &amp;amp;lt/pre&amp;amp;gt
+    &amp;amp;ltimg src="assets/ss4.png"&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- After every change to code in vs press (Ctrl + S) to save it.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- To see your changes you can refresh the browser.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the code that was just added (Include the line numbers in the screenshots).&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss4.png".&amp;amp;lt/p&amp;amp;gt
+&amp;amp;lt/div&amp;amp;gt
+&amp;amp;ltdiv id="page6" name="page"&amp;amp;gt
+&amp;amp;ltp&amp;amp;gt5. More Coding&amp;amp;lt/p&amp;amp;gt
+&amp;amp;ltp class="list"&amp;amp;gtSwitch to the "style.css" tab in vs (The tabs are near the top of the application).&amp;amp;lt/p&amp;amp;gt
+&amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "style.css" (Remember don't add in the "*" symbols):&amp;amp;lt/p&amp;amp;gt
+&amp;amp;ltpre class="list"&amp;amp;gt
+    &amp;amp;ltcode&amp;amp;gt 
+* 
+html{background-color: black;
+font-family:system-ui,
+-apple-system,
+BlinkMacSystemFont,
+'Segoe UI',
+Roboto, Oxygen, Ubuntu, Cantarell,
+'Open Sans', 'Helvetica Neue', sans-serif;
+color: lime;
+width: 100%; height: 100%;
+display:grid;
+text-wrap:pretty;
+font-size: x-large;
+}
+body{
+display: block;
+margin-top:25px;
+margin-left: 20%;
+margin-right: auto;
+}
+p{width: 50vw; margin-top:auto;}
+img{margin-left:5vw;object-fit:scale-down; width:40vw;}
+.list{margin-left:35px}
+.b{background-color: rgb(20, 20, 20); color: lime;
+font-size: xx-large;
+font-weight:900;
+padding:5%;
+margin: 3px;
+width: 50px;
+border: 0px;
+border-radius: 15px;}
+*
+    &amp;amp;lt/code&amp;amp;gt
+&amp;amp;lt/pre&amp;amp;gt
+&amp;amp;ltimg src="assets/ss5.png"&amp;amp;gt
+&amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the code that was just added.&amp;amp;lt/p&amp;amp;gt
+&amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss5.png".&amp;amp;lt/p&amp;amp;gt
+&amp;amp;lt/div&amp;amp;gt
+&amp;amp;ltdiv id="page7" name="page"&amp;amp;gt
+    &amp;amp;ltp&amp;amp;gt6. Moreeee Coding&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gtSwitch to the "index.html" tab in vs.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "index.html" between &amp;amp;ltbody&amp;amp;gt and &amp;amp;lt/body&amp;amp;gt:&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltpre class="list"&amp;amp;gt
+        &amp;amp;ltcode&amp;amp;gt 
+* 
+&amp;amp;amp;ltdiv id="page1" name="page"&amp;amp;amp;gt
+    &amp;amp;amp;ltp style="margin-left:20vw" id="header"&amp;amp;amp;gtHello!!! &amp;amp;amp;lt/p&amp;amp;amp;gt&amp;amp;amp;ltp&amp;amp;amp;gtWelcome to my "How To" where you will create a How To Website!&amp;amp;amp;lt/p&amp;amp;amp;gt
+    &amp;amp;amp;ltp class="list"&amp;amp;amp;gt- Meaning a website that shows you how to make a website that shows you how to make a website... and so on.&amp;amp;amp;lt/p&amp;amp;amp;gt
+    &amp;amp;amp;ltp&amp;amp;amp;gtWhat you will need:&amp;amp;amp;lt/p&amp;amp;amp;gt
+    &amp;amp;amp;ltdiv style="margin-bottom: 25px;"&amp;amp;amp;gt
+    &amp;amp;amp;ltp class="list" style="margin-bottom:0px;"&amp;amp;amp;gt- 1 computer (with monitor and has Windows).&amp;amp;amp;lt/p&amp;amp;amp;gt
+    &amp;amp;amp;ltp class="list" style="margin-bottom:0px;"&amp;amp;amp;gt- Visual Studio Code.&amp;amp;amp;lt/p&amp;amp;amp;gt
+    &amp;amp;amp;lt/div&amp;amp;amp;gt
+    &amp;amp;amp;ltp&amp;amp;amp;gtThat's all! Now lets begin the tutorial (Use the &amp;amp;amp;amp;lt and &amp;amp;amp;amp;gt buttons to switch pages)&amp;amp;amp;lt/p&amp;amp;amp;gt
+&amp;amp;amp;lt/div&amp;amp;amp;gt
+
+*
+        &amp;amp;lt/code&amp;amp;gt
+    &amp;amp;lt/pre&amp;amp;gt
+    &amp;amp;ltimg src="assets/ss6.png"&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the code that was just added.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss6.png".&amp;amp;lt/p&amp;amp;gt
+&amp;amp;lt/div&amp;amp;gt
+&amp;amp;ltdiv id="page8" name="page"&amp;amp;gt
+    &amp;amp;ltp&amp;amp;gt7. Even MOREEE Coding&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gtSwitch to the "index.html" tab in vs.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "index.html" on line 14 which should be blank:&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltpre class="list"&amp;amp;gt
+        &amp;amp;ltcode&amp;amp;gt 
+* 
+&amp;amp;amp;ltdiv style="display: grid; grid-template-columns: min-content min-content; margin-left:27%;"&amp;amp;amp;gt
+    &amp;amp;amp;ltbutton class="b" id="leftButton"&amp;amp;amp;gt&amp;amp;amp;amp;lt&amp;amp;amp;lt/button&amp;amp;amp;gt
+    &amp;amp;amp;ltbutton class="b" id="rightButton"&amp;amp;amp;gt&amp;amp;amp;amp;gt&amp;amp;amp;lt/button&amp;amp;amp;gt
+    &amp;amp;amp;ltdiv hidden&amp;amp;amp;gtby Jacob Tapper&amp;amp;amp;lt/div&amp;amp;amp;gt
+&amp;amp;amp;lt/div&amp;amp;amp;gt
+
+*
+        &amp;amp;lt/code&amp;amp;gt
+    &amp;amp;lt/pre&amp;amp;gt
+    &amp;amp;ltimg src="assets/ss7.png"&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Repeat the steps to take a screenshot but take one of the code that was just added.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Rename the image to "ss7.png".&amp;amp;lt/p&amp;amp;gt
+&amp;amp;lt/div&amp;amp;gt
+&amp;amp;ltdiv id="page9" name="page"&amp;amp;gt
+    &amp;amp;ltp&amp;amp;gt8. Lotssss of Coding&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gtSwitch to the "main.js" tab in vs.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "main.js":&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltpre class="list"&amp;amp;gt
+        &amp;amp;ltcode&amp;amp;gt 
+* 
+let page=1;
+window.onload = (e)=&amp;amp;gt{
+hideAllPages();
+document.getElementById("page1").hidden=false;
+rainbow();
+document.getElementById("leftButton").onclick=(e)=&amp;amp;gt{
+changePage(false);
+}
+document.getElementById("rightButton").onclick=(e)=&amp;amp;gt{
+changePage(true);
+}
+}
+function changePage(right){
+let pages = document.getElementsByName("page");
+(right)?page++:page--;
+if(page==0)page++;
+if(page&amp;amp;gtpages.length)page--;
+hideAllPages();
+unhidePage();
+}
+function hideAllPages(){
+document.getElementsByName("page").forEach((i)=&amp;amp;gt{i.hidden=true;})  
+}
+function unhidePage(){
+document.getElementById("page"+page).hidden=false;
+}
+function rainbow(){
+let header = document.getElementById("header").style;
+header.backgroundImage="linear-gradient(to left, blue, blue, blue, blue, blue, red)"
+header.webkitBackgroundClip="text"
+header.color="transparent"
+}
+
+*
+        &amp;amp;lt/code&amp;amp;gt
+    &amp;amp;lt/pre&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- There's too much code to screenshot. (👁‍🗨👄👁‍🗨)&amp;amp;lt/p&amp;amp;gt
+&amp;amp;lt/div&amp;amp;gt
+&amp;amp;ltdiv id="page10" name="page"&amp;amp;gt
+&amp;amp;ltp&amp;amp;gt9. .....&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gtSwitch to the "index.html" tab in vs.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltp class="list"&amp;amp;gt- Add the following code to "index.html" in line 14 if it's free, if not then select the space at the end of "&amp;amp;amp;lt/div&amp;amp;amp;gt" and press enter so a new blank line is formed before the button "&amp;amp;amp;ltdiv&amp;amp;amp;gt" but after the page1 "&amp;amp;amp;lt/div&amp;amp;amp;gt":&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;ltpre class="list"&amp;amp;gt
+        &amp;amp;ltcode id="loop"&amp;amp;gt&amp;amp;lt/code&amp;amp;gt
+        &amp;amp;lt/pre&amp;amp;gt
+        &amp;amp;ltp class="list"&amp;amp;gt- There's too much code here to get a screenshot.&amp;amp;lt/p&amp;amp;gt
+    &amp;amp;lt/div&amp;amp;gt
+&amp;amp;ltdiv id="page11" name="page"&amp;amp;gt
+&amp;amp;ltp style="font-size: xx-large;"&amp;amp;gtThe END!&amp;amp;lt/p&amp;amp;gt
+&amp;amp;ltp class="list"&amp;amp;gtI've somehow avoided going into an endless loop. 🎉 Me the next day: (nvm it totally is and will break after the 2nd made website probably)&amp;amp;lt/p&amp;amp;gt
+&amp;amp;ltpre&amp;amp;gt
+    &amp;amp;ltcode style="font-size: xx-small;"&amp;amp;gt
+⡢⡒⡕⡕⡕⡕⡌⡎⡪⡪⡢⡂⠄⠡⡩⠪⠊⡀⡂⡇⡣⢣⢣⢳⢕⢝⠜⢈⠈⡌⡎⢎⠄⠄⢐⠱⡱⡱⠁⢇⢇⢇⢇⢇⢧⢣⡣⣇⠢⡂⡢⡀⠄⠈⠂⠅⢂⠄⢆⠪⡐⡁⠠⡱⡨⡂⡢⠄⠄⠄⢂⠐⠄⡐⡐⡀⠂⠄⠄⠄⢀⠄⠄⠄⠄⠠⠄⠄⢀⠠⠄⠄⠄⠄⠄⠄⠄⡀⠄⠄⠄⠄⠄⠄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⡪⡪⡪⡪⡊⠂⠠⢈⠢⡱⠸⡰⠄⠠⠈⠄⡂⢔⢕⢑⠡⠈⢪⠪⡊⢆⢎⢂⠃⠌⠐⠈⢄⠠⢀⠂⡕⡜⡜⠌⠂⠣⡫⡳⡝⡵⡱⡓⢅⢣⢪⢪⡑⠈⡇⣇⢤⢄⢐⠐⠈⠂⠈⢎⢢⢑⠄⠄⡈⡐⢐⠄⠡⢐⢐⢀⠡⠄⠁⠠⠄⠂⠠⠈⠄⠡⢈⠄⠄⠄⠂⠄⠄⠄⠄⠄⠠⠄⠄⠁⠈⡀⠁⠠⠄⠄⠄⢀⠄⠄⠄⠠⠄⠄⠄⠄⠄⠂⠄⠂⠄⠐⠄⠄
+⢪⢪⠪⠂⠂⡈⢌⠢⡑⠈⠄⠠⠄⠠⡀⢇⢊⠢⠁⢄⢢⠂⠄⠅⡊⠔⢀⢄⢜⠬⡐⠠⢀⠐⠄⡑⠨⣀⡐⡌⢀⠁⠇⠫⡑⠡⡐⠰⡑⠅⢕⢕⢌⠐⡕⡜⡜⡕⢸⢨⢣⢱⢠⢀⠄⠑⠐⠄⡐⠠⡁⠂⠨⡐⡐⠠⠄⠄⠠⠐⠈⠄⠂⡁⡊⡐⠠⠄⠌⠄⠄⡀⠁⠄⠂⡀⠄⠄⠐⠈⢀⠄⠂⠄⠄⠄⠐⠄⠄⢀⠄⠂⠄⠐⠄⢀⠄⠠⠄⠐⠈⠄⠄⠄
+⠨⠈⠌⠄⡂⡊⠆⠡⢀⢢⠢⡅⢈⠐⠅⠕⢀⢢⢱⢱⠱⡁⡂⢠⢠⢢⢣⢣⢪⢪⢢⢂⢄⢌⢆⢆⢗⢢⢣⢣⠂⡀⢊⢈⢄⢡⢠⢡⢐⠄⡐⠕⠐⡈⢔⢡⢑⠨⠸⡸⡸⡸⡸⣕⢝⡔⡆⠄⠠⠁⠌⠠⢈⠢⠨⠨⠄⠄⢂⠨⢈⠄⢌⠐⠄⢂⠄⠂⠄⠄⠄⠄⠂⠐⡀⠄⢀⠄⠄⠁⠄⠄⢀⠄⢀⠁⠠⠐⠈⠄⠄⠠⠈⠄⠐⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠂⢡⢊⢂⢁⢐⠔⡅⡣⡱⡀⡀⢅⠬⡪⡪⡪⡪⡪⡪⡰⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡕⣕⢕⢕⢜⢜⢜⢜⢜⢜⢜⢔⠠⠄⠄⠡⠈⠊⡂⠡⡈⠌⠐⡕⣝⢞⡎⡇⡇⠇⠄⢅⢄⠈⠄⢈⠪⡈⡊⠄⡈⠄⠌⠄⠐⠄⠅⠅⠂⢀⠄⠂⠁⠠⠈⠠⠁⠄⠂⢀⠄⡀⠄⠠⠄⠄⡀⢀⠄⠄⠄⠄⠐⠈⠄⠄⠂⠁⠄⠂⠄⠄⠄⠄⠄⠈⠄
+⡪⡀⠐⠐⠐⡀⡢⡱⡡⡣⡱⡨⡒⡜⡜⡜⡜⡜⢜⢌⢎⢎⢎⢎⢎⢎⢎⢎⢎⢎⢮⢪⡪⡪⡎⡞⣜⢜⢜⢜⢕⢝⢜⢕⡕⣇⢗⢕⡕⡎⣎⢮⢪⢝⢕⢭⢣⡃⠄⠁⠄⡀⠅⢌⢄⠢⡠⢁⠜⡰⠄⠕⢄⠄⠐⠄⢀⠂⡅⠅⠄⠅⢕⠁⠅⢀⠄⠄⠄⢈⠄⠌⠄⠡⠨⠄⢐⠠⠄⠄⠄⠄⠠⠄⡀⠄⠄⠂⠄⠂⠐⠈⢀⠐⠈⠄⠄⠄⠠⠐⠄⠁⠄⠄
+⡪⡸⡠⢁⢌⢪⢸⠰⡑⡕⡱⡸⡸⡘⡜⡌⡎⡎⡎⡎⡎⡎⡎⡎⡎⣎⠮⡪⡣⣣⢣⡣⡣⡳⡱⡕⣕⢕⡝⣜⢕⢝⡜⣕⢵⢱⢕⢇⢗⢝⢼⢸⡱⡕⣝⢜⢎⢦⢪⢄⢥⢰⢨⢠⢂⢅⠐⢐⠕⡐⠄⢡⠱⡨⡂⠄⡀⠑⠌⡂⠡⡡⠡⠨⠄⠄⢀⠐⡈⠄⢐⠨⠠⠑⠄⡈⠄⠄⠄⠠⠄⠄⠐⢀⠠⠄⡈⢀⠁⠄⠁⠐⠄⠄⠄⠄⠄⠐⠄⠄⠄⢀⠄⠂
+⢢⢱⢘⢌⢎⢪⢢⢋⢎⠎⡎⡪⡸⡨⡪⡊⡎⡎⡎⡎⡎⡎⣎⢮⢪⢪⢺⢸⢪⢪⢪⡪⡺⡸⡪⣪⢪⡪⡎⡮⡪⣣⢳⡱⡕⣇⢗⢝⢎⢧⢳⢕⢇⡏⣎⢧⢫⡺⡜⣎⢧⢫⢎⢗⢝⢔⠈⠄⠨⡠⡁⡂⡑⡁⡐⠄⡢⡠⠐⠄⠪⡐⠅⠅⠈⠄⠠⠐⠄⢐⢐⠨⠐⠁⡀⠂⠄⠄⠐⠄⠠⠄⠄⠄⢂⠐⠄⠄⠐⡀⠁⠄⠠⠄⠄⠄⠁⠄⠂⠁⢀⠄⢀⠄
+⠕⡅⡇⡕⡕⢕⠕⡕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⡕⡇⡧⡳⡱⡣⣣⢳⢹⡸⡜⣎⢮⢺⢜⢮⢺⡸⡜⣎⢮⢪⢇⢯⢺⢜⢎⢧⢫⡪⣎⢇⢧⢳⡱⡵⡹⣪⢳⡹⣜⢜⣔⢥⡰⡨⡐⡨⠘⠨⡐⡜⢌⢪⠢⡐⠈⠌⠄⠠⠈⠄⠡⢈⢐⢐⠨⠄⠁⠄⠄⠠⠈⠄⠌⢐⠄⠂⠄⠄⡂⠁⠌⠄⠄⠄⠄⠄⠄⠂⠄⠐⠄⠂⠄⠄⠄⡀⠄
+⢕⢱⢸⢘⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢎⢎⢇⡇⣏⢎⠮⡺⠸⠪⠪⡃⢇⠣⡃⡣⢃⠇⡃⠕⢑⠩⢊⠪⠪⠪⠳⠱⢝⢎⢗⢵⢝⣜⢵⢝⢮⢺⢜⡕⡧⡳⡕⡧⡳⡕⡧⣳⢹⡪⡎⠌⠠⠈⡊⠎⠆⢕⠸⠄⢀⠄⢂⢁⢊⠄⡐⡀⢂⠐⠄⠠⠄⠂⠐⠄⠨⢐⠐⡈⠄⠄⠄⠄⠁⠄⠄⠂⠄⠄⠠⠄⠐⠈⠄⠐⠄⠐⠄⠠⠄⠄
+⢕⢕⢱⠱⣑⢅⢇⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢵⢹⢸⠱⢩⢊⢊⠢⡡⡑⢌⠪⡘⢌⠢⡂⠕⡈⡢⢂⠊⠄⡁⡂⢐⠄⡂⠐⡈⢀⠡⠄⠂⠁⠁⡁⠑⠱⠹⡪⡳⣕⡝⣎⢗⢽⡸⡵⣹⢪⢮⡣⡳⣕⢬⡐⡀⡂⠢⡊⠄⡈⠄⢀⠐⡀⠂⠄⢐⢀⢂⠂⠁⠄⠠⠄⠌⠄⠌⠌⡐⢐⠄⢐⠐⠄⠄⠄⠈⠄⠐⠄⠂⠠⠈⢀⠈⡀⠁⠄⠁⠐⢀⠐⠄
+⢕⢜⢜⢜⢔⢕⢕⢕⢕⢕⢅⢇⢇⢇⢇⢇⢇⢓⠕⠅⢕⠐⠅⢕⢈⠪⡨⢂⢊⠢⢑⠨⡐⠌⠄⡁⠂⡐⢀⠂⢁⠠⢀⠂⠄⡂⠡⠠⠄⠄⢂⠡⠈⠄⢂⠡⢈⠄⠄⠄⢂⠙⠸⡹⣪⡺⡺⣜⣕⢧⡫⡳⣕⢧⡫⡺⡜⡦⣢⢁⠂⢁⢐⠐⠄⡂⠄⡂⡂⠂⠄⠐⠄⡂⡁⠂⡈⡂⠅⡂⠂⠐⠄⠄⠄⡀⠄⡈⢀⠡⠈⡀⠂⡈⢀⠠⠄⢂⠠⠁⠈⠄⠄⠄
+⢕⠕⡅⡇⡇⡣⡣⡣⡣⡣⡣⡣⡣⠣⡃⢕⠡⠢⠡⢃⠅⠪⡈⡂⡢⠑⡈⠢⠡⠨⠐⡈⠄⢂⠡⡠⡱⡰⡄⢂⠢⡨⡠⡡⡡⡢⣱⢱⡁⡂⡐⡐⡈⡐⡐⡨⢐⢀⠡⠈⢄⠨⠐⡠⢈⢊⠣⢗⢮⢺⡪⡳⡕⡧⣫⢳⡹⡪⡎⡆⠁⠄⢂⠂⠐⠨⡂⠄⠠⠄⠐⡀⠅⡂⢀⢐⠐⠄⠅⠄⠄⠂⠄⠈⡀⠄⠄⠄⢂⠐⡀⠂⡐⠠⠄⠄⠨⠄⢀⠄⠁⠄⠄⠄
+⢕⢕⢕⢕⢕⢕⢕⢕⢕⠕⢅⢑⠌⢌⢌⠢⡑⢅⢑⠡⠨⢂⢂⢂⠂⠅⡂⡱⡈⠄⠅⡆⣎⢲⢕⣗⡽⣝⣷⡱⣱⡱⡵⣕⣗⣿⣺⣿⣮⢢⣒⢦⡣⡮⣪⣞⣞⡆⠠⢑⠐⠄⢅⠢⠡⡂⡂⠄⠅⡃⠯⡳⡝⡞⣎⢗⡝⣝⢮⡲⡱⣈⠐⢌⠢⡁⠄⠂⠄⠄⢂⢂⠅⠄⡂⡂⠅⡑⠈⠄⠄⠐⠈⠄⠠⢈⠄⠈⢀⠂⠄⡁⠄⢂⠡⠈⠄⠄⠄⢀⠠⠈⠄⡀
+⢕⢕⢕⢕⢜⢜⠜⡨⠢⡑⡐⠔⡡⢁⠢⡁⡊⠔⡠⠡⠡⡁⡂⡢⡸⢨⢪⢪⢪⢎⣎⢮⣺⣪⢯⣞⣽⣳⢯⡿⣮⡯⣯⣷⣻⣾⣻⣷⣿⣳⣷⣻⣽⣟⣿⣾⣻⡮⣜⢼⣜⡵⣵⢽⢼⣜⠄⠌⢔⢐⠡⡑⡙⡺⣪⡳⣹⢜⢮⢮⡫⡮⡳⢥⠌⠌⠂⠄⢌⠨⡀⢂⠈⡐⡐⠄⠁⠄⡀⢀⠈⠄⢁⠨⢈⠔⠠⠄⠄⠌⡐⠠⠈⠄⠄⠄⠄⡈⠄⡀⢀⠐⢀⠄
+⢕⢕⢕⠕⢕⠡⡊⢔⢑⢌⢂⠅⢂⢐⠰⢐⠠⢑⢄⠅⢅⢂⢎⢜⢜⢜⣜⢮⡳⣝⣮⣗⢷⢽⣳⢯⡾⣽⢯⡿⣯⣿⣽⡾⣷⣟⣯⣿⣽⣿⢾⣟⣯⣿⢷⣿⣻⡽⣯⣿⣾⢿⣻⣿⢿⡞⣌⣎⢆⢇⢕⢌⢆⢪⠐⠝⣎⢗⣝⢮⢺⡪⣫⡣⡑⠈⠄⠨⠐⢅⠪⡀⠄⡂⠄⠄⡀⠁⠠⠐⠐⢀⠂⢌⢐⠨⠄⡀⠄⠈⠄⠄⡀⠄⠐⠈⢀⠄⢂⠠⠄⡐⠄⠄
+⢕⢇⠣⢑⠡⢊⢐⢑⢔⢐⠅⡂⡂⡢⢑⠠⡱⡸⢨⠣⡣⡕⣕⢵⡱⣣⡳⣕⡗⣗⡵⣿⣽⣻⣞⣯⢿⢽⣻⣻⣯⣷⣿⣽⢿⣾⣻⣽⣷⢿⣟⣿⣻⣽⣿⣽⣟⣯⡿⣿⣾⣿⣿⢿⣿⡝⣾⡾⣯⢯⣗⡯⣞⡬⢐⢑⢌⠳⢵⡹⣕⢽⢜⢮⣪⡪⡀⠅⠌⠄⠁⠌⠄⠠⠄⠠⠄⠌⡐⠁⠨⢐⠨⠐⠠⠄⠐⠄⠄⠄⠈⢀⠄⠄⢂⠨⠄⠌⡀⢐⠠⠄⡂⠄
+⢑⠔⡡⢡⠨⢂⢑⢐⠅⡢⢊⠢⡑⡰⡰⡱⡑⡜⡜⡜⡎⣗⢵⡣⡯⣺⣪⡳⣝⣗⣯⢷⣻⢷⣻⣞⣯⢿⢽⣻⣞⣯⣷⣿⣟⣯⣿⣽⣾⡿⣿⡽⣿⣽⣾⢷⡿⣷⣻⣿⣽⣾⣿⣻⣷⡫⣿⣟⣿⣻⣽⢯⡷⡑⡔⣕⢜⢌⢎⡺⣪⢳⢝⢮⡲⣣⢏⢮⠨⡈⠄⠄⠄⡀⠄⡂⠅⠡⠄⠌⡐⢐⠈⠄⠁⠄⠐⠄⠠⠄⠁⠄⡂⡁⡂⠔⢁⢂⠐⠄⠂⡁⠄⠠
+⢐⠅⡊⢔⢑⢐⠔⠡⠨⠢⡅⡕⡌⡎⡆⡇⡎⡎⡎⡮⡺⡸⣕⢯⣗⡧⣗⡽⣳⢽⣺⢽⣞⣿⣻⡾⣽⣻⢯⣯⢿⡽⣯⣷⣿⢿⣽⣷⣟⣿⣽⡿⣽⣾⣟⣿⣻⣟⣾⣯⡿⣷⣟⣿⣽⡺⣯⣿⣯⣿⡽⣯⡇⣕⢯⣞⢵⢝⡼⡸⡌⢗⢝⢵⡹⣪⢳⡹⠨⠄⠂⠈⢀⠄⠄⠄⠅⠂⠄⠅⠂⠠⠄⠠⠐⠈⠠⠈⡀⠄⠈⡂⡂⡂⢄⢑⠐⡠⠨⠐⠡⠐⠈⠄
+⢐⢑⠌⡂⡪⠠⡡⢑⢱⢩⢪⢪⢪⣪⢪⡪⣺⢸⡪⡺⣪⡫⡮⣳⢳⣫⣗⣯⢯⣻⣺⢽⣺⢮⡯⣿⣯⡿⣽⣾⣻⣟⣯⣿⣟⣿⣻⣾⣯⣿⡾⣿⢯⣷⣟⣷⢿⣽⢾⢷⣿⣻⣽⣯⣿⢺⣯⣷⡿⣾⣻⡟⢆⣗⣟⡮⣯⡳⡽⡝⠨⡐⢭⢳⡹⣪⡣⣏⢧⢅⢂⠐⡀⠄⠌⡂⠄⠊⠄⡀⠐⠄⢐⠄⠔⢈⢀⢂⠢⠄⠄⡂⡂⡂⡂⠢⠨⠄⠁⠈⠄⠄⡀⠄
+⠨⡂⠕⠌⠔⡁⡢⡣⡣⡱⡸⡨⡢⡣⡳⣝⡎⡧⣫⡺⣜⢮⡫⣞⣝⢮⣻⣺⡯⣗⣯⡯⣯⢯⡯⣷⣻⣿⣽⡾⣷⣻⣷⣻⣽⣿⣽⡷⣿⢾⣟⣿⣻⡷⣿⡽⣿⣽⣻⣯⢿⣯⣿⢾⡯⣻⢾⡷⣿⣻⣽⠣⡱⣗⣯⢟⣮⢯⡏⠪⢨⢪⡪⡎⣞⢮⢺⡸⢵⡹⡢⡌⡐⡀⠁⢀⠄⡁⢀⠠⢀⠅⡢⠡⢁⢐⠐⢔⠡⠂⠄⢂⠂⠂⠈⢀⠠⠄⠂⠁⠄⠄⠠⠄
+⢌⠢⠡⢃⢕⢸⢨⢢⢣⢣⢪⢪⢪⢪⢪⢢⡫⡯⣞⢮⢮⡳⣝⢮⡺⡵⣳⣳⣻⣻⡾⣽⣳⢯⣻⣞⣗⡿⣾⣻⣽⢷⣻⣽⣯⣿⣾⣟⣿⣟⣯⣿⣽⣟⣷⣿⣻⣾⣳⣟⣿⣳⣿⣻⣝⢾⣻⣟⣿⣽⡟⢜⣺⡽⣞⣯⣷⡻⠨⡊⣎⡧⣳⢝⣜⢮⢳⡹⣕⢝⡝⡎⠔⠄⠂⠄⠄⠄⢀⠪⡐⠅⢂⢐⠔⡐⠅⠡⠄⠄⠄⠄⢀⠈⠄⡀⢀⠠⢀⠂⡁⢂⠡⠈
+⠪⡘⡬⡂⡆⢅⢣⠣⡣⡱⡱⡱⡱⡱⡱⡱⡕⡵⡹⣝⢷⣝⡾⣕⡯⣫⣳⡳⣵⣳⣻⢷⣻⣽⣳⣻⣺⡽⣯⢿⣾⣟⣯⣷⡿⣾⣻⣽⣯⣿⣯⣷⣿⣽⣾⣯⣿⢾⣗⣿⡽⣟⣾⣟⢮⢯⡿⣾⣻⣾⠕⡵⣳⣟⣯⣷⡻⡈⢌⡮⣗⣽⡺⣕⠧⠃⢕⢽⡸⣕⠽⡬⠐⠄⡀⠨⠨⠢⠄⡃⠊⠠⡐⠔⠁⠄⠁⡀⠄⠄⠄⠄⠄⡐⡀⡂⡐⡐⡐⡐⠨⢀⠂⡁
+⢊⠢⢪⠨⡪⢪⢸⡘⡜⢜⢜⢜⢜⡜⣜⢵⢹⢜⣕⢧⢳⡹⡽⣞⣞⣗⣗⢯⣗⢷⣝⣯⢿⢷⡯⣷⢯⡿⣽⢽⢷⣿⣽⢾⣻⢿⢽⠻⢚⢓⡋⣓⢝⢑⢝⣘⢙⢙⠫⠳⢻⢻⢷⢿⢕⣿⣻⡿⣽⡗⣅⡯⣿⣞⣷⣻⠐⢌⢮⢯⣗⣗⡯⡏⠅⡑⡔⡵⡹⣜⢝⡎⡧⡁⡀⠄⠄⠡⠁⠄⠈⠂⠄⠄⠐⠄⠄⠄⠄⡈⠄⠠⠡⡂⡂⡪⢐⢐⠔⠨⠨⠐⡐⠠
+⠡⡃⢕⠱⡨⢢⢑⠜⢜⢎⢮⡪⡣⡳⡕⡧⡫⡮⣪⢮⢳⡹⡺⡪⡯⡾⣮⢗⡯⣗⡯⣾⢽⢯⣟⣯⡿⡽⣯⢿⠝⡓⣋⢵⣴⡜⣾⢽⢹⣽⡧⢺⣿⢌⣿⣗⢼⡿⡕⣟⡷⣰⣦⢤⢑⢙⠳⡻⣟⢌⢖⣟⣷⣻⣞⠢⡨⣳⢯⣟⣞⡷⠩⠠⢱⡸⣪⡳⣝⢎⢧⡫⡮⡳⡀⡂⠈⠄⠄⠂⠄⠠⠈⠠⡈⢄⠌⠌⠠⡐⠄⠠⢑⠔⡡⢊⠔⠡⡨⠨⡈⡂⡂⠅
+⡱⡘⡌⢎⠜⡔⢅⠇⡇⢎⢎⢪⠳⡝⣮⡫⡮⣫⡺⣪⡳⣝⣝⢝⢮⡫⣞⢿⢽⣳⣫⢯⡯⣟⡾⣝⠿⢝⢩⡵⡜⡽⣷⠩⣷⣗⢸⢿⣆⣿⣯⡺⣯⡧⣿⢾⣸⣿⡣⣟⣯⢺⣯⠇⣯⡗⢵⢮⡈⡐⠯⡿⣽⡞⢅⢢⣫⣾⣻⣺⠳⡁⠅⡕⡵⡽⡵⣫⢞⢝⣕⢧⢳⡹⠐⠄⠁⠄⠂⠄⠁⡐⡨⢂⠪⠐⢐⠨⡊⢌⠄⠐⡐⠅⠪⠐⠌⠊⠄⠁⢀⠄⠄⠄
+⢪⢨⢪⢊⢪⠸⡘⡜⡜⡜⡜⢜⢜⢜⢜⢜⢝⣞⣮⡳⣝⢮⢮⢏⣗⡽⣪⢗⣏⢯⢾⡯⡯⡳⢝⡁⢷⣳⠎⣟⣷⡨⣟⣗⢜⣯⣧⣻⢷⠹⡳⡫⣫⡣⣙⣝⡊⣋⢇⢻⢳⢽⢯⠣⣗⡏⣞⡯⢸⢼⢂⣌⠙⡑⡌⣞⡾⣞⡷⢍⢐⢰⡱⡯⡯⡯⣯⠫⠁⠌⡞⡮⣳⢹⡠⠁⡀⠂⠄⠡⠐⡐⠌⠐⡀⡪⠐⠌⠔⠄⠄⠄⠄⠁⠐⠄⢀⠠⠄⠁⠄⡀⢈⠄
+⢕⢅⢇⢕⢕⢕⢕⢕⢜⢔⢕⢕⢕⢅⢇⢇⢗⢜⡔⣏⢗⣯⣳⡫⣞⣞⢽⣝⢮⢯⡳⡽⣙⠌⢯⣻⡌⢾⢯⡎⢷⣷⡑⣿⢣⣣⢧⣶⢐⡿⣟⢿⡯⡟⢯⠻⡦⡾⡻⡽⣟⣾⣮⡪⡎⢊⠺⢇⢽⡽⣸⡯⠣⡠⡘⢳⣟⢏⢃⠔⡬⣺⣺⢯⢯⢋⢂⢐⠡⡡⡳⣝⢮⡳⡵⡅⠄⠂⠁⠐⠄⠐⠈⠐⠄⠐⡈⠄⠁⠄⠁⠄⢈⠄⡐⢀⠄⡠⢐⠈⢄⠂⠔⠠
+⠡⡱⡑⠧⡣⣣⢣⡣⡣⡣⣣⢣⡣⡣⡳⡱⣣⢳⡱⡕⡵⡱⣕⡻⡳⣵⢯⣺⢽⡹⣊⡂⢯⢯⣊⠳⡿⣌⢝⡷⢹⣺⢞⣾⢯⢯⢳⢉⢇⢯⢵⡱⡵⣝⢮⡺⣪⡺⡼⡸⡭⣕⢕⣙⠷⡽⣏⢢⣍⡣⠿⢈⢜⡜⣴⣢⠉⢔⢰⣱⢯⣗⡯⠏⠅⡂⡐⣔⢵⡹⡪⣗⢯⣞⢵⡣⠊⠐⠄⠐⠄⠄⠐⡀⠌⢀⠄⠄⡈⠄⠄⢂⢂⢂⠢⠡⡂⡢⢂⠕⡠⠡⠡⠡
+⢌⠢⢪⢘⢌⢢⠣⡹⢸⢱⠧⡧⣳⢹⡸⣕⢕⢧⢳⡹⣪⢳⢕⣕⢯⡪⣏⢏⡇⡅⡳⣽⡢⢹⡺⣧⠹⡽⡕⢯⢌⢮⡳⡭⡱⣕⣗⢽⣝⣮⣷⣻⣾⢾⡷⣟⣷⢿⣞⣿⣺⡾⣕⢧⢯⢮⡢⡓⣗⢿⢁⢂⠱⣱⢷⠁⢆⠄⠱⣯⣟⠎⠌⡐⡡⡪⣮⡺⣕⢯⠋⢪⣳⢯⣗⡅⠈⠄⢀⠐⠄⠈⠠⡐⡐⢔⠡⡑⡈⠄⠄⠢⡑⢌⢌⠪⡐⢌⢂⠪⡐⡡⢑⠡
+⡰⡑⢕⢔⢱⢘⢌⢎⢪⠢⡣⢣⢱⢙⡚⡎⣗⢽⣜⢮⢎⡗⣝⢮⡳⣝⢪⡊⢸⡪⡦⡙⡾⣧⡜⢷⢥⡻⡸⡜⣕⢵⢝⣞⣽⣺⣾⣻⡾⣯⣿⣽⣾⢿⣻⣿⣽⢿⣽⢾⣯⢿⣏⢯⣟⡷⡯⢹⣪⣪⢰⣢⢼⠌⡐⡸⡜⣼⠥⠘⡀⡂⡕⣜⢮⣻⢮⠛⡈⠄⠌⢄⣯⢷⣳⡇⡂⠠⠄⢀⠁⠨⡈⠢⡊⠂⢅⢂⠪⠄⠄⢕⠨⡂⡢⢑⠌⡢⡑⠌⢔⠨⢂⠅
+⠔⡜⢔⢅⠇⡕⢜⢌⢪⢊⢎⢎⢪⠪⡪⡪⡪⡲⡸⡱⡫⡻⡪⣗⢽⢰⠃⢮⢇⡌⢞⢵⣌⠪⣇⠃⡯⡺⢜⡮⣗⢯⣻⣞⣾⣳⣟⣷⣻⣟⣾⣟⣾⣿⣻⣷⣻⡿⣽⣻⣾⣻⡗⣯⢿⡽⡇⡯⣾⣺⢕⢧⡣⡁⡢⣪⠸⠊⡈⣂⠄⢎⣞⡞⢝⢂⢐⠠⡂⡥⡹⣜⢾⣻⣗⣯⡂⡂⠈⠄⡀⠄⠂⠁⠄⠃⠅⡂⡑⠄⠈⠄⠁⠂⠈⡀⠐⠄⠄⠈⠄⠄⠄⠄
+⢕⢜⢜⢔⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⡕⡇⡗⡵⡹⣜⢜⠎⡇⡧⣊⠕⡟⡦⡑⢇⡅⡠⡱⡹⡮⣗⣟⣞⡽⣳⣗⣷⣳⣟⡾⣷⣻⣗⣿⢷⣻⡽⡾⠷⢟⠯⠷⢯⢷⡫⣯⢿⡝⣜⣾⡻⡞⢄⣗⣗⢧⡫⠪⠐⠄⡢⢂⡮⠄⢃⢁⢂⢢⢢⣣⡳⣝⢽⠸⣽⡷⣿⡺⠐⠠⠄⠠⠄⢀⠐⠄⡀⠢⠈⠄⠄⠄⠄⠠⠐⠄⡀⢀⠠⠄⡈⡀⡈⢀⠈⡀
+⢑⠕⡑⡣⠣⡓⢕⢕⠵⡕⣥⡣⣕⣕⢕⢕⢕⢕⢝⢜⢎⠧⡳⡱⡱⡠⠓⢕⣇⢎⢊⠃⠄⡂⣝⡪⣯⡻⡺⣞⣞⣞⢷⢽⢾⣞⣷⣻⡽⡾⣓⢫⣏⣮⣪⣖⢵⢵⡧⣯⢲⢦⢸⡜⣙⠔⢵⡷⡏⡂⣗⣗⡯⠃⡟⡤⣅⠢⡈⢊⠐⢌⠐⢌⢮⢮⣳⠵⡙⢊⠡⠁⣞⣿⣻⡆⡂⠄⡀⠂⠄⠄⠠⠁⠄⡂⠄⠅⠄⢐⠨⡐⢄⢅⢂⠢⡨⢂⠢⡂⡂⠅⡂⡂
+⢐⠅⡊⢔⠑⢌⠢⡂⡣⠪⡰⡘⡔⡌⡇⡫⡙⡎⡗⠯⢮⢳⠵⢱⠅⡫⣹⣐⡌⢝⠂⠕⡡⡸⡴⣻⢮⡫⣝⢮⣳⢯⡯⡯⣗⣟⡞⣗⡱⣇⢟⢞⠗⣝⣼⡼⡽⣌⢾⢼⣵⣣⡹⣘⠇⡯⣲⡘⠰⡹⣵⠳⢁⣪⢾⢝⣜⠄⠂⠄⡕⢕⡠⠸⢙⢁⢂⢂⢂⢢⢨⢢⢿⣟⣯⡗⠄⠂⡀⠠⠄⡀⠂⡁⢅⠢⠩⠄⠂⢠⠑⢌⠢⡂⢅⠕⡨⢂⠕⡐⡐⡁⡂⡢
+⢐⠅⡊⡢⡑⢅⠕⡌⡪⡘⡔⢕⠜⡌⡎⡎⡪⡪⡪⡹⡸⢌⠇⣕⢑⢆⢅⠱⠱⠡⠨⠨⡪⣏⣾⣻⢳⣝⡮⡯⣺⣳⣫⢟⡗⣕⢳⡕⣗⣯⡞⡝⡪⣣⣣⣳⣕⣮⢮⡮⣲⣅⢇⡏⡪⣞⠮⡁⢇⢮⢈⢪⣪⠾⠝⡈⣜⢆⢅⠑⢈⠄⡂⡐⡐⣅⢆⣇⢧⡳⣕⢯⣿⣿⢟⢏⠌⠐⠄⠂⠄⠄⠂⡈⠄⢐⠐⠄⢀⠢⢑⠡⡊⢔⠡⡊⢔⠡⡊⢔⠨⡐⡐⡐
+⡑⢌⠢⡑⢌⢢⠱⡨⢢⠱⡸⡨⡪⡸⡨⡪⡪⢪⢪⢪⢪⢱⠡⡧⡨⡊⢎⠣⢅⠁⠠⡁⡯⣯⡿⡪⣇⢧⡻⡽⣵⣳⣕⠏⣎⢗⡗⡥⡣⡧⣣⣯⢯⣟⣷⣻⣞⡾⡯⡯⣗⣗⢽⢾⢱⣪⡪⡢⡪⠐⢔⢤⠩⠡⡢⡮⡾⡹⡄⢈⠄⡂⡎⠂⡸⡮⠯⢚⠙⡊⠃⢅⣿⣿⢕⠄⠄⢀⠄⠁⠠⠄⡀⡀⠄⠄⠄⡀⠄⠈⠄⠁⠐⠄⠁⡈⠐⠈⠐⠁⠑⠈⠂⠊
+⢜⢔⢅⢇⡕⡥⡣⡕⡥⡣⣕⢬⡢⢵⢸⠬⡪⢎⢎⢎⠮⡪⢊⡇⠣⡣⠣⠡⠁⡊⠆⡹⣺⣽⡯⡺⣜⡵⡕⡯⣪⢎⢎⠯⡎⣗⢕⢵⢽⣽⣻⣞⡯⡗⣏⢧⢕⢵⠸⡜⡴⡅⣝⠝⢜⢮⢃⢮⡆⡇⠇⡀⢢⠘⠝⡑⡐⢬⢧⠅⠂⠌⠨⠁⠠⡐⢨⠠⡡⡂⡅⣷⣿⣿⡑⠄⢀⠂⡀⠡⢀⠂⢊⠠⠠⠐⠄⡀⠌⠠⠐⡀⢐⠄⠁⡀⠄⠄⠂⠄⠄⠄⡀⠄
+⠁⠅⠅⠅⢌⠂⢅⠊⢄⢑⢐⡐⢌⠢⡡⡑⢌⢊⢢⠡⡃⡎⠔⣇⢕⠨⡈⡂⠅⢌⠂⢜⣽⣷⢗⢕⢕⢭⢫⢺⡪⡣⡹⠌⢅⢮⢮⣗⡿⣺⢳⢝⢮⡳⡱⡝⡎⡇⡇⡏⡣⡳⡸⢌⢎⠂⢌⠇⡱⣜⠦⡒⠄⠡⡂⣲⠪⠏⣳⡁⠐⡈⡌⡂⢱⢸⡰⡵⣕⢵⢽⣿⣿⣻⢐⠡⠐⠠⠄⠄⠠⠐⣀⢂⠂⠄⠐⠄⢅⠕⡡⢊⠔⡨⢂⠢⡑⡐⡐⠅⡂⠢⢐⢀
+⠨⠨⡨⡈⡂⠅⢅⠪⢐⠡⡂⡪⡐⠕⢌⠌⡆⡣⢱⠡⡣⠪⡈⡧⡈⡒⢔⢐⠄⢕⠅⣷⣻⣿⢕⣕⣝⢜⢎⡇⡎⣎⠪⠈⣜⣮⣳⡳⣏⢧⢏⢮⢻⠘⢜⠸⡘⢜⢘⢘⢜⢐⠕⠡⡥⢃⠇⡰⡘⢑⢰⡢⡂⡑⠐⠄⢅⢢⣸⢆⠁⡀⢑⠄⠌⡡⠡⡁⡂⢡⣾⣿⣗⠂⠂⠄⢈⠄⡐⠄⠂⠑⡀⠄⠄⠠⢁⢑⠠⠡⠨⢂⠑⢌⠢⢑⢐⠅⡪⢈⠢⠡⠡⢂
+⠨⠨⡐⡐⢨⠨⢂⢊⠔⡡⢂⢒⢌⠪⡂⢇⠪⣘⢔⡕⡜⠬⡂⢵⠘⢔⠠⠠⢈⠢⠂⢪⢿⣾⡣⡲⡸⡸⡱⡱⡑⠆⢌⢺⣺⡪⣎⢯⢪⢳⢕⠑⢐⠨⠐⢐⠈⢂⠑⠠⠑⡀⠅⠪⠄⠕⢑⢔⠠⠂⡑⢄⢇⠄⠌⠈⠊⡃⢹⡅⠠⠄⡂⡂⢌⢆⢕⢔⢬⣺⣿⣽⠪⢀⠄⠄⠠⠄⠄⠐⢈⢀⠄⢀⠄⠁⠐⠄⠌⠨⢈⠂⢕⢐⠌⡢⢑⠌⡂⢅⠪⠨⢊⢐
+⠨⡨⢐⠨⢂⢊⢔⢐⢅⢌⡢⡱⠴⠱⡪⠪⡉⡪⠨⠨⡈⡂⡂⠸⣎⠠⠁⢑⠐⠌⠐⠼⣽⢿⣎⢪⢊⢎⢎⢎⠎⠌⠄⡷⡯⣪⢳⠍⡂⡧⠡⠈⠄⠠⢁⠐⠈⡀⠄⠂⠁⡀⠐⠈⢀⠁⠂⠁⠌⠄⠂⢉⢸⡁⠄⠅⡌⡆⣯⠃⠂⢁⠂⠂⡘⠜⠕⠝⣞⣿⡟⡇⡃⠢⢐⠠⠠⠑⠌⠈⠠⠄⢀⠄⠠⠄⠂⢀⠄⠠⠄⠈⠄⠄⠁⠌⠂⡑⠌⠢⡡⢑⠡⡂
+⡨⢔⠆⠇⡃⠣⡈⡊⠅⢅⢂⠢⠡⡑⢄⠕⡐⠔⡡⢑⢐⠌⡐⡈⢪⠡⠑⠢⢑⠌⡊⢈⢺⢿⣇⢣⠱⡑⢕⠸⡨⠨⡂⣻⡯⡺⡸⠐⣜⠄⠄⠡⠈⠄⠄⠐⠄⡀⠠⠄⠂⠄⠄⠠⠄⠈⠄⢁⠐⢑⠄⢁⠹⡄⠁⠄⠂⢔⣗⠡⢈⢐⠈⢐⢐⠌⡐⣼⣿⡯⡃⠄⡀⠁⠂⠄⠄⢂⠠⡁⠐⠄⠠⠈⢄⠡⠈⠄⡂⢐⢀⠂⡈⢀⠐⠄⠄⡀⠄⠁⠄⠄⠁⠐
+⢐⠠⢈⠂⢌⢐⢐⠔⠡⡂⡢⠡⡑⡨⢐⠌⡂⠕⡠⢁⢂⢂⠔⠠⠄⢯⠨⢰⢐⢐⠨⠄⡴⣽⣿⡜⡌⡌⢆⠕⠨⠂⠆⡻⣇⢇⠣⡈⡮⠐⠄⡂⠐⠄⠈⠄⠁⠄⠄⠄⠄⠄⠁⠄⠄⠄⡀⠠⠄⠂⡂⠄⢹⠂⠂⠠⠉⣿⡁⠐⡀⢂⠨⠐⠡⢃⢧⣿⡯⡃⠄⡀⠄⠈⠂⠊⠈⠄⠄⠄⢀⠡⠈⡀⢂⠨⠠⢁⠂⠅⡂⠌⡐⡐⠄⢅⠢⡀⡂⡐⢈⠄⡈⠄
+⢀⠂⡂⡑⡐⡐⠔⡨⠨⡐⠌⡂⡂⡂⡂⡊⡄⡅⠆⠕⢐⠁⠄⡁⢂⠈⠇⢄⢐⢄⢁⠕⡀⠜⡾⣿⡔⡨⢐⠈⠸⡡⠡⠚⣗⠄⡃⡂⣗⠄⠂⡂⠄⠐⠄⠁⠄⠄⠄⠄⠁⠄⠄⠄⠄⠄⠄⠄⠄⠐⠄⠈⡜⠌⠄⠅⡮⠇⢂⠄⠢⢐⠠⠡⡈⣸⡿⠻⢈⢐⢐⢐⠄⡅⢌⠄⠅⠄⠄⡀⢀⠄⠐⠄⠂⡐⢐⠠⠨⢐⠠⢁⠢⠨⠨⢐⢐⢐⢐⢐⢐⠐⢄⠡
+⠐⡐⢐⢐⢐⢈⠢⡈⡂⠢⡁⡂⡆⡪⠂⠅⡁⢂⠡⠈⠄⢂⠡⠐⡀⢂⠁⠨⠈⠈⠂⠂⡐⡐⠨⢻⣻⡄⡢⠨⠐⠨⡊⡂⢸⡅⢐⢈⠲⠄⡁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠐⠄⡨⠄⢜⠆⠠⠁⣢⠋⡀⢐⠈⡀⠂⠅⡑⣼⡯⠩⠄⠄⡀⠈⠠⠄⢂⠐⡀⠄⡀⠂⠄⠄⡀⠂⠐⠄⢀⠄⠈⠐⠐⢌⢐⠨⠨⠨⡐⡐⡐⠄⡂⡂⠅⠢⢈
+⢐⠐⡐⡀⡂⡂⢅⢔⠌⠊⢊⠐⡀⡂⡁⡂⡂⢂⠂⠡⠈⠄⠐⡀⢂⠂⢁⠄⠡⠨⢄⢅⠠⡀⡂⠄⡙⡿⣆⠅⠡⢁⠊⠂⠅⠸⣢⠈⡂⠣⡄⠂⡀⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠁⡐⠨⠄⢤⠡⢀⢡⠴⠑⠈⠐⡀⢂⠢⡁⣆⣾⠓⡁⠂⠁⠐⠄⠂⠂⠒⠐⠄⠠⠐⡀⠅⠂⡂⠄⡁⠂⡁⠄⠠⠈⢀⠐⠄⠐⠈⢈⢂⠢⢂⠪⢐⢐⠄⡅⠕⡐
+⢐⢐⠄⠆⠪⢈⠐⡀⠂⠅⠂⢌⠠⢂⠐⠄⢂⠂⠨⠄⠅⡨⠐⠄⠂⠐⠄⢂⠠⠄⠐⡀⠄⠄⠐⠠⠄⠌⠝⣯⣊⠔⡈⠄⡈⠄⠂⠫⣄⠁⠌⢆⢐⠄⡈⠄⠄⠄⠄⠄⠄⠄⠄⠄⠠⠐⢀⠄⡡⠪⢂⢠⡰⢃⠅⠌⡀⠁⠄⢂⣢⢾⠝⠔⢈⠠⠨⡀⢄⡈⡄⡐⠠⠁⠠⠄⠁⠐⡈⠄⢂⠐⢀⠡⠐⡈⢐⠈⠄⡀⢂⠄⠂⠄⠄⠄⠁⠌⠢⠡⢊⠔⡑⢌
+⠈⡐⢈⠠⢁⢐⠐⡈⠌⠨⠈⠄⢂⠐⡈⢐⠠⢈⢐⠨⠄⠄⠂⢁⠈⡈⡈⢀⠐⢈⠠⠄⢈⠈⡈⠈⠐⠠⠐⠈⠱⠷⣆⡕⠄⠂⠐⢀⠈⠑⢆⣂⡁⠢⡐⡠⡐⢀⢀⠐⢀⠠⠐⡀⡢⡈⢔⠊⢄⡡⠖⠅⡁⠔⠈⠠⠠⣡⡱⡞⠎⡁⠐⢈⠄⡡⡂⡂⠄⡐⠐⠈⢀⠂⡐⠄⠄⠁⠄⠈⠄⡂⠂⠄⠡⠐⠠⠨⠐⢐⠐⡈⠄⠅⡨⢀⠠⠄⢀⠈⠄⠁⠊⠢
+⠄⡐⠠⠐⡀⢂⠐⡐⠈⠄⠡⢈⠐⡀⠢⠐⠐⠠⠄⠄⠂⡐⠈⡀⠐⡀⢐⠠⠈⠄⠄⠂⠄⠠⠄⡐⠐⠐⠁⠂⡐⢀⠑⢛⢧⢬⣐⠠⠐⠠⠄⠌⠚⢘⠤⡬⣘⡒⡐⡑⡑⡘⣘⣘⢬⢬⢔⢊⠣⠑⠠⠁⡐⡀⣀⣥⢗⠏⡃⠁⠄⠠⠈⠄⠈⠐⠑⡘⠈⠂⠠⡁⢂⠐⡀⠡⠄⠅⡈⠠⠄⢀⠈⠈⠄⠅⠌⠄⠅⢂⠂⡂⠅⡁⠢⢐⠠⠡⠠⠄⠄⠂⠄⠄
+⠄⠂⠄⠡⠐⢐⠐⡀⠅⠨⢈⢀⠢⠈⠄⠁⠌⢀⠂⡈⠄⠐⡀⠄⡁⠐⠄⠄⠄⠠⠄⠐⠄⠠⡐⡀⠁⢂⠢⠰⠐⠢⠈⢔⠐⡈⠊⠟⠷⣅⣂⣐⢐⠐⠠⢠⢀⢌⢁⠍⡉⡊⢐⢐⢀⡂⡐⠤⠨⣂⣁⣆⢶⠻⠕⠅⠅⠠⡐⠐⠈⠈⠘⢘⠰⠌⠂⢀⠄⠁⠅⢂⠂⠅⠄⠡⠈⠄⠂⠄⡁⠄⠄⠄⠐⠈⠐⠡⠨⢐⢐⠠⠡⠨⠨⢐⠈⠌⠌⠌⠄⠅⠌⡀
+⣄⡡⠈⠄⡁⠂⡐⢀⠌⢐⠄⠂⡀⢂⠈⠄⠨⢀⠐⠠⠈⠄⠄⠂⠄⠁⠄⡀⠄⠄⠄⡂⠌⠂⠂⡀⢄⠄⠠⠁⠂⠔⡠⢒⠐⠠⠈⡠⠈⡀⠉⡉⠫⠺⠺⢖⠧⢧⢥⢥⢵⢬⡪⠮⡞⢞⠞⠞⠍⢃⠩⠈⡀⡂⠌⢌⢊⠠⠈⡈⡒⡌⠌⠌⢈⠔⡈⠄⠄⠄⠄⡀⠈⠐⡁⠅⠡⢈⠠⠁⠄⠂⠡⠐⡀⠄⢀⠈⠈⠐⡐⢌⠌⢌⠌⡐⠌⠌⠌⠌⠌⢂⠡⢐
+⣿⣿⣦⣢⢀⠅⠐⠁⠠⠄⠄⢁⠠⠄⠂⡁⠌⠠⠈⠄⠁⡀⠄⢀⠄⠠⠄⢀⠠⢈⠂⠄⠄⢔⠨⡂⢕⠜⡀⠄⠁⠄⠈⠂⠑⠄⡖⡁⢁⠐⡠⠄⡐⡀⡂⠠⠈⠠⠠⡁⡂⠅⠠⠁⠄⠂⡐⢐⠨⡀⠂⠂⢆⠄⠐⡀⣑⢆⠖⠚⠈⡀⢄⠤⡀⠈⠊⢔⠠⡀⠂⠄⠄⠄⠄⠈⠨⢐⠠⠈⠄⠅⠌⡐⢀⠂⠄⠄⠐⠄⠄⡀⠑⠡⡊⠄⠅⠅⡡⠁⢅⣢⣮⣾
+⣿⣯⣿⡿⣷⣧⣆⡁⠐⠄⠂⠠⠐⠈⠠⠄⠂⠁⠄⠄⠄⢀⠄⢀⠠⠐⠈⠄⠠⠄⠄⠅⠕⠅⡌⡢⡀⠊⡐⢅⠕⠠⢂⠁⡀⠁⠄⡈⠑⠙⠢⠢⢤⢤⣃⣁⢈⢨⡃⠈⠄⢕⠅⠁⠈⡣⡄⣀⣈⣪⢤⡢⡢⠋⠋⠊⠄⠄⠠⡐⡱⡘⡔⢕⠱⡑⡌⡀⠈⠄⠅⢔⠄⠄⠐⠄⢀⠄⠈⠨⠠⢁⠂⠔⢐⠈⠄⠌⠄⠡⠠⠄⠠⠄⠄⠃⠅⢕⣤⣽⢿⣾⢷⣿
+⣿⡿⣷⣿⣿⣟⣷⣿⣾⣤⡡⡐⢀⠡⠈⠄⠄⠂⠄⠄⠄⠠⠐⠄⠐⠈⢀⠂⠡⠨⠨⢆⠣⢑⠠⠱⠨⡐⢠⢃⡑⢅⡐⡅⢆⠢⡠⢀⢈⠄⠄⠠⠠⠄⠈⢈⠉⠑⠉⡊⠃⠋⢃⠙⠘⠨⠑⠁⠁⠁⠁⠄⢀⢀⢄⢂⢎⢜⢸⢐⣑⢲⡘⡌⢇⢇⢇⠑⡅⣂⢈⠄⠑⠨⡀⠐⠄⠄⠠⠄⠐⠄⠅⠊⠄⠊⠌⠌⠌⠌⠄⡁⡂⢄⣀⣦⣾⡾⣿⣾⢿⣻⣟⣿
+⣿⣿⣟⣿⣾⡿⣟⣿⣽⣿⢿⣷⣶⣤⢀⠄⠂⠄⠂⡁⠄⠁⢀⠂⠐⡈⠄⠌⠌⠌⢌⠂⠕⡐⠅⡅⡑⡨⡂⡂⠎⢢⠱⡐⡌⡪⢢⢑⠔⡑⡔⡐⡄⡢⢁⠠⡀⡁⢀⢀⢈⠄⠄⡀⢂⢀⢢⢐⢄⠕⡔⢕⠰⡱⡕⡕⢅⠡⢡⠁⢔⢱⢸⢐⢅⢇⢪⢠⢣⢣⢢⢃⠢⠁⠄⠡⠡⠐⠄⠄⠄⠄⡀⠈⠄⠅⠅⠅⡊⡐⣡⣶⣺⣾⣿⣻⣾⡿⣿⣾⢿⣟⣯⣿
+⣕⢯⡻⣻⣷⣿⣿⣿⣟⣿⡿⣟⣿⡿⣿⣿⣼⣬⢄⡀⠄⠌⠠⠨⠐⠠⠡⢁⠡⢈⠢⢑⠡⡨⢊⢔⠌⡢⢊⢐⢑⢑⠌⢆⠪⠨⢂⠡⡨⣂⠢⡢⠱⢘⠔⡁⢇⠕⢅⠕⡜⢬⢸⢸⢸⢰⢨⢢⢸⢸⠘⡢⢊⠜⠘⣘⢌⠎⡎⡆⠠⡑⢜⢸⢨⠢⡐⡕⡱⡑⢜⢐⢌⠊⠌⢄⢀⠁⠅⠡⠠⠄⢀⠄⠁⡠⣠⣵⣮⣿⢿⣾⣟⣯⣿⣯⣷⣿⡿⣾⣿⣻⢯⡻
+⣗⢷⣝⣞⢮⣫⢷⢿⣟⣿⡿⣿⡿⣿⣿⣽⣿⣾⣿⣷⣷⣮⣄⡅⡈⢄⢑⠐⡨⢐⠈⡂⢅⢊⢐⠡⠨⡐⠡⡂⡕⠄⠅⢅⢃⢃⠢⡨⢂⢆⠣⡊⡌⢆⢑⢌⢌⠎⢆⢪⢘⢌⢪⢸⡰⡡⡣⡃⡣⡑⢕⢨⢂⠣⡑⢜⢄⢑⠰⡘⡌⡪⢢⡑⡅⠇⡕⢌⠪⡪⢒⢐⢅⢅⢕⡐⡅⡢⡠⢁⢈⣌⣴⣴⣷⡿⣿⣽⣾⣿⣻⣷⡿⣟⣷⣿⣽⡾⣟⢯⢎⣗⢵⢝
+⠵⡝⡮⣺⡳⣳⣝⣗⢽⡺⡽⣻⢿⣻⣷⣿⣯⣿⣯⣿⣯⣿⣟⣿⣿⣶⣶⣕⣄⢅⠢⢐⠐⡐⠠⠡⡑⢌⢐⠔⢌⠜⡨⢢⢑⢐⠌⡢⢁⠢⡑⠌⡎⢌⠢⡊⢂⠡⢁⢇⢑⠈⡐⡡⡨⡨⢊⢎⢢⠌⡎⡢⢢⠣⡡⢃⠆⡆⠅⠕⢜⠨⡢⡱⡐⢕⠜⡜⡌⡪⡨⢢⠱⡐⢅⣢⣪⡶⣾⡾⣟⣿⣽⣾⣟⣿⣿⣽⣷⡿⣯⣷⣿⣟⣟⢞⣕⢝⣜⣮⣳⡳⣝⣝
+⠑⡑⡱⡱⡹⡪⣺⢺⡻⣺⢽⢮⢯⢮⣓⢯⡻⡷⡿⣯⣿⣯⣿⡿⣷⣿⣟⣿⡿⣿⡿⣷⣵⣤⡦⣅⢆⢂⠂⢌⠢⠨⠨⡐⡐⡐⢑⠨⢐⠐⠌⠌⠄⠅⡣⡑⢅⠕⡐⢌⠢⢅⠢⠑⡨⠘⢐⠱⡘⠈⠢⡊⡰⡑⠌⡢⡑⠌⢌⠝⡌⡊⡢⢑⠸⡐⡕⡬⣬⣦⣮⣮⣷⣿⢿⣻⣯⣿⡿⣿⢿⣟⣿⣽⣿⣽⣾⢿⣞⢟⢯⡳⣕⢮⡲⣳⢳⡻⣪⢺⢸⢸⠪⡒
+⠄⠄⠐⠨⠨⠊⠎⡎⡞⡕⡯⡫⡯⣻⣺⢵⢽⣪⢯⣺⣪⡳⣻⡻⡿⣽⢿⣻⣿⢿⣿⢿⣻⣿⢿⣿⣿⣿⣿⣷⣷⣵⣕⣔⣬⣀⣢⣑⢔⠨⡊⡂⡂⠕⡰⠨⢐⠅⡌⠢⠡⢑⢐⠔⡈⠪⡊⡪⢌⢪⠨⡂⡢⢊⣊⣀⣂⣅⣕⣔⣵⣲⣵⣷⣿⡿⣿⢿⣿⣽⣾⣿⣽⣾⣿⡿⣟⣯⣿⡿⣟⣿⢽⢷⢻⣪⡪⣓⢮⣳⡳⣝⢞⡵⢽⢸⢪⢪⠪⠪⠘⠄⠡⠄
+
+    &amp;amp;lt/code&amp;amp;gt
+&amp;amp;lt/pre&amp;amp;gt
+&amp;amp;lt/div&amp;amp;gt
+    *`
+}
+
+        
+*
+                &lt/code&gt
+            &lt/pre&gt
+            &ltp class="list"&gt- There's too much code to screenshot. (👁‍🗨👄👁‍🗨)&lt/p&gt
+        &lt/div&gt
+        &ltdiv id="page10" name="page"&gt
+        &ltp&gt9. .....&lt/p&gt
+            &ltp class="list"&gtSwitch to the "index.html" tab in vs.&lt/p&gt
+            &ltp class="list"&gt- Add the following code to "index.html" in line 14 if it's free, if not then select the space at the end of "&amp;lt/div&amp;gt" and press enter so a new blank line is formed before the button "&amp;ltdiv&amp;gt" but after the page1 "&amp;lt/div&amp;gt":&lt/p&gt
+            &ltpre class="list"&gt
+                &ltcode id="loop"&gt&lt/code&gt
+                &lt/pre&gt
+                &ltp class="list"&gt- There's too much code here to get a screenshot.&lt/p&gt
+            &lt/div&gt
+        &ltdiv id="page11" name="page"&gt
+        &ltp style="font-size: xx-large;"&gtThe END!&lt/p&gt
+        &ltp class="list"&gtI've somehow avoided going into an endless loop. 🎉 Me the next day: (nvm it totally is and will break after the 2nd made website probably)&lt/p&gt
+        &ltpre&gt
+            &ltcode style="font-size: xx-small;"&gt
+⡢⡒⡕⡕⡕⡕⡌⡎⡪⡪⡢⡂⠄⠡⡩⠪⠊⡀⡂⡇⡣⢣⢣⢳⢕⢝⠜⢈⠈⡌⡎⢎⠄⠄⢐⠱⡱⡱⠁⢇⢇⢇⢇⢇⢧⢣⡣⣇⠢⡂⡢⡀⠄⠈⠂⠅⢂⠄⢆⠪⡐⡁⠠⡱⡨⡂⡢⠄⠄⠄⢂⠐⠄⡐⡐⡀⠂⠄⠄⠄⢀⠄⠄⠄⠄⠠⠄⠄⢀⠠⠄⠄⠄⠄⠄⠄⠄⡀⠄⠄⠄⠄⠄⠄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⡪⡪⡪⡪⡊⠂⠠⢈⠢⡱⠸⡰⠄⠠⠈⠄⡂⢔⢕⢑⠡⠈⢪⠪⡊⢆⢎⢂⠃⠌⠐⠈⢄⠠⢀⠂⡕⡜⡜⠌⠂⠣⡫⡳⡝⡵⡱⡓⢅⢣⢪⢪⡑⠈⡇⣇⢤⢄⢐⠐⠈⠂⠈⢎⢢⢑⠄⠄⡈⡐⢐⠄⠡⢐⢐⢀⠡⠄⠁⠠⠄⠂⠠⠈⠄⠡⢈⠄⠄⠄⠂⠄⠄⠄⠄⠄⠠⠄⠄⠁⠈⡀⠁⠠⠄⠄⠄⢀⠄⠄⠄⠠⠄⠄⠄⠄⠄⠂⠄⠂⠄⠐⠄⠄
+⢪⢪⠪⠂⠂⡈⢌⠢⡑⠈⠄⠠⠄⠠⡀⢇⢊⠢⠁⢄⢢⠂⠄⠅⡊⠔⢀⢄⢜⠬⡐⠠⢀⠐⠄⡑⠨⣀⡐⡌⢀⠁⠇⠫⡑⠡⡐⠰⡑⠅⢕⢕⢌⠐⡕⡜⡜⡕⢸⢨⢣⢱⢠⢀⠄⠑⠐⠄⡐⠠⡁⠂⠨⡐⡐⠠⠄⠄⠠⠐⠈⠄⠂⡁⡊⡐⠠⠄⠌⠄⠄⡀⠁⠄⠂⡀⠄⠄⠐⠈⢀⠄⠂⠄⠄⠄⠐⠄⠄⢀⠄⠂⠄⠐⠄⢀⠄⠠⠄⠐⠈⠄⠄⠄
+⠨⠈⠌⠄⡂⡊⠆⠡⢀⢢⠢⡅⢈⠐⠅⠕⢀⢢⢱⢱⠱⡁⡂⢠⢠⢢⢣⢣⢪⢪⢢⢂⢄⢌⢆⢆⢗⢢⢣⢣⠂⡀⢊⢈⢄⢡⢠⢡⢐⠄⡐⠕⠐⡈⢔⢡⢑⠨⠸⡸⡸⡸⡸⣕⢝⡔⡆⠄⠠⠁⠌⠠⢈⠢⠨⠨⠄⠄⢂⠨⢈⠄⢌⠐⠄⢂⠄⠂⠄⠄⠄⠄⠂⠐⡀⠄⢀⠄⠄⠁⠄⠄⢀⠄⢀⠁⠠⠐⠈⠄⠄⠠⠈⠄⠐⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠂⢡⢊⢂⢁⢐⠔⡅⡣⡱⡀⡀⢅⠬⡪⡪⡪⡪⡪⡪⡰⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡕⣕⢕⢕⢜⢜⢜⢜⢜⢜⢜⢔⠠⠄⠄⠡⠈⠊⡂⠡⡈⠌⠐⡕⣝⢞⡎⡇⡇⠇⠄⢅⢄⠈⠄⢈⠪⡈⡊⠄⡈⠄⠌⠄⠐⠄⠅⠅⠂⢀⠄⠂⠁⠠⠈⠠⠁⠄⠂⢀⠄⡀⠄⠠⠄⠄⡀⢀⠄⠄⠄⠄⠐⠈⠄⠄⠂⠁⠄⠂⠄⠄⠄⠄⠄⠈⠄
+⡪⡀⠐⠐⠐⡀⡢⡱⡡⡣⡱⡨⡒⡜⡜⡜⡜⡜⢜⢌⢎⢎⢎⢎⢎⢎⢎⢎⢎⢎⢮⢪⡪⡪⡎⡞⣜⢜⢜⢜⢕⢝⢜⢕⡕⣇⢗⢕⡕⡎⣎⢮⢪⢝⢕⢭⢣⡃⠄⠁⠄⡀⠅⢌⢄⠢⡠⢁⠜⡰⠄⠕⢄⠄⠐⠄⢀⠂⡅⠅⠄⠅⢕⠁⠅⢀⠄⠄⠄⢈⠄⠌⠄⠡⠨⠄⢐⠠⠄⠄⠄⠄⠠⠄⡀⠄⠄⠂⠄⠂⠐⠈⢀⠐⠈⠄⠄⠄⠠⠐⠄⠁⠄⠄
+⡪⡸⡠⢁⢌⢪⢸⠰⡑⡕⡱⡸⡸⡘⡜⡌⡎⡎⡎⡎⡎⡎⡎⡎⡎⣎⠮⡪⡣⣣⢣⡣⡣⡳⡱⡕⣕⢕⡝⣜⢕⢝⡜⣕⢵⢱⢕⢇⢗⢝⢼⢸⡱⡕⣝⢜⢎⢦⢪⢄⢥⢰⢨⢠⢂⢅⠐⢐⠕⡐⠄⢡⠱⡨⡂⠄⡀⠑⠌⡂⠡⡡⠡⠨⠄⠄⢀⠐⡈⠄⢐⠨⠠⠑⠄⡈⠄⠄⠄⠠⠄⠄⠐⢀⠠⠄⡈⢀⠁⠄⠁⠐⠄⠄⠄⠄⠄⠐⠄⠄⠄⢀⠄⠂
+⢢⢱⢘⢌⢎⢪⢢⢋⢎⠎⡎⡪⡸⡨⡪⡊⡎⡎⡎⡎⡎⡎⣎⢮⢪⢪⢺⢸⢪⢪⢪⡪⡺⡸⡪⣪⢪⡪⡎⡮⡪⣣⢳⡱⡕⣇⢗⢝⢎⢧⢳⢕⢇⡏⣎⢧⢫⡺⡜⣎⢧⢫⢎⢗⢝⢔⠈⠄⠨⡠⡁⡂⡑⡁⡐⠄⡢⡠⠐⠄⠪⡐⠅⠅⠈⠄⠠⠐⠄⢐⢐⠨⠐⠁⡀⠂⠄⠄⠐⠄⠠⠄⠄⠄⢂⠐⠄⠄⠐⡀⠁⠄⠠⠄⠄⠄⠁⠄⠂⠁⢀⠄⢀⠄
+⠕⡅⡇⡕⡕⢕⠕⡕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⡕⡇⡧⡳⡱⡣⣣⢳⢹⡸⡜⣎⢮⢺⢜⢮⢺⡸⡜⣎⢮⢪⢇⢯⢺⢜⢎⢧⢫⡪⣎⢇⢧⢳⡱⡵⡹⣪⢳⡹⣜⢜⣔⢥⡰⡨⡐⡨⠘⠨⡐⡜⢌⢪⠢⡐⠈⠌⠄⠠⠈⠄⠡⢈⢐⢐⠨⠄⠁⠄⠄⠠⠈⠄⠌⢐⠄⠂⠄⠄⡂⠁⠌⠄⠄⠄⠄⠄⠄⠂⠄⠐⠄⠂⠄⠄⠄⡀⠄
+⢕⢱⢸⢘⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢎⢎⢇⡇⣏⢎⠮⡺⠸⠪⠪⡃⢇⠣⡃⡣⢃⠇⡃⠕⢑⠩⢊⠪⠪⠪⠳⠱⢝⢎⢗⢵⢝⣜⢵⢝⢮⢺⢜⡕⡧⡳⡕⡧⡳⡕⡧⣳⢹⡪⡎⠌⠠⠈⡊⠎⠆⢕⠸⠄⢀⠄⢂⢁⢊⠄⡐⡀⢂⠐⠄⠠⠄⠂⠐⠄⠨⢐⠐⡈⠄⠄⠄⠄⠁⠄⠄⠂⠄⠄⠠⠄⠐⠈⠄⠐⠄⠐⠄⠠⠄⠄
+⢕⢕⢱⠱⣑⢅⢇⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢵⢹⢸⠱⢩⢊⢊⠢⡡⡑⢌⠪⡘⢌⠢⡂⠕⡈⡢⢂⠊⠄⡁⡂⢐⠄⡂⠐⡈⢀⠡⠄⠂⠁⠁⡁⠑⠱⠹⡪⡳⣕⡝⣎⢗⢽⡸⡵⣹⢪⢮⡣⡳⣕⢬⡐⡀⡂⠢⡊⠄⡈⠄⢀⠐⡀⠂⠄⢐⢀⢂⠂⠁⠄⠠⠄⠌⠄⠌⠌⡐⢐⠄⢐⠐⠄⠄⠄⠈⠄⠐⠄⠂⠠⠈⢀⠈⡀⠁⠄⠁⠐⢀⠐⠄
+⢕⢜⢜⢜⢔⢕⢕⢕⢕⢕⢅⢇⢇⢇⢇⢇⢇⢓⠕⠅⢕⠐⠅⢕⢈⠪⡨⢂⢊⠢⢑⠨⡐⠌⠄⡁⠂⡐⢀⠂⢁⠠⢀⠂⠄⡂⠡⠠⠄⠄⢂⠡⠈⠄⢂⠡⢈⠄⠄⠄⢂⠙⠸⡹⣪⡺⡺⣜⣕⢧⡫⡳⣕⢧⡫⡺⡜⡦⣢⢁⠂⢁⢐⠐⠄⡂⠄⡂⡂⠂⠄⠐⠄⡂⡁⠂⡈⡂⠅⡂⠂⠐⠄⠄⠄⡀⠄⡈⢀⠡⠈⡀⠂⡈⢀⠠⠄⢂⠠⠁⠈⠄⠄⠄
+⢕⠕⡅⡇⡇⡣⡣⡣⡣⡣⡣⡣⡣⠣⡃⢕⠡⠢⠡⢃⠅⠪⡈⡂⡢⠑⡈⠢⠡⠨⠐⡈⠄⢂⠡⡠⡱⡰⡄⢂⠢⡨⡠⡡⡡⡢⣱⢱⡁⡂⡐⡐⡈⡐⡐⡨⢐⢀⠡⠈⢄⠨⠐⡠⢈⢊⠣⢗⢮⢺⡪⡳⡕⡧⣫⢳⡹⡪⡎⡆⠁⠄⢂⠂⠐⠨⡂⠄⠠⠄⠐⡀⠅⡂⢀⢐⠐⠄⠅⠄⠄⠂⠄⠈⡀⠄⠄⠄⢂⠐⡀⠂⡐⠠⠄⠄⠨⠄⢀⠄⠁⠄⠄⠄
+⢕⢕⢕⢕⢕⢕⢕⢕⢕⠕⢅⢑⠌⢌⢌⠢⡑⢅⢑⠡⠨⢂⢂⢂⠂⠅⡂⡱⡈⠄⠅⡆⣎⢲⢕⣗⡽⣝⣷⡱⣱⡱⡵⣕⣗⣿⣺⣿⣮⢢⣒⢦⡣⡮⣪⣞⣞⡆⠠⢑⠐⠄⢅⠢⠡⡂⡂⠄⠅⡃⠯⡳⡝⡞⣎⢗⡝⣝⢮⡲⡱⣈⠐⢌⠢⡁⠄⠂⠄⠄⢂⢂⠅⠄⡂⡂⠅⡑⠈⠄⠄⠐⠈⠄⠠⢈⠄⠈⢀⠂⠄⡁⠄⢂⠡⠈⠄⠄⠄⢀⠠⠈⠄⡀
+⢕⢕⢕⢕⢜⢜⠜⡨⠢⡑⡐⠔⡡⢁⠢⡁⡊⠔⡠⠡⠡⡁⡂⡢⡸⢨⢪⢪⢪⢎⣎⢮⣺⣪⢯⣞⣽⣳⢯⡿⣮⡯⣯⣷⣻⣾⣻⣷⣿⣳⣷⣻⣽⣟⣿⣾⣻⡮⣜⢼⣜⡵⣵⢽⢼⣜⠄⠌⢔⢐⠡⡑⡙⡺⣪⡳⣹⢜⢮⢮⡫⡮⡳⢥⠌⠌⠂⠄⢌⠨⡀⢂⠈⡐⡐⠄⠁⠄⡀⢀⠈⠄⢁⠨⢈⠔⠠⠄⠄⠌⡐⠠⠈⠄⠄⠄⠄⡈⠄⡀⢀⠐⢀⠄
+⢕⢕⢕⠕⢕⠡⡊⢔⢑⢌⢂⠅⢂⢐⠰⢐⠠⢑⢄⠅⢅⢂⢎⢜⢜⢜⣜⢮⡳⣝⣮⣗⢷⢽⣳⢯⡾⣽⢯⡿⣯⣿⣽⡾⣷⣟⣯⣿⣽⣿⢾⣟⣯⣿⢷⣿⣻⡽⣯⣿⣾⢿⣻⣿⢿⡞⣌⣎⢆⢇⢕⢌⢆⢪⠐⠝⣎⢗⣝⢮⢺⡪⣫⡣⡑⠈⠄⠨⠐⢅⠪⡀⠄⡂⠄⠄⡀⠁⠠⠐⠐⢀⠂⢌⢐⠨⠄⡀⠄⠈⠄⠄⡀⠄⠐⠈⢀⠄⢂⠠⠄⡐⠄⠄
+⢕⢇⠣⢑⠡⢊⢐⢑⢔⢐⠅⡂⡂⡢⢑⠠⡱⡸⢨⠣⡣⡕⣕⢵⡱⣣⡳⣕⡗⣗⡵⣿⣽⣻⣞⣯⢿⢽⣻⣻⣯⣷⣿⣽⢿⣾⣻⣽⣷⢿⣟⣿⣻⣽⣿⣽⣟⣯⡿⣿⣾⣿⣿⢿⣿⡝⣾⡾⣯⢯⣗⡯⣞⡬⢐⢑⢌⠳⢵⡹⣕⢽⢜⢮⣪⡪⡀⠅⠌⠄⠁⠌⠄⠠⠄⠠⠄⠌⡐⠁⠨⢐⠨⠐⠠⠄⠐⠄⠄⠄⠈⢀⠄⠄⢂⠨⠄⠌⡀⢐⠠⠄⡂⠄
+⢑⠔⡡⢡⠨⢂⢑⢐⠅⡢⢊⠢⡑⡰⡰⡱⡑⡜⡜⡜⡎⣗⢵⡣⡯⣺⣪⡳⣝⣗⣯⢷⣻⢷⣻⣞⣯⢿⢽⣻⣞⣯⣷⣿⣟⣯⣿⣽⣾⡿⣿⡽⣿⣽⣾⢷⡿⣷⣻⣿⣽⣾⣿⣻⣷⡫⣿⣟⣿⣻⣽⢯⡷⡑⡔⣕⢜⢌⢎⡺⣪⢳⢝⢮⡲⣣⢏⢮⠨⡈⠄⠄⠄⡀⠄⡂⠅⠡⠄⠌⡐⢐⠈⠄⠁⠄⠐⠄⠠⠄⠁⠄⡂⡁⡂⠔⢁⢂⠐⠄⠂⡁⠄⠠
+⢐⠅⡊⢔⢑⢐⠔⠡⠨⠢⡅⡕⡌⡎⡆⡇⡎⡎⡎⡮⡺⡸⣕⢯⣗⡧⣗⡽⣳⢽⣺⢽⣞⣿⣻⡾⣽⣻⢯⣯⢿⡽⣯⣷⣿⢿⣽⣷⣟⣿⣽⡿⣽⣾⣟⣿⣻⣟⣾⣯⡿⣷⣟⣿⣽⡺⣯⣿⣯⣿⡽⣯⡇⣕⢯⣞⢵⢝⡼⡸⡌⢗⢝⢵⡹⣪⢳⡹⠨⠄⠂⠈⢀⠄⠄⠄⠅⠂⠄⠅⠂⠠⠄⠠⠐⠈⠠⠈⡀⠄⠈⡂⡂⡂⢄⢑⠐⡠⠨⠐⠡⠐⠈⠄
+⢐⢑⠌⡂⡪⠠⡡⢑⢱⢩⢪⢪⢪⣪⢪⡪⣺⢸⡪⡺⣪⡫⡮⣳⢳⣫⣗⣯⢯⣻⣺⢽⣺⢮⡯⣿⣯⡿⣽⣾⣻⣟⣯⣿⣟⣿⣻⣾⣯⣿⡾⣿⢯⣷⣟⣷⢿⣽⢾⢷⣿⣻⣽⣯⣿⢺⣯⣷⡿⣾⣻⡟⢆⣗⣟⡮⣯⡳⡽⡝⠨⡐⢭⢳⡹⣪⡣⣏⢧⢅⢂⠐⡀⠄⠌⡂⠄⠊⠄⡀⠐⠄⢐⠄⠔⢈⢀⢂⠢⠄⠄⡂⡂⡂⡂⠢⠨⠄⠁⠈⠄⠄⡀⠄
+⠨⡂⠕⠌⠔⡁⡢⡣⡣⡱⡸⡨⡢⡣⡳⣝⡎⡧⣫⡺⣜⢮⡫⣞⣝⢮⣻⣺⡯⣗⣯⡯⣯⢯⡯⣷⣻⣿⣽⡾⣷⣻⣷⣻⣽⣿⣽⡷⣿⢾⣟⣿⣻⡷⣿⡽⣿⣽⣻⣯⢿⣯⣿⢾⡯⣻⢾⡷⣿⣻⣽⠣⡱⣗⣯⢟⣮⢯⡏⠪⢨⢪⡪⡎⣞⢮⢺⡸⢵⡹⡢⡌⡐⡀⠁⢀⠄⡁⢀⠠⢀⠅⡢⠡⢁⢐⠐⢔⠡⠂⠄⢂⠂⠂⠈⢀⠠⠄⠂⠁⠄⠄⠠⠄
+⢌⠢⠡⢃⢕⢸⢨⢢⢣⢣⢪⢪⢪⢪⢪⢢⡫⡯⣞⢮⢮⡳⣝⢮⡺⡵⣳⣳⣻⣻⡾⣽⣳⢯⣻⣞⣗⡿⣾⣻⣽⢷⣻⣽⣯⣿⣾⣟⣿⣟⣯⣿⣽⣟⣷⣿⣻⣾⣳⣟⣿⣳⣿⣻⣝⢾⣻⣟⣿⣽⡟⢜⣺⡽⣞⣯⣷⡻⠨⡊⣎⡧⣳⢝⣜⢮⢳⡹⣕⢝⡝⡎⠔⠄⠂⠄⠄⠄⢀⠪⡐⠅⢂⢐⠔⡐⠅⠡⠄⠄⠄⠄⢀⠈⠄⡀⢀⠠⢀⠂⡁⢂⠡⠈
+⠪⡘⡬⡂⡆⢅⢣⠣⡣⡱⡱⡱⡱⡱⡱⡱⡕⡵⡹⣝⢷⣝⡾⣕⡯⣫⣳⡳⣵⣳⣻⢷⣻⣽⣳⣻⣺⡽⣯⢿⣾⣟⣯⣷⡿⣾⣻⣽⣯⣿⣯⣷⣿⣽⣾⣯⣿⢾⣗⣿⡽⣟⣾⣟⢮⢯⡿⣾⣻⣾⠕⡵⣳⣟⣯⣷⡻⡈⢌⡮⣗⣽⡺⣕⠧⠃⢕⢽⡸⣕⠽⡬⠐⠄⡀⠨⠨⠢⠄⡃⠊⠠⡐⠔⠁⠄⠁⡀⠄⠄⠄⠄⠄⡐⡀⡂⡐⡐⡐⡐⠨⢀⠂⡁
+⢊⠢⢪⠨⡪⢪⢸⡘⡜⢜⢜⢜⢜⡜⣜⢵⢹⢜⣕⢧⢳⡹⡽⣞⣞⣗⣗⢯⣗⢷⣝⣯⢿⢷⡯⣷⢯⡿⣽⢽⢷⣿⣽⢾⣻⢿⢽⠻⢚⢓⡋⣓⢝⢑⢝⣘⢙⢙⠫⠳⢻⢻⢷⢿⢕⣿⣻⡿⣽⡗⣅⡯⣿⣞⣷⣻⠐⢌⢮⢯⣗⣗⡯⡏⠅⡑⡔⡵⡹⣜⢝⡎⡧⡁⡀⠄⠄⠡⠁⠄⠈⠂⠄⠄⠐⠄⠄⠄⠄⡈⠄⠠⠡⡂⡂⡪⢐⢐⠔⠨⠨⠐⡐⠠
+⠡⡃⢕⠱⡨⢢⢑⠜⢜⢎⢮⡪⡣⡳⡕⡧⡫⡮⣪⢮⢳⡹⡺⡪⡯⡾⣮⢗⡯⣗⡯⣾⢽⢯⣟⣯⡿⡽⣯⢿⠝⡓⣋⢵⣴⡜⣾⢽⢹⣽⡧⢺⣿⢌⣿⣗⢼⡿⡕⣟⡷⣰⣦⢤⢑⢙⠳⡻⣟⢌⢖⣟⣷⣻⣞⠢⡨⣳⢯⣟⣞⡷⠩⠠⢱⡸⣪⡳⣝⢎⢧⡫⡮⡳⡀⡂⠈⠄⠄⠂⠄⠠⠈⠠⡈⢄⠌⠌⠠⡐⠄⠠⢑⠔⡡⢊⠔⠡⡨⠨⡈⡂⡂⠅
+⡱⡘⡌⢎⠜⡔⢅⠇⡇⢎⢎⢪⠳⡝⣮⡫⡮⣫⡺⣪⡳⣝⣝⢝⢮⡫⣞⢿⢽⣳⣫⢯⡯⣟⡾⣝⠿⢝⢩⡵⡜⡽⣷⠩⣷⣗⢸⢿⣆⣿⣯⡺⣯⡧⣿⢾⣸⣿⡣⣟⣯⢺⣯⠇⣯⡗⢵⢮⡈⡐⠯⡿⣽⡞⢅⢢⣫⣾⣻⣺⠳⡁⠅⡕⡵⡽⡵⣫⢞⢝⣕⢧⢳⡹⠐⠄⠁⠄⠂⠄⠁⡐⡨⢂⠪⠐⢐⠨⡊⢌⠄⠐⡐⠅⠪⠐⠌⠊⠄⠁⢀⠄⠄⠄
+⢪⢨⢪⢊⢪⠸⡘⡜⡜⡜⡜⢜⢜⢜⢜⢜⢝⣞⣮⡳⣝⢮⢮⢏⣗⡽⣪⢗⣏⢯⢾⡯⡯⡳⢝⡁⢷⣳⠎⣟⣷⡨⣟⣗⢜⣯⣧⣻⢷⠹⡳⡫⣫⡣⣙⣝⡊⣋⢇⢻⢳⢽⢯⠣⣗⡏⣞⡯⢸⢼⢂⣌⠙⡑⡌⣞⡾⣞⡷⢍⢐⢰⡱⡯⡯⡯⣯⠫⠁⠌⡞⡮⣳⢹⡠⠁⡀⠂⠄⠡⠐⡐⠌⠐⡀⡪⠐⠌⠔⠄⠄⠄⠄⠁⠐⠄⢀⠠⠄⠁⠄⡀⢈⠄
+⢕⢅⢇⢕⢕⢕⢕⢕⢜⢔⢕⢕⢕⢅⢇⢇⢗⢜⡔⣏⢗⣯⣳⡫⣞⣞⢽⣝⢮⢯⡳⡽⣙⠌⢯⣻⡌⢾⢯⡎⢷⣷⡑⣿⢣⣣⢧⣶⢐⡿⣟⢿⡯⡟⢯⠻⡦⡾⡻⡽⣟⣾⣮⡪⡎⢊⠺⢇⢽⡽⣸⡯⠣⡠⡘⢳⣟⢏⢃⠔⡬⣺⣺⢯⢯⢋⢂⢐⠡⡡⡳⣝⢮⡳⡵⡅⠄⠂⠁⠐⠄⠐⠈⠐⠄⠐⡈⠄⠁⠄⠁⠄⢈⠄⡐⢀⠄⡠⢐⠈⢄⠂⠔⠠
+⠡⡱⡑⠧⡣⣣⢣⡣⡣⡣⣣⢣⡣⡣⡳⡱⣣⢳⡱⡕⡵⡱⣕⡻⡳⣵⢯⣺⢽⡹⣊⡂⢯⢯⣊⠳⡿⣌⢝⡷⢹⣺⢞⣾⢯⢯⢳⢉⢇⢯⢵⡱⡵⣝⢮⡺⣪⡺⡼⡸⡭⣕⢕⣙⠷⡽⣏⢢⣍⡣⠿⢈⢜⡜⣴⣢⠉⢔⢰⣱⢯⣗⡯⠏⠅⡂⡐⣔⢵⡹⡪⣗⢯⣞⢵⡣⠊⠐⠄⠐⠄⠄⠐⡀⠌⢀⠄⠄⡈⠄⠄⢂⢂⢂⠢⠡⡂⡢⢂⠕⡠⠡⠡⠡
+⢌⠢⢪⢘⢌⢢⠣⡹⢸⢱⠧⡧⣳⢹⡸⣕⢕⢧⢳⡹⣪⢳⢕⣕⢯⡪⣏⢏⡇⡅⡳⣽⡢⢹⡺⣧⠹⡽⡕⢯⢌⢮⡳⡭⡱⣕⣗⢽⣝⣮⣷⣻⣾⢾⡷⣟⣷⢿⣞⣿⣺⡾⣕⢧⢯⢮⡢⡓⣗⢿⢁⢂⠱⣱⢷⠁⢆⠄⠱⣯⣟⠎⠌⡐⡡⡪⣮⡺⣕⢯⠋⢪⣳⢯⣗⡅⠈⠄⢀⠐⠄⠈⠠⡐⡐⢔⠡⡑⡈⠄⠄⠢⡑⢌⢌⠪⡐⢌⢂⠪⡐⡡⢑⠡
+⡰⡑⢕⢔⢱⢘⢌⢎⢪⠢⡣⢣⢱⢙⡚⡎⣗⢽⣜⢮⢎⡗⣝⢮⡳⣝⢪⡊⢸⡪⡦⡙⡾⣧⡜⢷⢥⡻⡸⡜⣕⢵⢝⣞⣽⣺⣾⣻⡾⣯⣿⣽⣾⢿⣻⣿⣽⢿⣽⢾⣯⢿⣏⢯⣟⡷⡯⢹⣪⣪⢰⣢⢼⠌⡐⡸⡜⣼⠥⠘⡀⡂⡕⣜⢮⣻⢮⠛⡈⠄⠌⢄⣯⢷⣳⡇⡂⠠⠄⢀⠁⠨⡈⠢⡊⠂⢅⢂⠪⠄⠄⢕⠨⡂⡢⢑⠌⡢⡑⠌⢔⠨⢂⠅
+⠔⡜⢔⢅⠇⡕⢜⢌⢪⢊⢎⢎⢪⠪⡪⡪⡪⡲⡸⡱⡫⡻⡪⣗⢽⢰⠃⢮⢇⡌⢞⢵⣌⠪⣇⠃⡯⡺⢜⡮⣗⢯⣻⣞⣾⣳⣟⣷⣻⣟⣾⣟⣾⣿⣻⣷⣻⡿⣽⣻⣾⣻⡗⣯⢿⡽⡇⡯⣾⣺⢕⢧⡣⡁⡢⣪⠸⠊⡈⣂⠄⢎⣞⡞⢝⢂⢐⠠⡂⡥⡹⣜⢾⣻⣗⣯⡂⡂⠈⠄⡀⠄⠂⠁⠄⠃⠅⡂⡑⠄⠈⠄⠁⠂⠈⡀⠐⠄⠄⠈⠄⠄⠄⠄
+⢕⢜⢜⢔⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⡕⡇⡗⡵⡹⣜⢜⠎⡇⡧⣊⠕⡟⡦⡑⢇⡅⡠⡱⡹⡮⣗⣟⣞⡽⣳⣗⣷⣳⣟⡾⣷⣻⣗⣿⢷⣻⡽⡾⠷⢟⠯⠷⢯⢷⡫⣯⢿⡝⣜⣾⡻⡞⢄⣗⣗⢧⡫⠪⠐⠄⡢⢂⡮⠄⢃⢁⢂⢢⢢⣣⡳⣝⢽⠸⣽⡷⣿⡺⠐⠠⠄⠠⠄⢀⠐⠄⡀⠢⠈⠄⠄⠄⠄⠠⠐⠄⡀⢀⠠⠄⡈⡀⡈⢀⠈⡀
+⢑⠕⡑⡣⠣⡓⢕⢕⠵⡕⣥⡣⣕⣕⢕⢕⢕⢕⢝⢜⢎⠧⡳⡱⡱⡠⠓⢕⣇⢎⢊⠃⠄⡂⣝⡪⣯⡻⡺⣞⣞⣞⢷⢽⢾⣞⣷⣻⡽⡾⣓⢫⣏⣮⣪⣖⢵⢵⡧⣯⢲⢦⢸⡜⣙⠔⢵⡷⡏⡂⣗⣗⡯⠃⡟⡤⣅⠢⡈⢊⠐⢌⠐⢌⢮⢮⣳⠵⡙⢊⠡⠁⣞⣿⣻⡆⡂⠄⡀⠂⠄⠄⠠⠁⠄⡂⠄⠅⠄⢐⠨⡐⢄⢅⢂⠢⡨⢂⠢⡂⡂⠅⡂⡂
+⢐⠅⡊⢔⠑⢌⠢⡂⡣⠪⡰⡘⡔⡌⡇⡫⡙⡎⡗⠯⢮⢳⠵⢱⠅⡫⣹⣐⡌⢝⠂⠕⡡⡸⡴⣻⢮⡫⣝⢮⣳⢯⡯⡯⣗⣟⡞⣗⡱⣇⢟⢞⠗⣝⣼⡼⡽⣌⢾⢼⣵⣣⡹⣘⠇⡯⣲⡘⠰⡹⣵⠳⢁⣪⢾⢝⣜⠄⠂⠄⡕⢕⡠⠸⢙⢁⢂⢂⢂⢢⢨⢢⢿⣟⣯⡗⠄⠂⡀⠠⠄⡀⠂⡁⢅⠢⠩⠄⠂⢠⠑⢌⠢⡂⢅⠕⡨⢂⠕⡐⡐⡁⡂⡢
+⢐⠅⡊⡢⡑⢅⠕⡌⡪⡘⡔⢕⠜⡌⡎⡎⡪⡪⡪⡹⡸⢌⠇⣕⢑⢆⢅⠱⠱⠡⠨⠨⡪⣏⣾⣻⢳⣝⡮⡯⣺⣳⣫⢟⡗⣕⢳⡕⣗⣯⡞⡝⡪⣣⣣⣳⣕⣮⢮⡮⣲⣅⢇⡏⡪⣞⠮⡁⢇⢮⢈⢪⣪⠾⠝⡈⣜⢆⢅⠑⢈⠄⡂⡐⡐⣅⢆⣇⢧⡳⣕⢯⣿⣿⢟⢏⠌⠐⠄⠂⠄⠄⠂⡈⠄⢐⠐⠄⢀⠢⢑⠡⡊⢔⠡⡊⢔⠡⡊⢔⠨⡐⡐⡐
+⡑⢌⠢⡑⢌⢢⠱⡨⢢⠱⡸⡨⡪⡸⡨⡪⡪⢪⢪⢪⢪⢱⠡⡧⡨⡊⢎⠣⢅⠁⠠⡁⡯⣯⡿⡪⣇⢧⡻⡽⣵⣳⣕⠏⣎⢗⡗⡥⡣⡧⣣⣯⢯⣟⣷⣻⣞⡾⡯⡯⣗⣗⢽⢾⢱⣪⡪⡢⡪⠐⢔⢤⠩⠡⡢⡮⡾⡹⡄⢈⠄⡂⡎⠂⡸⡮⠯⢚⠙⡊⠃⢅⣿⣿⢕⠄⠄⢀⠄⠁⠠⠄⡀⡀⠄⠄⠄⡀⠄⠈⠄⠁⠐⠄⠁⡈⠐⠈⠐⠁⠑⠈⠂⠊
+⢜⢔⢅⢇⡕⡥⡣⡕⡥⡣⣕⢬⡢⢵⢸⠬⡪⢎⢎⢎⠮⡪⢊⡇⠣⡣⠣⠡⠁⡊⠆⡹⣺⣽⡯⡺⣜⡵⡕⡯⣪⢎⢎⠯⡎⣗⢕⢵⢽⣽⣻⣞⡯⡗⣏⢧⢕⢵⠸⡜⡴⡅⣝⠝⢜⢮⢃⢮⡆⡇⠇⡀⢢⠘⠝⡑⡐⢬⢧⠅⠂⠌⠨⠁⠠⡐⢨⠠⡡⡂⡅⣷⣿⣿⡑⠄⢀⠂⡀⠡⢀⠂⢊⠠⠠⠐⠄⡀⠌⠠⠐⡀⢐⠄⠁⡀⠄⠄⠂⠄⠄⠄⡀⠄
+⠁⠅⠅⠅⢌⠂⢅⠊⢄⢑⢐⡐⢌⠢⡡⡑⢌⢊⢢⠡⡃⡎⠔⣇⢕⠨⡈⡂⠅⢌⠂⢜⣽⣷⢗⢕⢕⢭⢫⢺⡪⡣⡹⠌⢅⢮⢮⣗⡿⣺⢳⢝⢮⡳⡱⡝⡎⡇⡇⡏⡣⡳⡸⢌⢎⠂⢌⠇⡱⣜⠦⡒⠄⠡⡂⣲⠪⠏⣳⡁⠐⡈⡌⡂⢱⢸⡰⡵⣕⢵⢽⣿⣿⣻⢐⠡⠐⠠⠄⠄⠠⠐⣀⢂⠂⠄⠐⠄⢅⠕⡡⢊⠔⡨⢂⠢⡑⡐⡐⠅⡂⠢⢐⢀
+⠨⠨⡨⡈⡂⠅⢅⠪⢐⠡⡂⡪⡐⠕⢌⠌⡆⡣⢱⠡⡣⠪⡈⡧⡈⡒⢔⢐⠄⢕⠅⣷⣻⣿⢕⣕⣝⢜⢎⡇⡎⣎⠪⠈⣜⣮⣳⡳⣏⢧⢏⢮⢻⠘⢜⠸⡘⢜⢘⢘⢜⢐⠕⠡⡥⢃⠇⡰⡘⢑⢰⡢⡂⡑⠐⠄⢅⢢⣸⢆⠁⡀⢑⠄⠌⡡⠡⡁⡂⢡⣾⣿⣗⠂⠂⠄⢈⠄⡐⠄⠂⠑⡀⠄⠄⠠⢁⢑⠠⠡⠨⢂⠑⢌⠢⢑⢐⠅⡪⢈⠢⠡⠡⢂
+⠨⠨⡐⡐⢨⠨⢂⢊⠔⡡⢂⢒⢌⠪⡂⢇⠪⣘⢔⡕⡜⠬⡂⢵⠘⢔⠠⠠⢈⠢⠂⢪⢿⣾⡣⡲⡸⡸⡱⡱⡑⠆⢌⢺⣺⡪⣎⢯⢪⢳⢕⠑⢐⠨⠐⢐⠈⢂⠑⠠⠑⡀⠅⠪⠄⠕⢑⢔⠠⠂⡑⢄⢇⠄⠌⠈⠊⡃⢹⡅⠠⠄⡂⡂⢌⢆⢕⢔⢬⣺⣿⣽⠪⢀⠄⠄⠠⠄⠄⠐⢈⢀⠄⢀⠄⠁⠐⠄⠌⠨⢈⠂⢕⢐⠌⡢⢑⠌⡂⢅⠪⠨⢊⢐
+⠨⡨⢐⠨⢂⢊⢔⢐⢅⢌⡢⡱⠴⠱⡪⠪⡉⡪⠨⠨⡈⡂⡂⠸⣎⠠⠁⢑⠐⠌⠐⠼⣽⢿⣎⢪⢊⢎⢎⢎⠎⠌⠄⡷⡯⣪⢳⠍⡂⡧⠡⠈⠄⠠⢁⠐⠈⡀⠄⠂⠁⡀⠐⠈⢀⠁⠂⠁⠌⠄⠂⢉⢸⡁⠄⠅⡌⡆⣯⠃⠂⢁⠂⠂⡘⠜⠕⠝⣞⣿⡟⡇⡃⠢⢐⠠⠠⠑⠌⠈⠠⠄⢀⠄⠠⠄⠂⢀⠄⠠⠄⠈⠄⠄⠁⠌⠂⡑⠌⠢⡡⢑⠡⡂
+⡨⢔⠆⠇⡃⠣⡈⡊⠅⢅⢂⠢⠡⡑⢄⠕⡐⠔⡡⢑⢐⠌⡐⡈⢪⠡⠑⠢⢑⠌⡊⢈⢺⢿⣇⢣⠱⡑⢕⠸⡨⠨⡂⣻⡯⡺⡸⠐⣜⠄⠄⠡⠈⠄⠄⠐⠄⡀⠠⠄⠂⠄⠄⠠⠄⠈⠄⢁⠐⢑⠄⢁⠹⡄⠁⠄⠂⢔⣗⠡⢈⢐⠈⢐⢐⠌⡐⣼⣿⡯⡃⠄⡀⠁⠂⠄⠄⢂⠠⡁⠐⠄⠠⠈⢄⠡⠈⠄⡂⢐⢀⠂⡈⢀⠐⠄⠄⡀⠄⠁⠄⠄⠁⠐
+⢐⠠⢈⠂⢌⢐⢐⠔⠡⡂⡢⠡⡑⡨⢐⠌⡂⠕⡠⢁⢂⢂⠔⠠⠄⢯⠨⢰⢐⢐⠨⠄⡴⣽⣿⡜⡌⡌⢆⠕⠨⠂⠆⡻⣇⢇⠣⡈⡮⠐⠄⡂⠐⠄⠈⠄⠁⠄⠄⠄⠄⠄⠁⠄⠄⠄⡀⠠⠄⠂⡂⠄⢹⠂⠂⠠⠉⣿⡁⠐⡀⢂⠨⠐⠡⢃⢧⣿⡯⡃⠄⡀⠄⠈⠂⠊⠈⠄⠄⠄⢀⠡⠈⡀⢂⠨⠠⢁⠂⠅⡂⠌⡐⡐⠄⢅⠢⡀⡂⡐⢈⠄⡈⠄
+⢀⠂⡂⡑⡐⡐⠔⡨⠨⡐⠌⡂⡂⡂⡂⡊⡄⡅⠆⠕⢐⠁⠄⡁⢂⠈⠇⢄⢐⢄⢁⠕⡀⠜⡾⣿⡔⡨⢐⠈⠸⡡⠡⠚⣗⠄⡃⡂⣗⠄⠂⡂⠄⠐⠄⠁⠄⠄⠄⠄⠁⠄⠄⠄⠄⠄⠄⠄⠄⠐⠄⠈⡜⠌⠄⠅⡮⠇⢂⠄⠢⢐⠠⠡⡈⣸⡿⠻⢈⢐⢐⢐⠄⡅⢌⠄⠅⠄⠄⡀⢀⠄⠐⠄⠂⡐⢐⠠⠨⢐⠠⢁⠢⠨⠨⢐⢐⢐⢐⢐⢐⠐⢄⠡
+⠐⡐⢐⢐⢐⢈⠢⡈⡂⠢⡁⡂⡆⡪⠂⠅⡁⢂⠡⠈⠄⢂⠡⠐⡀⢂⠁⠨⠈⠈⠂⠂⡐⡐⠨⢻⣻⡄⡢⠨⠐⠨⡊⡂⢸⡅⢐⢈⠲⠄⡁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠐⠄⡨⠄⢜⠆⠠⠁⣢⠋⡀⢐⠈⡀⠂⠅⡑⣼⡯⠩⠄⠄⡀⠈⠠⠄⢂⠐⡀⠄⡀⠂⠄⠄⡀⠂⠐⠄⢀⠄⠈⠐⠐⢌⢐⠨⠨⠨⡐⡐⡐⠄⡂⡂⠅⠢⢈
+⢐⠐⡐⡀⡂⡂⢅⢔⠌⠊⢊⠐⡀⡂⡁⡂⡂⢂⠂⠡⠈⠄⠐⡀⢂⠂⢁⠄⠡⠨⢄⢅⠠⡀⡂⠄⡙⡿⣆⠅⠡⢁⠊⠂⠅⠸⣢⠈⡂⠣⡄⠂⡀⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠁⡐⠨⠄⢤⠡⢀⢡⠴⠑⠈⠐⡀⢂⠢⡁⣆⣾⠓⡁⠂⠁⠐⠄⠂⠂⠒⠐⠄⠠⠐⡀⠅⠂⡂⠄⡁⠂⡁⠄⠠⠈⢀⠐⠄⠐⠈⢈⢂⠢⢂⠪⢐⢐⠄⡅⠕⡐
+⢐⢐⠄⠆⠪⢈⠐⡀⠂⠅⠂⢌⠠⢂⠐⠄⢂⠂⠨⠄⠅⡨⠐⠄⠂⠐⠄⢂⠠⠄⠐⡀⠄⠄⠐⠠⠄⠌⠝⣯⣊⠔⡈⠄⡈⠄⠂⠫⣄⠁⠌⢆⢐⠄⡈⠄⠄⠄⠄⠄⠄⠄⠄⠄⠠⠐⢀⠄⡡⠪⢂⢠⡰⢃⠅⠌⡀⠁⠄⢂⣢⢾⠝⠔⢈⠠⠨⡀⢄⡈⡄⡐⠠⠁⠠⠄⠁⠐⡈⠄⢂⠐⢀⠡⠐⡈⢐⠈⠄⡀⢂⠄⠂⠄⠄⠄⠁⠌⠢⠡⢊⠔⡑⢌
+⠈⡐⢈⠠⢁⢐⠐⡈⠌⠨⠈⠄⢂⠐⡈⢐⠠⢈⢐⠨⠄⠄⠂⢁⠈⡈⡈⢀⠐⢈⠠⠄⢈⠈⡈⠈⠐⠠⠐⠈⠱⠷⣆⡕⠄⠂⠐⢀⠈⠑⢆⣂⡁⠢⡐⡠⡐⢀⢀⠐⢀⠠⠐⡀⡢⡈⢔⠊⢄⡡⠖⠅⡁⠔⠈⠠⠠⣡⡱⡞⠎⡁⠐⢈⠄⡡⡂⡂⠄⡐⠐⠈⢀⠂⡐⠄⠄⠁⠄⠈⠄⡂⠂⠄⠡⠐⠠⠨⠐⢐⠐⡈⠄⠅⡨⢀⠠⠄⢀⠈⠄⠁⠊⠢
+⠄⡐⠠⠐⡀⢂⠐⡐⠈⠄⠡⢈⠐⡀⠢⠐⠐⠠⠄⠄⠂⡐⠈⡀⠐⡀⢐⠠⠈⠄⠄⠂⠄⠠⠄⡐⠐⠐⠁⠂⡐⢀⠑⢛⢧⢬⣐⠠⠐⠠⠄⠌⠚⢘⠤⡬⣘⡒⡐⡑⡑⡘⣘⣘⢬⢬⢔⢊⠣⠑⠠⠁⡐⡀⣀⣥⢗⠏⡃⠁⠄⠠⠈⠄⠈⠐⠑⡘⠈⠂⠠⡁⢂⠐⡀⠡⠄⠅⡈⠠⠄⢀⠈⠈⠄⠅⠌⠄⠅⢂⠂⡂⠅⡁⠢⢐⠠⠡⠠⠄⠄⠂⠄⠄
+⠄⠂⠄⠡⠐⢐⠐⡀⠅⠨⢈⢀⠢⠈⠄⠁⠌⢀⠂⡈⠄⠐⡀⠄⡁⠐⠄⠄⠄⠠⠄⠐⠄⠠⡐⡀⠁⢂⠢⠰⠐⠢⠈⢔⠐⡈⠊⠟⠷⣅⣂⣐⢐⠐⠠⢠⢀⢌⢁⠍⡉⡊⢐⢐⢀⡂⡐⠤⠨⣂⣁⣆⢶⠻⠕⠅⠅⠠⡐⠐⠈⠈⠘⢘⠰⠌⠂⢀⠄⠁⠅⢂⠂⠅⠄⠡⠈⠄⠂⠄⡁⠄⠄⠄⠐⠈⠐⠡⠨⢐⢐⠠⠡⠨⠨⢐⠈⠌⠌⠌⠄⠅⠌⡀
+⣄⡡⠈⠄⡁⠂⡐⢀⠌⢐⠄⠂⡀⢂⠈⠄⠨⢀⠐⠠⠈⠄⠄⠂⠄⠁⠄⡀⠄⠄⠄⡂⠌⠂⠂⡀⢄⠄⠠⠁⠂⠔⡠⢒⠐⠠⠈⡠⠈⡀⠉⡉⠫⠺⠺⢖⠧⢧⢥⢥⢵⢬⡪⠮⡞⢞⠞⠞⠍⢃⠩⠈⡀⡂⠌⢌⢊⠠⠈⡈⡒⡌⠌⠌⢈⠔⡈⠄⠄⠄⠄⡀⠈⠐⡁⠅⠡⢈⠠⠁⠄⠂⠡⠐⡀⠄⢀⠈⠈⠐⡐⢌⠌⢌⠌⡐⠌⠌⠌⠌⠌⢂⠡⢐
+⣿⣿⣦⣢⢀⠅⠐⠁⠠⠄⠄⢁⠠⠄⠂⡁⠌⠠⠈⠄⠁⡀⠄⢀⠄⠠⠄⢀⠠⢈⠂⠄⠄⢔⠨⡂⢕⠜⡀⠄⠁⠄⠈⠂⠑⠄⡖⡁⢁⠐⡠⠄⡐⡀⡂⠠⠈⠠⠠⡁⡂⠅⠠⠁⠄⠂⡐⢐⠨⡀⠂⠂⢆⠄⠐⡀⣑⢆⠖⠚⠈⡀⢄⠤⡀⠈⠊⢔⠠⡀⠂⠄⠄⠄⠄⠈⠨⢐⠠⠈⠄⠅⠌⡐⢀⠂⠄⠄⠐⠄⠄⡀⠑⠡⡊⠄⠅⠅⡡⠁⢅⣢⣮⣾
+⣿⣯⣿⡿⣷⣧⣆⡁⠐⠄⠂⠠⠐⠈⠠⠄⠂⠁⠄⠄⠄⢀⠄⢀⠠⠐⠈⠄⠠⠄⠄⠅⠕⠅⡌⡢⡀⠊⡐⢅⠕⠠⢂⠁⡀⠁⠄⡈⠑⠙⠢⠢⢤⢤⣃⣁⢈⢨⡃⠈⠄⢕⠅⠁⠈⡣⡄⣀⣈⣪⢤⡢⡢⠋⠋⠊⠄⠄⠠⡐⡱⡘⡔⢕⠱⡑⡌⡀⠈⠄⠅⢔⠄⠄⠐⠄⢀⠄⠈⠨⠠⢁⠂⠔⢐⠈⠄⠌⠄⠡⠠⠄⠠⠄⠄⠃⠅⢕⣤⣽⢿⣾⢷⣿
+⣿⡿⣷⣿⣿⣟⣷⣿⣾⣤⡡⡐⢀⠡⠈⠄⠄⠂⠄⠄⠄⠠⠐⠄⠐⠈⢀⠂⠡⠨⠨⢆⠣⢑⠠⠱⠨⡐⢠⢃⡑⢅⡐⡅⢆⠢⡠⢀⢈⠄⠄⠠⠠⠄⠈⢈⠉⠑⠉⡊⠃⠋⢃⠙⠘⠨⠑⠁⠁⠁⠁⠄⢀⢀⢄⢂⢎⢜⢸⢐⣑⢲⡘⡌⢇⢇⢇⠑⡅⣂⢈⠄⠑⠨⡀⠐⠄⠄⠠⠄⠐⠄⠅⠊⠄⠊⠌⠌⠌⠌⠄⡁⡂⢄⣀⣦⣾⡾⣿⣾⢿⣻⣟⣿
+⣿⣿⣟⣿⣾⡿⣟⣿⣽⣿⢿⣷⣶⣤⢀⠄⠂⠄⠂⡁⠄⠁⢀⠂⠐⡈⠄⠌⠌⠌⢌⠂⠕⡐⠅⡅⡑⡨⡂⡂⠎⢢⠱⡐⡌⡪⢢⢑⠔⡑⡔⡐⡄⡢⢁⠠⡀⡁⢀⢀⢈⠄⠄⡀⢂⢀⢢⢐⢄⠕⡔⢕⠰⡱⡕⡕⢅⠡⢡⠁⢔⢱⢸⢐⢅⢇⢪⢠⢣⢣⢢⢃⠢⠁⠄⠡⠡⠐⠄⠄⠄⠄⡀⠈⠄⠅⠅⠅⡊⡐⣡⣶⣺⣾⣿⣻⣾⡿⣿⣾⢿⣟⣯⣿
+⣕⢯⡻⣻⣷⣿⣿⣿⣟⣿⡿⣟⣿⡿⣿⣿⣼⣬⢄⡀⠄⠌⠠⠨⠐⠠⠡⢁⠡⢈⠢⢑⠡⡨⢊⢔⠌⡢⢊⢐⢑⢑⠌⢆⠪⠨⢂⠡⡨⣂⠢⡢⠱⢘⠔⡁⢇⠕⢅⠕⡜⢬⢸⢸⢸⢰⢨⢢⢸⢸⠘⡢⢊⠜⠘⣘⢌⠎⡎⡆⠠⡑⢜⢸⢨⠢⡐⡕⡱⡑⢜⢐⢌⠊⠌⢄⢀⠁⠅⠡⠠⠄⢀⠄⠁⡠⣠⣵⣮⣿⢿⣾⣟⣯⣿⣯⣷⣿⡿⣾⣿⣻⢯⡻
+⣗⢷⣝⣞⢮⣫⢷⢿⣟⣿⡿⣿⡿⣿⣿⣽⣿⣾⣿⣷⣷⣮⣄⡅⡈⢄⢑⠐⡨⢐⠈⡂⢅⢊⢐⠡⠨⡐⠡⡂⡕⠄⠅⢅⢃⢃⠢⡨⢂⢆⠣⡊⡌⢆⢑⢌⢌⠎⢆⢪⢘⢌⢪⢸⡰⡡⡣⡃⡣⡑⢕⢨⢂⠣⡑⢜⢄⢑⠰⡘⡌⡪⢢⡑⡅⠇⡕⢌⠪⡪⢒⢐⢅⢅⢕⡐⡅⡢⡠⢁⢈⣌⣴⣴⣷⡿⣿⣽⣾⣿⣻⣷⡿⣟⣷⣿⣽⡾⣟⢯⢎⣗⢵⢝
+⠵⡝⡮⣺⡳⣳⣝⣗⢽⡺⡽⣻⢿⣻⣷⣿⣯⣿⣯⣿⣯⣿⣟⣿⣿⣶⣶⣕⣄⢅⠢⢐⠐⡐⠠⠡⡑⢌⢐⠔⢌⠜⡨⢢⢑⢐⠌⡢⢁⠢⡑⠌⡎⢌⠢⡊⢂⠡⢁⢇⢑⠈⡐⡡⡨⡨⢊⢎⢢⠌⡎⡢⢢⠣⡡⢃⠆⡆⠅⠕⢜⠨⡢⡱⡐⢕⠜⡜⡌⡪⡨⢢⠱⡐⢅⣢⣪⡶⣾⡾⣟⣿⣽⣾⣟⣿⣿⣽⣷⡿⣯⣷⣿⣟⣟⢞⣕⢝⣜⣮⣳⡳⣝⣝
+⠑⡑⡱⡱⡹⡪⣺⢺⡻⣺⢽⢮⢯⢮⣓⢯⡻⡷⡿⣯⣿⣯⣿⡿⣷⣿⣟⣿⡿⣿⡿⣷⣵⣤⡦⣅⢆⢂⠂⢌⠢⠨⠨⡐⡐⡐⢑⠨⢐⠐⠌⠌⠄⠅⡣⡑⢅⠕⡐⢌⠢⢅⠢⠑⡨⠘⢐⠱⡘⠈⠢⡊⡰⡑⠌⡢⡑⠌⢌⠝⡌⡊⡢⢑⠸⡐⡕⡬⣬⣦⣮⣮⣷⣿⢿⣻⣯⣿⡿⣿⢿⣟⣿⣽⣿⣽⣾⢿⣞⢟⢯⡳⣕⢮⡲⣳⢳⡻⣪⢺⢸⢸⠪⡒
+⠄⠄⠐⠨⠨⠊⠎⡎⡞⡕⡯⡫⡯⣻⣺⢵⢽⣪⢯⣺⣪⡳⣻⡻⡿⣽⢿⣻⣿⢿⣿⢿⣻⣿⢿⣿⣿⣿⣿⣷⣷⣵⣕⣔⣬⣀⣢⣑⢔⠨⡊⡂⡂⠕⡰⠨⢐⠅⡌⠢⠡⢑⢐⠔⡈⠪⡊⡪⢌⢪⠨⡂⡢⢊⣊⣀⣂⣅⣕⣔⣵⣲⣵⣷⣿⡿⣿⢿⣿⣽⣾⣿⣽⣾⣿⡿⣟⣯⣿⡿⣟⣿⢽⢷⢻⣪⡪⣓⢮⣳⡳⣝⢞⡵⢽⢸⢪⢪⠪⠪⠘⠄⠡⠄
+
+            &lt/code&gt
+        &lt/pre&gt
+    &lt/div&gt
+*
+                </code>
+            </pre>
+            <p class="list">- There's too much code here to get a screenshot.</p>
+        </div>
+        <div id="page11" name="page">
+            <p style="font-size: xx-large;">The END!</p>
+            <p class="list">I've somehow avoided going into an endless loop. 🎉 Me the next day: (nvm it totally is and will break after the 2nd made website probably)</p>
+            <pre>
+                <code style="font-size: xx-small;">
+⡢⡒⡕⡕⡕⡕⡌⡎⡪⡪⡢⡂⠄⠡⡩⠪⠊⡀⡂⡇⡣⢣⢣⢳⢕⢝⠜⢈⠈⡌⡎⢎⠄⠄⢐⠱⡱⡱⠁⢇⢇⢇⢇⢇⢧⢣⡣⣇⠢⡂⡢⡀⠄⠈⠂⠅⢂⠄⢆⠪⡐⡁⠠⡱⡨⡂⡢⠄⠄⠄⢂⠐⠄⡐⡐⡀⠂⠄⠄⠄⢀⠄⠄⠄⠄⠠⠄⠄⢀⠠⠄⠄⠄⠄⠄⠄⠄⡀⠄⠄⠄⠄⠄⠄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⡪⡪⡪⡪⡊⠂⠠⢈⠢⡱⠸⡰⠄⠠⠈⠄⡂⢔⢕⢑⠡⠈⢪⠪⡊⢆⢎⢂⠃⠌⠐⠈⢄⠠⢀⠂⡕⡜⡜⠌⠂⠣⡫⡳⡝⡵⡱⡓⢅⢣⢪⢪⡑⠈⡇⣇⢤⢄⢐⠐⠈⠂⠈⢎⢢⢑⠄⠄⡈⡐⢐⠄⠡⢐⢐⢀⠡⠄⠁⠠⠄⠂⠠⠈⠄⠡⢈⠄⠄⠄⠂⠄⠄⠄⠄⠄⠠⠄⠄⠁⠈⡀⠁⠠⠄⠄⠄⢀⠄⠄⠄⠠⠄⠄⠄⠄⠄⠂⠄⠂⠄⠐⠄⠄
+⢪⢪⠪⠂⠂⡈⢌⠢⡑⠈⠄⠠⠄⠠⡀⢇⢊⠢⠁⢄⢢⠂⠄⠅⡊⠔⢀⢄⢜⠬⡐⠠⢀⠐⠄⡑⠨⣀⡐⡌⢀⠁⠇⠫⡑⠡⡐⠰⡑⠅⢕⢕⢌⠐⡕⡜⡜⡕⢸⢨⢣⢱⢠⢀⠄⠑⠐⠄⡐⠠⡁⠂⠨⡐⡐⠠⠄⠄⠠⠐⠈⠄⠂⡁⡊⡐⠠⠄⠌⠄⠄⡀⠁⠄⠂⡀⠄⠄⠐⠈⢀⠄⠂⠄⠄⠄⠐⠄⠄⢀⠄⠂⠄⠐⠄⢀⠄⠠⠄⠐⠈⠄⠄⠄
+⠨⠈⠌⠄⡂⡊⠆⠡⢀⢢⠢⡅⢈⠐⠅⠕⢀⢢⢱⢱⠱⡁⡂⢠⢠⢢⢣⢣⢪⢪⢢⢂⢄⢌⢆⢆⢗⢢⢣⢣⠂⡀⢊⢈⢄⢡⢠⢡⢐⠄⡐⠕⠐⡈⢔⢡⢑⠨⠸⡸⡸⡸⡸⣕⢝⡔⡆⠄⠠⠁⠌⠠⢈⠢⠨⠨⠄⠄⢂⠨⢈⠄⢌⠐⠄⢂⠄⠂⠄⠄⠄⠄⠂⠐⡀⠄⢀⠄⠄⠁⠄⠄⢀⠄⢀⠁⠠⠐⠈⠄⠄⠠⠈⠄⠐⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠂⢡⢊⢂⢁⢐⠔⡅⡣⡱⡀⡀⢅⠬⡪⡪⡪⡪⡪⡪⡰⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡱⡕⣕⢕⢕⢜⢜⢜⢜⢜⢜⢜⢔⠠⠄⠄⠡⠈⠊⡂⠡⡈⠌⠐⡕⣝⢞⡎⡇⡇⠇⠄⢅⢄⠈⠄⢈⠪⡈⡊⠄⡈⠄⠌⠄⠐⠄⠅⠅⠂⢀⠄⠂⠁⠠⠈⠠⠁⠄⠂⢀⠄⡀⠄⠠⠄⠄⡀⢀⠄⠄⠄⠄⠐⠈⠄⠄⠂⠁⠄⠂⠄⠄⠄⠄⠄⠈⠄
+⡪⡀⠐⠐⠐⡀⡢⡱⡡⡣⡱⡨⡒⡜⡜⡜⡜⡜⢜⢌⢎⢎⢎⢎⢎⢎⢎⢎⢎⢎⢮⢪⡪⡪⡎⡞⣜⢜⢜⢜⢕⢝⢜⢕⡕⣇⢗⢕⡕⡎⣎⢮⢪⢝⢕⢭⢣⡃⠄⠁⠄⡀⠅⢌⢄⠢⡠⢁⠜⡰⠄⠕⢄⠄⠐⠄⢀⠂⡅⠅⠄⠅⢕⠁⠅⢀⠄⠄⠄⢈⠄⠌⠄⠡⠨⠄⢐⠠⠄⠄⠄⠄⠠⠄⡀⠄⠄⠂⠄⠂⠐⠈⢀⠐⠈⠄⠄⠄⠠⠐⠄⠁⠄⠄
+⡪⡸⡠⢁⢌⢪⢸⠰⡑⡕⡱⡸⡸⡘⡜⡌⡎⡎⡎⡎⡎⡎⡎⡎⡎⣎⠮⡪⡣⣣⢣⡣⡣⡳⡱⡕⣕⢕⡝⣜⢕⢝⡜⣕⢵⢱⢕⢇⢗⢝⢼⢸⡱⡕⣝⢜⢎⢦⢪⢄⢥⢰⢨⢠⢂⢅⠐⢐⠕⡐⠄⢡⠱⡨⡂⠄⡀⠑⠌⡂⠡⡡⠡⠨⠄⠄⢀⠐⡈⠄⢐⠨⠠⠑⠄⡈⠄⠄⠄⠠⠄⠄⠐⢀⠠⠄⡈⢀⠁⠄⠁⠐⠄⠄⠄⠄⠄⠐⠄⠄⠄⢀⠄⠂
+⢢⢱⢘⢌⢎⢪⢢⢋⢎⠎⡎⡪⡸⡨⡪⡊⡎⡎⡎⡎⡎⡎⣎⢮⢪⢪⢺⢸⢪⢪⢪⡪⡺⡸⡪⣪⢪⡪⡎⡮⡪⣣⢳⡱⡕⣇⢗⢝⢎⢧⢳⢕⢇⡏⣎⢧⢫⡺⡜⣎⢧⢫⢎⢗⢝⢔⠈⠄⠨⡠⡁⡂⡑⡁⡐⠄⡢⡠⠐⠄⠪⡐⠅⠅⠈⠄⠠⠐⠄⢐⢐⠨⠐⠁⡀⠂⠄⠄⠐⠄⠠⠄⠄⠄⢂⠐⠄⠄⠐⡀⠁⠄⠠⠄⠄⠄⠁⠄⠂⠁⢀⠄⢀⠄
+⠕⡅⡇⡕⡕⢕⠕⡕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⡕⡇⡧⡳⡱⡣⣣⢳⢹⡸⡜⣎⢮⢺⢜⢮⢺⡸⡜⣎⢮⢪⢇⢯⢺⢜⢎⢧⢫⡪⣎⢇⢧⢳⡱⡵⡹⣪⢳⡹⣜⢜⣔⢥⡰⡨⡐⡨⠘⠨⡐⡜⢌⢪⠢⡐⠈⠌⠄⠠⠈⠄⠡⢈⢐⢐⠨⠄⠁⠄⠄⠠⠈⠄⠌⢐⠄⠂⠄⠄⡂⠁⠌⠄⠄⠄⠄⠄⠄⠂⠄⠐⠄⠂⠄⠄⠄⡀⠄
+⢕⢱⢸⢘⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢜⢎⢎⢇⡇⣏⢎⠮⡺⠸⠪⠪⡃⢇⠣⡃⡣⢃⠇⡃⠕⢑⠩⢊⠪⠪⠪⠳⠱⢝⢎⢗⢵⢝⣜⢵⢝⢮⢺⢜⡕⡧⡳⡕⡧⡳⡕⡧⣳⢹⡪⡎⠌⠠⠈⡊⠎⠆⢕⠸⠄⢀⠄⢂⢁⢊⠄⡐⡀⢂⠐⠄⠠⠄⠂⠐⠄⠨⢐⠐⡈⠄⠄⠄⠄⠁⠄⠄⠂⠄⠄⠠⠄⠐⠈⠄⠐⠄⠐⠄⠠⠄⠄
+⢕⢕⢱⠱⣑⢅⢇⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢵⢹⢸⠱⢩⢊⢊⠢⡡⡑⢌⠪⡘⢌⠢⡂⠕⡈⡢⢂⠊⠄⡁⡂⢐⠄⡂⠐⡈⢀⠡⠄⠂⠁⠁⡁⠑⠱⠹⡪⡳⣕⡝⣎⢗⢽⡸⡵⣹⢪⢮⡣⡳⣕⢬⡐⡀⡂⠢⡊⠄⡈⠄⢀⠐⡀⠂⠄⢐⢀⢂⠂⠁⠄⠠⠄⠌⠄⠌⠌⡐⢐⠄⢐⠐⠄⠄⠄⠈⠄⠐⠄⠂⠠⠈⢀⠈⡀⠁⠄⠁⠐⢀⠐⠄
+⢕⢜⢜⢜⢔⢕⢕⢕⢕⢕⢅⢇⢇⢇⢇⢇⢇⢓⠕⠅⢕⠐⠅⢕⢈⠪⡨⢂⢊⠢⢑⠨⡐⠌⠄⡁⠂⡐⢀⠂⢁⠠⢀⠂⠄⡂⠡⠠⠄⠄⢂⠡⠈⠄⢂⠡⢈⠄⠄⠄⢂⠙⠸⡹⣪⡺⡺⣜⣕⢧⡫⡳⣕⢧⡫⡺⡜⡦⣢⢁⠂⢁⢐⠐⠄⡂⠄⡂⡂⠂⠄⠐⠄⡂⡁⠂⡈⡂⠅⡂⠂⠐⠄⠄⠄⡀⠄⡈⢀⠡⠈⡀⠂⡈⢀⠠⠄⢂⠠⠁⠈⠄⠄⠄
+⢕⠕⡅⡇⡇⡣⡣⡣⡣⡣⡣⡣⡣⠣⡃⢕⠡⠢⠡⢃⠅⠪⡈⡂⡢⠑⡈⠢⠡⠨⠐⡈⠄⢂⠡⡠⡱⡰⡄⢂⠢⡨⡠⡡⡡⡢⣱⢱⡁⡂⡐⡐⡈⡐⡐⡨⢐⢀⠡⠈⢄⠨⠐⡠⢈⢊⠣⢗⢮⢺⡪⡳⡕⡧⣫⢳⡹⡪⡎⡆⠁⠄⢂⠂⠐⠨⡂⠄⠠⠄⠐⡀⠅⡂⢀⢐⠐⠄⠅⠄⠄⠂⠄⠈⡀⠄⠄⠄⢂⠐⡀⠂⡐⠠⠄⠄⠨⠄⢀⠄⠁⠄⠄⠄
+⢕⢕⢕⢕⢕⢕⢕⢕⢕⠕⢅⢑⠌⢌⢌⠢⡑⢅⢑⠡⠨⢂⢂⢂⠂⠅⡂⡱⡈⠄⠅⡆⣎⢲⢕⣗⡽⣝⣷⡱⣱⡱⡵⣕⣗⣿⣺⣿⣮⢢⣒⢦⡣⡮⣪⣞⣞⡆⠠⢑⠐⠄⢅⠢⠡⡂⡂⠄⠅⡃⠯⡳⡝⡞⣎⢗⡝⣝⢮⡲⡱⣈⠐⢌⠢⡁⠄⠂⠄⠄⢂⢂⠅⠄⡂⡂⠅⡑⠈⠄⠄⠐⠈⠄⠠⢈⠄⠈⢀⠂⠄⡁⠄⢂⠡⠈⠄⠄⠄⢀⠠⠈⠄⡀
+⢕⢕⢕⢕⢜⢜⠜⡨⠢⡑⡐⠔⡡⢁⠢⡁⡊⠔⡠⠡⠡⡁⡂⡢⡸⢨⢪⢪⢪⢎⣎⢮⣺⣪⢯⣞⣽⣳⢯⡿⣮⡯⣯⣷⣻⣾⣻⣷⣿⣳⣷⣻⣽⣟⣿⣾⣻⡮⣜⢼⣜⡵⣵⢽⢼⣜⠄⠌⢔⢐⠡⡑⡙⡺⣪⡳⣹⢜⢮⢮⡫⡮⡳⢥⠌⠌⠂⠄⢌⠨⡀⢂⠈⡐⡐⠄⠁⠄⡀⢀⠈⠄⢁⠨⢈⠔⠠⠄⠄⠌⡐⠠⠈⠄⠄⠄⠄⡈⠄⡀⢀⠐⢀⠄
+⢕⢕⢕⠕⢕⠡⡊⢔⢑⢌⢂⠅⢂⢐⠰⢐⠠⢑⢄⠅⢅⢂⢎⢜⢜⢜⣜⢮⡳⣝⣮⣗⢷⢽⣳⢯⡾⣽⢯⡿⣯⣿⣽⡾⣷⣟⣯⣿⣽⣿⢾⣟⣯⣿⢷⣿⣻⡽⣯⣿⣾⢿⣻⣿⢿⡞⣌⣎⢆⢇⢕⢌⢆⢪⠐⠝⣎⢗⣝⢮⢺⡪⣫⡣⡑⠈⠄⠨⠐⢅⠪⡀⠄⡂⠄⠄⡀⠁⠠⠐⠐⢀⠂⢌⢐⠨⠄⡀⠄⠈⠄⠄⡀⠄⠐⠈⢀⠄⢂⠠⠄⡐⠄⠄
+⢕⢇⠣⢑⠡⢊⢐⢑⢔⢐⠅⡂⡂⡢⢑⠠⡱⡸⢨⠣⡣⡕⣕⢵⡱⣣⡳⣕⡗⣗⡵⣿⣽⣻⣞⣯⢿⢽⣻⣻⣯⣷⣿⣽⢿⣾⣻⣽⣷⢿⣟⣿⣻⣽⣿⣽⣟⣯⡿⣿⣾⣿⣿⢿⣿⡝⣾⡾⣯⢯⣗⡯⣞⡬⢐⢑⢌⠳⢵⡹⣕⢽⢜⢮⣪⡪⡀⠅⠌⠄⠁⠌⠄⠠⠄⠠⠄⠌⡐⠁⠨⢐⠨⠐⠠⠄⠐⠄⠄⠄⠈⢀⠄⠄⢂⠨⠄⠌⡀⢐⠠⠄⡂⠄
+⢑⠔⡡⢡⠨⢂⢑⢐⠅⡢⢊⠢⡑⡰⡰⡱⡑⡜⡜⡜⡎⣗⢵⡣⡯⣺⣪⡳⣝⣗⣯⢷⣻⢷⣻⣞⣯⢿⢽⣻⣞⣯⣷⣿⣟⣯⣿⣽⣾⡿⣿⡽⣿⣽⣾⢷⡿⣷⣻⣿⣽⣾⣿⣻⣷⡫⣿⣟⣿⣻⣽⢯⡷⡑⡔⣕⢜⢌⢎⡺⣪⢳⢝⢮⡲⣣⢏⢮⠨⡈⠄⠄⠄⡀⠄⡂⠅⠡⠄⠌⡐⢐⠈⠄⠁⠄⠐⠄⠠⠄⠁⠄⡂⡁⡂⠔⢁⢂⠐⠄⠂⡁⠄⠠
+⢐⠅⡊⢔⢑⢐⠔⠡⠨⠢⡅⡕⡌⡎⡆⡇⡎⡎⡎⡮⡺⡸⣕⢯⣗⡧⣗⡽⣳⢽⣺⢽⣞⣿⣻⡾⣽⣻⢯⣯⢿⡽⣯⣷⣿⢿⣽⣷⣟⣿⣽⡿⣽⣾⣟⣿⣻⣟⣾⣯⡿⣷⣟⣿⣽⡺⣯⣿⣯⣿⡽⣯⡇⣕⢯⣞⢵⢝⡼⡸⡌⢗⢝⢵⡹⣪⢳⡹⠨⠄⠂⠈⢀⠄⠄⠄⠅⠂⠄⠅⠂⠠⠄⠠⠐⠈⠠⠈⡀⠄⠈⡂⡂⡂⢄⢑⠐⡠⠨⠐⠡⠐⠈⠄
+⢐⢑⠌⡂⡪⠠⡡⢑⢱⢩⢪⢪⢪⣪⢪⡪⣺⢸⡪⡺⣪⡫⡮⣳⢳⣫⣗⣯⢯⣻⣺⢽⣺⢮⡯⣿⣯⡿⣽⣾⣻⣟⣯⣿⣟⣿⣻⣾⣯⣿⡾⣿⢯⣷⣟⣷⢿⣽⢾⢷⣿⣻⣽⣯⣿⢺⣯⣷⡿⣾⣻⡟⢆⣗⣟⡮⣯⡳⡽⡝⠨⡐⢭⢳⡹⣪⡣⣏⢧⢅⢂⠐⡀⠄⠌⡂⠄⠊⠄⡀⠐⠄⢐⠄⠔⢈⢀⢂⠢⠄⠄⡂⡂⡂⡂⠢⠨⠄⠁⠈⠄⠄⡀⠄
+⠨⡂⠕⠌⠔⡁⡢⡣⡣⡱⡸⡨⡢⡣⡳⣝⡎⡧⣫⡺⣜⢮⡫⣞⣝⢮⣻⣺⡯⣗⣯⡯⣯⢯⡯⣷⣻⣿⣽⡾⣷⣻⣷⣻⣽⣿⣽⡷⣿⢾⣟⣿⣻⡷⣿⡽⣿⣽⣻⣯⢿⣯⣿⢾⡯⣻⢾⡷⣿⣻⣽⠣⡱⣗⣯⢟⣮⢯⡏⠪⢨⢪⡪⡎⣞⢮⢺⡸⢵⡹⡢⡌⡐⡀⠁⢀⠄⡁⢀⠠⢀⠅⡢⠡⢁⢐⠐⢔⠡⠂⠄⢂⠂⠂⠈⢀⠠⠄⠂⠁⠄⠄⠠⠄
+⢌⠢⠡⢃⢕⢸⢨⢢⢣⢣⢪⢪⢪⢪⢪⢢⡫⡯⣞⢮⢮⡳⣝⢮⡺⡵⣳⣳⣻⣻⡾⣽⣳⢯⣻⣞⣗⡿⣾⣻⣽⢷⣻⣽⣯⣿⣾⣟⣿⣟⣯⣿⣽⣟⣷⣿⣻⣾⣳⣟⣿⣳⣿⣻⣝⢾⣻⣟⣿⣽⡟⢜⣺⡽⣞⣯⣷⡻⠨⡊⣎⡧⣳⢝⣜⢮⢳⡹⣕⢝⡝⡎⠔⠄⠂⠄⠄⠄⢀⠪⡐⠅⢂⢐⠔⡐⠅⠡⠄⠄⠄⠄⢀⠈⠄⡀⢀⠠⢀⠂⡁⢂⠡⠈
+⠪⡘⡬⡂⡆⢅⢣⠣⡣⡱⡱⡱⡱⡱⡱⡱⡕⡵⡹⣝⢷⣝⡾⣕⡯⣫⣳⡳⣵⣳⣻⢷⣻⣽⣳⣻⣺⡽⣯⢿⣾⣟⣯⣷⡿⣾⣻⣽⣯⣿⣯⣷⣿⣽⣾⣯⣿⢾⣗⣿⡽⣟⣾⣟⢮⢯⡿⣾⣻⣾⠕⡵⣳⣟⣯⣷⡻⡈⢌⡮⣗⣽⡺⣕⠧⠃⢕⢽⡸⣕⠽⡬⠐⠄⡀⠨⠨⠢⠄⡃⠊⠠⡐⠔⠁⠄⠁⡀⠄⠄⠄⠄⠄⡐⡀⡂⡐⡐⡐⡐⠨⢀⠂⡁
+⢊⠢⢪⠨⡪⢪⢸⡘⡜⢜⢜⢜⢜⡜⣜⢵⢹⢜⣕⢧⢳⡹⡽⣞⣞⣗⣗⢯⣗⢷⣝⣯⢿⢷⡯⣷⢯⡿⣽⢽⢷⣿⣽⢾⣻⢿⢽⠻⢚⢓⡋⣓⢝⢑⢝⣘⢙⢙⠫⠳⢻⢻⢷⢿⢕⣿⣻⡿⣽⡗⣅⡯⣿⣞⣷⣻⠐⢌⢮⢯⣗⣗⡯⡏⠅⡑⡔⡵⡹⣜⢝⡎⡧⡁⡀⠄⠄⠡⠁⠄⠈⠂⠄⠄⠐⠄⠄⠄⠄⡈⠄⠠⠡⡂⡂⡪⢐⢐⠔⠨⠨⠐⡐⠠
+⠡⡃⢕⠱⡨⢢⢑⠜⢜⢎⢮⡪⡣⡳⡕⡧⡫⡮⣪⢮⢳⡹⡺⡪⡯⡾⣮⢗⡯⣗⡯⣾⢽⢯⣟⣯⡿⡽⣯⢿⠝⡓⣋⢵⣴⡜⣾⢽⢹⣽⡧⢺⣿⢌⣿⣗⢼⡿⡕⣟⡷⣰⣦⢤⢑⢙⠳⡻⣟⢌⢖⣟⣷⣻⣞⠢⡨⣳⢯⣟⣞⡷⠩⠠⢱⡸⣪⡳⣝⢎⢧⡫⡮⡳⡀⡂⠈⠄⠄⠂⠄⠠⠈⠠⡈⢄⠌⠌⠠⡐⠄⠠⢑⠔⡡⢊⠔⠡⡨⠨⡈⡂⡂⠅
+⡱⡘⡌⢎⠜⡔⢅⠇⡇⢎⢎⢪⠳⡝⣮⡫⡮⣫⡺⣪⡳⣝⣝⢝⢮⡫⣞⢿⢽⣳⣫⢯⡯⣟⡾⣝⠿⢝⢩⡵⡜⡽⣷⠩⣷⣗⢸⢿⣆⣿⣯⡺⣯⡧⣿⢾⣸⣿⡣⣟⣯⢺⣯⠇⣯⡗⢵⢮⡈⡐⠯⡿⣽⡞⢅⢢⣫⣾⣻⣺⠳⡁⠅⡕⡵⡽⡵⣫⢞⢝⣕⢧⢳⡹⠐⠄⠁⠄⠂⠄⠁⡐⡨⢂⠪⠐⢐⠨⡊⢌⠄⠐⡐⠅⠪⠐⠌⠊⠄⠁⢀⠄⠄⠄
+⢪⢨⢪⢊⢪⠸⡘⡜⡜⡜⡜⢜⢜⢜⢜⢜⢝⣞⣮⡳⣝⢮⢮⢏⣗⡽⣪⢗⣏⢯⢾⡯⡯⡳⢝⡁⢷⣳⠎⣟⣷⡨⣟⣗⢜⣯⣧⣻⢷⠹⡳⡫⣫⡣⣙⣝⡊⣋⢇⢻⢳⢽⢯⠣⣗⡏⣞⡯⢸⢼⢂⣌⠙⡑⡌⣞⡾⣞⡷⢍⢐⢰⡱⡯⡯⡯⣯⠫⠁⠌⡞⡮⣳⢹⡠⠁⡀⠂⠄⠡⠐⡐⠌⠐⡀⡪⠐⠌⠔⠄⠄⠄⠄⠁⠐⠄⢀⠠⠄⠁⠄⡀⢈⠄
+⢕⢅⢇⢕⢕⢕⢕⢕⢜⢔⢕⢕⢕⢅⢇⢇⢗⢜⡔⣏⢗⣯⣳⡫⣞⣞⢽⣝⢮⢯⡳⡽⣙⠌⢯⣻⡌⢾⢯⡎⢷⣷⡑⣿⢣⣣⢧⣶⢐⡿⣟⢿⡯⡟⢯⠻⡦⡾⡻⡽⣟⣾⣮⡪⡎⢊⠺⢇⢽⡽⣸⡯⠣⡠⡘⢳⣟⢏⢃⠔⡬⣺⣺⢯⢯⢋⢂⢐⠡⡡⡳⣝⢮⡳⡵⡅⠄⠂⠁⠐⠄⠐⠈⠐⠄⠐⡈⠄⠁⠄⠁⠄⢈⠄⡐⢀⠄⡠⢐⠈⢄⠂⠔⠠
+⠡⡱⡑⠧⡣⣣⢣⡣⡣⡣⣣⢣⡣⡣⡳⡱⣣⢳⡱⡕⡵⡱⣕⡻⡳⣵⢯⣺⢽⡹⣊⡂⢯⢯⣊⠳⡿⣌⢝⡷⢹⣺⢞⣾⢯⢯⢳⢉⢇⢯⢵⡱⡵⣝⢮⡺⣪⡺⡼⡸⡭⣕⢕⣙⠷⡽⣏⢢⣍⡣⠿⢈⢜⡜⣴⣢⠉⢔⢰⣱⢯⣗⡯⠏⠅⡂⡐⣔⢵⡹⡪⣗⢯⣞⢵⡣⠊⠐⠄⠐⠄⠄⠐⡀⠌⢀⠄⠄⡈⠄⠄⢂⢂⢂⠢⠡⡂⡢⢂⠕⡠⠡⠡⠡
+⢌⠢⢪⢘⢌⢢⠣⡹⢸⢱⠧⡧⣳⢹⡸⣕⢕⢧⢳⡹⣪⢳⢕⣕⢯⡪⣏⢏⡇⡅⡳⣽⡢⢹⡺⣧⠹⡽⡕⢯⢌⢮⡳⡭⡱⣕⣗⢽⣝⣮⣷⣻⣾⢾⡷⣟⣷⢿⣞⣿⣺⡾⣕⢧⢯⢮⡢⡓⣗⢿⢁⢂⠱⣱⢷⠁⢆⠄⠱⣯⣟⠎⠌⡐⡡⡪⣮⡺⣕⢯⠋⢪⣳⢯⣗⡅⠈⠄⢀⠐⠄⠈⠠⡐⡐⢔⠡⡑⡈⠄⠄⠢⡑⢌⢌⠪⡐⢌⢂⠪⡐⡡⢑⠡
+⡰⡑⢕⢔⢱⢘⢌⢎⢪⠢⡣⢣⢱⢙⡚⡎⣗⢽⣜⢮⢎⡗⣝⢮⡳⣝⢪⡊⢸⡪⡦⡙⡾⣧⡜⢷⢥⡻⡸⡜⣕⢵⢝⣞⣽⣺⣾⣻⡾⣯⣿⣽⣾⢿⣻⣿⣽⢿⣽⢾⣯⢿⣏⢯⣟⡷⡯⢹⣪⣪⢰⣢⢼⠌⡐⡸⡜⣼⠥⠘⡀⡂⡕⣜⢮⣻⢮⠛⡈⠄⠌⢄⣯⢷⣳⡇⡂⠠⠄⢀⠁⠨⡈⠢⡊⠂⢅⢂⠪⠄⠄⢕⠨⡂⡢⢑⠌⡢⡑⠌⢔⠨⢂⠅
+⠔⡜⢔⢅⠇⡕⢜⢌⢪⢊⢎⢎⢪⠪⡪⡪⡪⡲⡸⡱⡫⡻⡪⣗⢽⢰⠃⢮⢇⡌⢞⢵⣌⠪⣇⠃⡯⡺⢜⡮⣗⢯⣻⣞⣾⣳⣟⣷⣻⣟⣾⣟⣾⣿⣻⣷⣻⡿⣽⣻⣾⣻⡗⣯⢿⡽⡇⡯⣾⣺⢕⢧⡣⡁⡢⣪⠸⠊⡈⣂⠄⢎⣞⡞⢝⢂⢐⠠⡂⡥⡹⣜⢾⣻⣗⣯⡂⡂⠈⠄⡀⠄⠂⠁⠄⠃⠅⡂⡑⠄⠈⠄⠁⠂⠈⡀⠐⠄⠄⠈⠄⠄⠄⠄
+⢕⢜⢜⢔⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⢕⡕⡇⡗⡵⡹⣜⢜⠎⡇⡧⣊⠕⡟⡦⡑⢇⡅⡠⡱⡹⡮⣗⣟⣞⡽⣳⣗⣷⣳⣟⡾⣷⣻⣗⣿⢷⣻⡽⡾⠷⢟⠯⠷⢯⢷⡫⣯⢿⡝⣜⣾⡻⡞⢄⣗⣗⢧⡫⠪⠐⠄⡢⢂⡮⠄⢃⢁⢂⢢⢢⣣⡳⣝⢽⠸⣽⡷⣿⡺⠐⠠⠄⠠⠄⢀⠐⠄⡀⠢⠈⠄⠄⠄⠄⠠⠐⠄⡀⢀⠠⠄⡈⡀⡈⢀⠈⡀
+⢑⠕⡑⡣⠣⡓⢕⢕⠵⡕⣥⡣⣕⣕⢕⢕⢕⢕⢝⢜⢎⠧⡳⡱⡱⡠⠓⢕⣇⢎⢊⠃⠄⡂⣝⡪⣯⡻⡺⣞⣞⣞⢷⢽⢾⣞⣷⣻⡽⡾⣓⢫⣏⣮⣪⣖⢵⢵⡧⣯⢲⢦⢸⡜⣙⠔⢵⡷⡏⡂⣗⣗⡯⠃⡟⡤⣅⠢⡈⢊⠐⢌⠐⢌⢮⢮⣳⠵⡙⢊⠡⠁⣞⣿⣻⡆⡂⠄⡀⠂⠄⠄⠠⠁⠄⡂⠄⠅⠄⢐⠨⡐⢄⢅⢂⠢⡨⢂⠢⡂⡂⠅⡂⡂
+⢐⠅⡊⢔⠑⢌⠢⡂⡣⠪⡰⡘⡔⡌⡇⡫⡙⡎⡗⠯⢮⢳⠵⢱⠅⡫⣹⣐⡌⢝⠂⠕⡡⡸⡴⣻⢮⡫⣝⢮⣳⢯⡯⡯⣗⣟⡞⣗⡱⣇⢟⢞⠗⣝⣼⡼⡽⣌⢾⢼⣵⣣⡹⣘⠇⡯⣲⡘⠰⡹⣵⠳⢁⣪⢾⢝⣜⠄⠂⠄⡕⢕⡠⠸⢙⢁⢂⢂⢂⢢⢨⢢⢿⣟⣯⡗⠄⠂⡀⠠⠄⡀⠂⡁⢅⠢⠩⠄⠂⢠⠑⢌⠢⡂⢅⠕⡨⢂⠕⡐⡐⡁⡂⡢
+⢐⠅⡊⡢⡑⢅⠕⡌⡪⡘⡔⢕⠜⡌⡎⡎⡪⡪⡪⡹⡸⢌⠇⣕⢑⢆⢅⠱⠱⠡⠨⠨⡪⣏⣾⣻⢳⣝⡮⡯⣺⣳⣫⢟⡗⣕⢳⡕⣗⣯⡞⡝⡪⣣⣣⣳⣕⣮⢮⡮⣲⣅⢇⡏⡪⣞⠮⡁⢇⢮⢈⢪⣪⠾⠝⡈⣜⢆⢅⠑⢈⠄⡂⡐⡐⣅⢆⣇⢧⡳⣕⢯⣿⣿⢟⢏⠌⠐⠄⠂⠄⠄⠂⡈⠄⢐⠐⠄⢀⠢⢑⠡⡊⢔⠡⡊⢔⠡⡊⢔⠨⡐⡐⡐
+⡑⢌⠢⡑⢌⢢⠱⡨⢢⠱⡸⡨⡪⡸⡨⡪⡪⢪⢪⢪⢪⢱⠡⡧⡨⡊⢎⠣⢅⠁⠠⡁⡯⣯⡿⡪⣇⢧⡻⡽⣵⣳⣕⠏⣎⢗⡗⡥⡣⡧⣣⣯⢯⣟⣷⣻⣞⡾⡯⡯⣗⣗⢽⢾⢱⣪⡪⡢⡪⠐⢔⢤⠩⠡⡢⡮⡾⡹⡄⢈⠄⡂⡎⠂⡸⡮⠯⢚⠙⡊⠃⢅⣿⣿⢕⠄⠄⢀⠄⠁⠠⠄⡀⡀⠄⠄⠄⡀⠄⠈⠄⠁⠐⠄⠁⡈⠐⠈⠐⠁⠑⠈⠂⠊
+⢜⢔⢅⢇⡕⡥⡣⡕⡥⡣⣕⢬⡢⢵⢸⠬⡪⢎⢎⢎⠮⡪⢊⡇⠣⡣⠣⠡⠁⡊⠆⡹⣺⣽⡯⡺⣜⡵⡕⡯⣪⢎⢎⠯⡎⣗⢕⢵⢽⣽⣻⣞⡯⡗⣏⢧⢕⢵⠸⡜⡴⡅⣝⠝⢜⢮⢃⢮⡆⡇⠇⡀⢢⠘⠝⡑⡐⢬⢧⠅⠂⠌⠨⠁⠠⡐⢨⠠⡡⡂⡅⣷⣿⣿⡑⠄⢀⠂⡀⠡⢀⠂⢊⠠⠠⠐⠄⡀⠌⠠⠐⡀⢐⠄⠁⡀⠄⠄⠂⠄⠄⠄⡀⠄
+⠁⠅⠅⠅⢌⠂⢅⠊⢄⢑⢐⡐⢌⠢⡡⡑⢌⢊⢢⠡⡃⡎⠔⣇⢕⠨⡈⡂⠅⢌⠂⢜⣽⣷⢗⢕⢕⢭⢫⢺⡪⡣⡹⠌⢅⢮⢮⣗⡿⣺⢳⢝⢮⡳⡱⡝⡎⡇⡇⡏⡣⡳⡸⢌⢎⠂⢌⠇⡱⣜⠦⡒⠄⠡⡂⣲⠪⠏⣳⡁⠐⡈⡌⡂⢱⢸⡰⡵⣕⢵⢽⣿⣿⣻⢐⠡⠐⠠⠄⠄⠠⠐⣀⢂⠂⠄⠐⠄⢅⠕⡡⢊⠔⡨⢂⠢⡑⡐⡐⠅⡂⠢⢐⢀
+⠨⠨⡨⡈⡂⠅⢅⠪⢐⠡⡂⡪⡐⠕⢌⠌⡆⡣⢱⠡⡣⠪⡈⡧⡈⡒⢔⢐⠄⢕⠅⣷⣻⣿⢕⣕⣝⢜⢎⡇⡎⣎⠪⠈⣜⣮⣳⡳⣏⢧⢏⢮⢻⠘⢜⠸⡘⢜⢘⢘⢜⢐⠕⠡⡥⢃⠇⡰⡘⢑⢰⡢⡂⡑⠐⠄⢅⢢⣸⢆⠁⡀⢑⠄⠌⡡⠡⡁⡂⢡⣾⣿⣗⠂⠂⠄⢈⠄⡐⠄⠂⠑⡀⠄⠄⠠⢁⢑⠠⠡⠨⢂⠑⢌⠢⢑⢐⠅⡪⢈⠢⠡⠡⢂
+⠨⠨⡐⡐⢨⠨⢂⢊⠔⡡⢂⢒⢌⠪⡂⢇⠪⣘⢔⡕⡜⠬⡂⢵⠘⢔⠠⠠⢈⠢⠂⢪⢿⣾⡣⡲⡸⡸⡱⡱⡑⠆⢌⢺⣺⡪⣎⢯⢪⢳⢕⠑⢐⠨⠐⢐⠈⢂⠑⠠⠑⡀⠅⠪⠄⠕⢑⢔⠠⠂⡑⢄⢇⠄⠌⠈⠊⡃⢹⡅⠠⠄⡂⡂⢌⢆⢕⢔⢬⣺⣿⣽⠪⢀⠄⠄⠠⠄⠄⠐⢈⢀⠄⢀⠄⠁⠐⠄⠌⠨⢈⠂⢕⢐⠌⡢⢑⠌⡂⢅⠪⠨⢊⢐
+⠨⡨⢐⠨⢂⢊⢔⢐⢅⢌⡢⡱⠴⠱⡪⠪⡉⡪⠨⠨⡈⡂⡂⠸⣎⠠⠁⢑⠐⠌⠐⠼⣽⢿⣎⢪⢊⢎⢎⢎⠎⠌⠄⡷⡯⣪⢳⠍⡂⡧⠡⠈⠄⠠⢁⠐⠈⡀⠄⠂⠁⡀⠐⠈⢀⠁⠂⠁⠌⠄⠂⢉⢸⡁⠄⠅⡌⡆⣯⠃⠂⢁⠂⠂⡘⠜⠕⠝⣞⣿⡟⡇⡃⠢⢐⠠⠠⠑⠌⠈⠠⠄⢀⠄⠠⠄⠂⢀⠄⠠⠄⠈⠄⠄⠁⠌⠂⡑⠌⠢⡡⢑⠡⡂
+⡨⢔⠆⠇⡃⠣⡈⡊⠅⢅⢂⠢⠡⡑⢄⠕⡐⠔⡡⢑⢐⠌⡐⡈⢪⠡⠑⠢⢑⠌⡊⢈⢺⢿⣇⢣⠱⡑⢕⠸⡨⠨⡂⣻⡯⡺⡸⠐⣜⠄⠄⠡⠈⠄⠄⠐⠄⡀⠠⠄⠂⠄⠄⠠⠄⠈⠄⢁⠐⢑⠄⢁⠹⡄⠁⠄⠂⢔⣗⠡⢈⢐⠈⢐⢐⠌⡐⣼⣿⡯⡃⠄⡀⠁⠂⠄⠄⢂⠠⡁⠐⠄⠠⠈⢄⠡⠈⠄⡂⢐⢀⠂⡈⢀⠐⠄⠄⡀⠄⠁⠄⠄⠁⠐
+⢐⠠⢈⠂⢌⢐⢐⠔⠡⡂⡢⠡⡑⡨⢐⠌⡂⠕⡠⢁⢂⢂⠔⠠⠄⢯⠨⢰⢐⢐⠨⠄⡴⣽⣿⡜⡌⡌⢆⠕⠨⠂⠆⡻⣇⢇⠣⡈⡮⠐⠄⡂⠐⠄⠈⠄⠁⠄⠄⠄⠄⠄⠁⠄⠄⠄⡀⠠⠄⠂⡂⠄⢹⠂⠂⠠⠉⣿⡁⠐⡀⢂⠨⠐⠡⢃⢧⣿⡯⡃⠄⡀⠄⠈⠂⠊⠈⠄⠄⠄⢀⠡⠈⡀⢂⠨⠠⢁⠂⠅⡂⠌⡐⡐⠄⢅⠢⡀⡂⡐⢈⠄⡈⠄
+⢀⠂⡂⡑⡐⡐⠔⡨⠨⡐⠌⡂⡂⡂⡂⡊⡄⡅⠆⠕⢐⠁⠄⡁⢂⠈⠇⢄⢐⢄⢁⠕⡀⠜⡾⣿⡔⡨⢐⠈⠸⡡⠡⠚⣗⠄⡃⡂⣗⠄⠂⡂⠄⠐⠄⠁⠄⠄⠄⠄⠁⠄⠄⠄⠄⠄⠄⠄⠄⠐⠄⠈⡜⠌⠄⠅⡮⠇⢂⠄⠢⢐⠠⠡⡈⣸⡿⠻⢈⢐⢐⢐⠄⡅⢌⠄⠅⠄⠄⡀⢀⠄⠐⠄⠂⡐⢐⠠⠨⢐⠠⢁⠢⠨⠨⢐⢐⢐⢐⢐⢐⠐⢄⠡
+⠐⡐⢐⢐⢐⢈⠢⡈⡂⠢⡁⡂⡆⡪⠂⠅⡁⢂⠡⠈⠄⢂⠡⠐⡀⢂⠁⠨⠈⠈⠂⠂⡐⡐⠨⢻⣻⡄⡢⠨⠐⠨⡊⡂⢸⡅⢐⢈⠲⠄⡁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠐⠄⡨⠄⢜⠆⠠⠁⣢⠋⡀⢐⠈⡀⠂⠅⡑⣼⡯⠩⠄⠄⡀⠈⠠⠄⢂⠐⡀⠄⡀⠂⠄⠄⡀⠂⠐⠄⢀⠄⠈⠐⠐⢌⢐⠨⠨⠨⡐⡐⡐⠄⡂⡂⠅⠢⢈
+⢐⠐⡐⡀⡂⡂⢅⢔⠌⠊⢊⠐⡀⡂⡁⡂⡂⢂⠂⠡⠈⠄⠐⡀⢂⠂⢁⠄⠡⠨⢄⢅⠠⡀⡂⠄⡙⡿⣆⠅⠡⢁⠊⠂⠅⠸⣢⠈⡂⠣⡄⠂⡀⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠁⡐⠨⠄⢤⠡⢀⢡⠴⠑⠈⠐⡀⢂⠢⡁⣆⣾⠓⡁⠂⠁⠐⠄⠂⠂⠒⠐⠄⠠⠐⡀⠅⠂⡂⠄⡁⠂⡁⠄⠠⠈⢀⠐⠄⠐⠈⢈⢂⠢⢂⠪⢐⢐⠄⡅⠕⡐
+⢐⢐⠄⠆⠪⢈⠐⡀⠂⠅⠂⢌⠠⢂⠐⠄⢂⠂⠨⠄⠅⡨⠐⠄⠂⠐⠄⢂⠠⠄⠐⡀⠄⠄⠐⠠⠄⠌⠝⣯⣊⠔⡈⠄⡈⠄⠂⠫⣄⠁⠌⢆⢐⠄⡈⠄⠄⠄⠄⠄⠄⠄⠄⠄⠠⠐⢀⠄⡡⠪⢂⢠⡰⢃⠅⠌⡀⠁⠄⢂⣢⢾⠝⠔⢈⠠⠨⡀⢄⡈⡄⡐⠠⠁⠠⠄⠁⠐⡈⠄⢂⠐⢀⠡⠐⡈⢐⠈⠄⡀⢂⠄⠂⠄⠄⠄⠁⠌⠢⠡⢊⠔⡑⢌
+⠈⡐⢈⠠⢁⢐⠐⡈⠌⠨⠈⠄⢂⠐⡈⢐⠠⢈⢐⠨⠄⠄⠂⢁⠈⡈⡈⢀⠐⢈⠠⠄⢈⠈⡈⠈⠐⠠⠐⠈⠱⠷⣆⡕⠄⠂⠐⢀⠈⠑⢆⣂⡁⠢⡐⡠⡐⢀⢀⠐⢀⠠⠐⡀⡢⡈⢔⠊⢄⡡⠖⠅⡁⠔⠈⠠⠠⣡⡱⡞⠎⡁⠐⢈⠄⡡⡂⡂⠄⡐⠐⠈⢀⠂⡐⠄⠄⠁⠄⠈⠄⡂⠂⠄⠡⠐⠠⠨⠐⢐⠐⡈⠄⠅⡨⢀⠠⠄⢀⠈⠄⠁⠊⠢
+⠄⡐⠠⠐⡀⢂⠐⡐⠈⠄⠡⢈⠐⡀⠢⠐⠐⠠⠄⠄⠂⡐⠈⡀⠐⡀⢐⠠⠈⠄⠄⠂⠄⠠⠄⡐⠐⠐⠁⠂⡐⢀⠑⢛⢧⢬⣐⠠⠐⠠⠄⠌⠚⢘⠤⡬⣘⡒⡐⡑⡑⡘⣘⣘⢬⢬⢔⢊⠣⠑⠠⠁⡐⡀⣀⣥⢗⠏⡃⠁⠄⠠⠈⠄⠈⠐⠑⡘⠈⠂⠠⡁⢂⠐⡀⠡⠄⠅⡈⠠⠄⢀⠈⠈⠄⠅⠌⠄⠅⢂⠂⡂⠅⡁⠢⢐⠠⠡⠠⠄⠄⠂⠄⠄
+⠄⠂⠄⠡⠐⢐⠐⡀⠅⠨⢈⢀⠢⠈⠄⠁⠌⢀⠂⡈⠄⠐⡀⠄⡁⠐⠄⠄⠄⠠⠄⠐⠄⠠⡐⡀⠁⢂⠢⠰⠐⠢⠈⢔⠐⡈⠊⠟⠷⣅⣂⣐⢐⠐⠠⢠⢀⢌⢁⠍⡉⡊⢐⢐⢀⡂⡐⠤⠨⣂⣁⣆⢶⠻⠕⠅⠅⠠⡐⠐⠈⠈⠘⢘⠰⠌⠂⢀⠄⠁⠅⢂⠂⠅⠄⠡⠈⠄⠂⠄⡁⠄⠄⠄⠐⠈⠐⠡⠨⢐⢐⠠⠡⠨⠨⢐⠈⠌⠌⠌⠄⠅⠌⡀
+⣄⡡⠈⠄⡁⠂⡐⢀⠌⢐⠄⠂⡀⢂⠈⠄⠨⢀⠐⠠⠈⠄⠄⠂⠄⠁⠄⡀⠄⠄⠄⡂⠌⠂⠂⡀⢄⠄⠠⠁⠂⠔⡠⢒⠐⠠⠈⡠⠈⡀⠉⡉⠫⠺⠺⢖⠧⢧⢥⢥⢵⢬⡪⠮⡞⢞⠞⠞⠍⢃⠩⠈⡀⡂⠌⢌⢊⠠⠈⡈⡒⡌⠌⠌⢈⠔⡈⠄⠄⠄⠄⡀⠈⠐⡁⠅⠡⢈⠠⠁⠄⠂⠡⠐⡀⠄⢀⠈⠈⠐⡐⢌⠌⢌⠌⡐⠌⠌⠌⠌⠌⢂⠡⢐
+⣿⣿⣦⣢⢀⠅⠐⠁⠠⠄⠄⢁⠠⠄⠂⡁⠌⠠⠈⠄⠁⡀⠄⢀⠄⠠⠄⢀⠠⢈⠂⠄⠄⢔⠨⡂⢕⠜⡀⠄⠁⠄⠈⠂⠑⠄⡖⡁⢁⠐⡠⠄⡐⡀⡂⠠⠈⠠⠠⡁⡂⠅⠠⠁⠄⠂⡐⢐⠨⡀⠂⠂⢆⠄⠐⡀⣑⢆⠖⠚⠈⡀⢄⠤⡀⠈⠊⢔⠠⡀⠂⠄⠄⠄⠄⠈⠨⢐⠠⠈⠄⠅⠌⡐⢀⠂⠄⠄⠐⠄⠄⡀⠑⠡⡊⠄⠅⠅⡡⠁⢅⣢⣮⣾
+⣿⣯⣿⡿⣷⣧⣆⡁⠐⠄⠂⠠⠐⠈⠠⠄⠂⠁⠄⠄⠄⢀⠄⢀⠠⠐⠈⠄⠠⠄⠄⠅⠕⠅⡌⡢⡀⠊⡐⢅⠕⠠⢂⠁⡀⠁⠄⡈⠑⠙⠢⠢⢤⢤⣃⣁⢈⢨⡃⠈⠄⢕⠅⠁⠈⡣⡄⣀⣈⣪⢤⡢⡢⠋⠋⠊⠄⠄⠠⡐⡱⡘⡔⢕⠱⡑⡌⡀⠈⠄⠅⢔⠄⠄⠐⠄⢀⠄⠈⠨⠠⢁⠂⠔⢐⠈⠄⠌⠄⠡⠠⠄⠠⠄⠄⠃⠅⢕⣤⣽⢿⣾⢷⣿
+⣿⡿⣷⣿⣿⣟⣷⣿⣾⣤⡡⡐⢀⠡⠈⠄⠄⠂⠄⠄⠄⠠⠐⠄⠐⠈⢀⠂⠡⠨⠨⢆⠣⢑⠠⠱⠨⡐⢠⢃⡑⢅⡐⡅⢆⠢⡠⢀⢈⠄⠄⠠⠠⠄⠈⢈⠉⠑⠉⡊⠃⠋⢃⠙⠘⠨⠑⠁⠁⠁⠁⠄⢀⢀⢄⢂⢎⢜⢸⢐⣑⢲⡘⡌⢇⢇⢇⠑⡅⣂⢈⠄⠑⠨⡀⠐⠄⠄⠠⠄⠐⠄⠅⠊⠄⠊⠌⠌⠌⠌⠄⡁⡂⢄⣀⣦⣾⡾⣿⣾⢿⣻⣟⣿
+⣿⣿⣟⣿⣾⡿⣟⣿⣽⣿⢿⣷⣶⣤⢀⠄⠂⠄⠂⡁⠄⠁⢀⠂⠐⡈⠄⠌⠌⠌⢌⠂⠕⡐⠅⡅⡑⡨⡂⡂⠎⢢⠱⡐⡌⡪⢢⢑⠔⡑⡔⡐⡄⡢⢁⠠⡀⡁⢀⢀⢈⠄⠄⡀⢂⢀⢢⢐⢄⠕⡔⢕⠰⡱⡕⡕⢅⠡⢡⠁⢔⢱⢸⢐⢅⢇⢪⢠⢣⢣⢢⢃⠢⠁⠄⠡⠡⠐⠄⠄⠄⠄⡀⠈⠄⠅⠅⠅⡊⡐⣡⣶⣺⣾⣿⣻⣾⡿⣿⣾⢿⣟⣯⣿
+⣕⢯⡻⣻⣷⣿⣿⣿⣟⣿⡿⣟⣿⡿⣿⣿⣼⣬⢄⡀⠄⠌⠠⠨⠐⠠⠡⢁⠡⢈⠢⢑⠡⡨⢊⢔⠌⡢⢊⢐⢑⢑⠌⢆⠪⠨⢂⠡⡨⣂⠢⡢⠱⢘⠔⡁⢇⠕⢅⠕⡜⢬⢸⢸⢸⢰⢨⢢⢸⢸⠘⡢⢊⠜⠘⣘⢌⠎⡎⡆⠠⡑⢜⢸⢨⠢⡐⡕⡱⡑⢜⢐⢌⠊⠌⢄⢀⠁⠅⠡⠠⠄⢀⠄⠁⡠⣠⣵⣮⣿⢿⣾⣟⣯⣿⣯⣷⣿⡿⣾⣿⣻⢯⡻
+⣗⢷⣝⣞⢮⣫⢷⢿⣟⣿⡿⣿⡿⣿⣿⣽⣿⣾⣿⣷⣷⣮⣄⡅⡈⢄⢑⠐⡨⢐⠈⡂⢅⢊⢐⠡⠨⡐⠡⡂⡕⠄⠅⢅⢃⢃⠢⡨⢂⢆⠣⡊⡌⢆⢑⢌⢌⠎⢆⢪⢘⢌⢪⢸⡰⡡⡣⡃⡣⡑⢕⢨⢂⠣⡑⢜⢄⢑⠰⡘⡌⡪⢢⡑⡅⠇⡕⢌⠪⡪⢒⢐⢅⢅⢕⡐⡅⡢⡠⢁⢈⣌⣴⣴⣷⡿⣿⣽⣾⣿⣻⣷⡿⣟⣷⣿⣽⡾⣟⢯⢎⣗⢵⢝
+⠵⡝⡮⣺⡳⣳⣝⣗⢽⡺⡽⣻⢿⣻⣷⣿⣯⣿⣯⣿⣯⣿⣟⣿⣿⣶⣶⣕⣄⢅⠢⢐⠐⡐⠠⠡⡑⢌⢐⠔⢌⠜⡨⢢⢑⢐⠌⡢⢁⠢⡑⠌⡎⢌⠢⡊⢂⠡⢁⢇⢑⠈⡐⡡⡨⡨⢊⢎⢢⠌⡎⡢⢢⠣⡡⢃⠆⡆⠅⠕⢜⠨⡢⡱⡐⢕⠜⡜⡌⡪⡨⢢⠱⡐⢅⣢⣪⡶⣾⡾⣟⣿⣽⣾⣟⣿⣿⣽⣷⡿⣯⣷⣿⣟⣟⢞⣕⢝⣜⣮⣳⡳⣝⣝
+⠑⡑⡱⡱⡹⡪⣺⢺⡻⣺⢽⢮⢯⢮⣓⢯⡻⡷⡿⣯⣿⣯⣿⡿⣷⣿⣟⣿⡿⣿⡿⣷⣵⣤⡦⣅⢆⢂⠂⢌⠢⠨⠨⡐⡐⡐⢑⠨⢐⠐⠌⠌⠄⠅⡣⡑⢅⠕⡐⢌⠢⢅⠢⠑⡨⠘⢐⠱⡘⠈⠢⡊⡰⡑⠌⡢⡑⠌⢌⠝⡌⡊⡢⢑⠸⡐⡕⡬⣬⣦⣮⣮⣷⣿⢿⣻⣯⣿⡿⣿⢿⣟⣿⣽⣿⣽⣾⢿⣞⢟⢯⡳⣕⢮⡲⣳⢳⡻⣪⢺⢸⢸⠪⡒
+⠄⠄⠐⠨⠨⠊⠎⡎⡞⡕⡯⡫⡯⣻⣺⢵⢽⣪⢯⣺⣪⡳⣻⡻⡿⣽⢿⣻⣿⢿⣿⢿⣻⣿⢿⣿⣿⣿⣿⣷⣷⣵⣕⣔⣬⣀⣢⣑⢔⠨⡊⡂⡂⠕⡰⠨⢐⠅⡌⠢⠡⢑⢐⠔⡈⠪⡊⡪⢌⢪⠨⡂⡢⢊⣊⣀⣂⣅⣕⣔⣵⣲⣵⣷⣿⡿⣿⢿⣿⣽⣾⣿⣽⣾⣿⡿⣟⣯⣿⡿⣟⣿⢽⢷⢻⣪⡪⣓⢮⣳⡳⣝⢞⡵⢽⢸⢪⢪⠪⠪⠘⠄⠡⠄
+
+                </code>
+            </pre>
+        </div>
+        <div style="display: grid; grid-template-columns: min-content min-content; margin-left:27%;">
+            <button class="b" id="leftButton">&lt</button>
+            <button class="b" id="rightButton">&gt</button>
+            <div hidden>by Jacob Tapper</div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</html>
