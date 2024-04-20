@@ -1,0 +1,361 @@
+go to desktop
+create folder
+rename folder "How To Website How To"
+take screenshot of folder with (Windows + Shift + S)
+open image in Snip&Sketch
+save image to Desktop (Ctrl + S)
+close Snip&Sketch (always close after done screenshotting and saving)
+rename image "ss1.png" (or "ss" if view file extensions is disabled)
+open folder
+create folder in folder
+rename folder in folder "assets"
+move all screenshots taken into "assets" folder from now on (dont forget to move "ss1.png" to "assets" folder)
+go to view tab in explorer
+toggle file name extensions under show/hide
+create text file in folder name "index.html"
+select yes on popup
+create text file in folder name "style.css"
+select yes on popup
+create text file in folder name "main.js"
+select yes on popup
+repeat screenshot steps but take one of the files in folder (you can save it directly to assets folder instead of desktop from now on)
+rename image "ss2.png"
+open visual studio code
+select "index.html" "main.js" and "style.css"
+drag and drop files into visual studio code
+if prompted with untrusted files agree to use files
+click into index.html at top of visual studio code if not already in it
+go to opened folder and double click to open "index.html"
+repeat screenshot steps but take one of the top bar of web browser
+rename image "ss3.png"
+click and drag middle of the top bar of web browser all the way to the left edge of screen
+let go of mouse
+when grid of applications show you must select visual studio code
+there should now be a split between the web browser and visual studio code
+click into visual studio code on line 1 of "index.html"
+setup "index.html" by adding the code between the "*" symbols (dont add "*" symbols into actual code, only what is between them):
+* 
+<!DOCTYPE html>
+<html>
+    <body>
+        
+    </body>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</html>
+*
+after every change to code in visual studio code press (Ctrl + S) to save it
+you can refresh the web browser tab on the left to view any changes made
+repeat screenshot steps but take one of the code that was just added (include line numbers on the left in all screenshots of code)
+rename image "ss4.png"
+switch to "style.css" tab in visual studio code (the tabs are located near the top of visual studio code)
+add following code to "style.css" (remember to not add the "*" symbols in code, but follow what is between them exactly):
+*
+html{background-color: black;
+    font-family:system-ui,
+     -apple-system,
+      BlinkMacSystemFont,
+       'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell,
+         'Open Sans', 'Helvetica Neue', sans-serif;
+         color: lime;
+         width: 100%; height: 100%;
+         display:grid;
+         align-items: middle;
+         text-wrap:pretty;
+         font-size: x-large;
+}
+body{
+    display: block;
+    margin-top:25px;
+    margin-left: 20%;
+    margin-right: auto;
+}
+p{width: 50vw; margin-top:auto;}
+img{margin-left:5vw;object-fit:scale-down; width:40vw;}
+
+*
+repeat screenshot steps but take one of the code that was just added
+rename image "ss5.png"
+switch tabs back to "index.html" in visual studio code
+add the following code between "<body>" and "</body>" in "index.html":
+*
+<div id="page1">
+            <p style="margin-left:20vw" id="header">Hello!!! </p><p>Welcome to my "How To" where you will create a How To Website!</p>
+            <p class="list">- Meaning a website that shows you how to make a website that shows you how to make a website... and so on.</p>
+            <p>What you will need:</p>
+            <div style="margin-bottom: 25px;">
+            <p class="list" style="margin-bottom:0px;">- 1 computer (with monitor and has Windows).</p>
+            <p class="list" style="margin-bottom:0px;">- Visual Studio Code.</p>
+            </div>
+            <p>That's all! Now lets begin the tutorial (Use the &lt and &gt buttons to switch pages</and>)</p>
+        </div>
+
+*
+that will have made the first page, save (Ctrl + S) and refresh the page to see it
+repeat screenshot steps but take one of the code that was just added
+rename image "ss6.png"
+now we will make the < and > buttons to switch pages
+add the following code in "index.html" on line 14, which should be blank:
+*
+
+<div style="display: grid; grid-template-columns: min-content min-content; margin-left:27%;">
+            <button class="b" id="leftButton">&lt</button>
+            <button class="b" id="rightButton">&gt</button>
+            <div hidden>by Jacob Tapper</div>
+        </div>
+        
+*
+repeat screenshot steps but take one of the code that was just added
+rename image "ss7.png"
+switch tabs to "style.css" in Visual Studio Code
+add the following code to the next blank line in "style.css":
+*
+.list{margin-left:35px}
+.b{background-color: rgb(20, 20, 20); color: lime;
+    font-size: xx-large;
+    font-weight:900;
+    padding:5%;
+    margin: 3px;
+    width: 50px;
+    border: 0px;
+    border-radius: 15px;}
+
+*
+repeat screenshot steps but take one of the code that was just added
+rename image "ss8.png"
+switch tabs to "main.js" in Visual Studio Code
+add the following code in the file:
+*
+let page=1;
+window.onload = (e)=>{
+    hideAllPages();
+    document.getElementById("page1").hidden=false;
+    rainbow();
+    document.getElementById("leftButton").onclick=(e)=>{
+        changePage(false);
+    }
+    document.getElementById("rightButton").onclick=(e)=>{
+        changePage(true);
+    }
+}
+function changePage(right){
+    let pages = document.getElementsByName("page");
+    (right)?page++:page--;
+    if(page==0)page++;
+    if(page>pages.length)page--;
+    hideAllPages();
+    unhidePage();
+}
+function hideAllPages(){
+    document.getElementsByName("page").forEach((i)=>{i.hidden=true;})  
+}
+function unhidePage(){
+    document.getElementById("page"+page).hidden=false;
+}
+function rainbow(){
+    let header = document.getElementById("header").style;
+    header.backgroundImage="linear-gradient(to left, blue, blue, blue, blue, blue, red)"
+    header.webkitBackgroundClip="text"
+    header.color="transparent"
+}
+*
+repeat screenshot steps but take one of the code that was just added
+rename image "ss9.png"
+switch tab to "index.html" in Visual studio code
+add the following code to "index.html" in line 14 if it's free, if not then select the space at the end of "</div>" and press enter so a new blank line is formed before the button "<div>" but after the page1 "</div>":
+*
+<div id="page2" name="page">
+            <p>1. Getting Started</p>
+            <p class="list">- Go to the desktop.</p>
+            <p class="list">- Create a folder.</p>
+            <p class="list">- Rename the folder to "How To Website How To".</p>
+            <img src="assets/ss1.png" style="width: 120px; height: 120px;">
+            <p class="list">- Take a screenshot of the folder (Windows + Shift + S).</p>
+            <p class="list">- Open the image in Snip & Sketch.</p>
+            <p class="list">- Save the image to the desktop (Ctrl + S).</p>
+            <p class="list">- Close Snip & Sketch (Always close after you're done with a screenshot and it's saved).</p>
+            <p class="list">- Rename the image "ss1.png" (or "ss1" if view file extensions is disabled).</p>
+        </div>
+
+*
+repeat screenshot steps but take one of the code that was just added
+rename image "ss10.png"
+add the following code in the blank line just below the recently added code:
+*
+<div id="page3" name="page">
+            <p>2. Making the Proper Files</p>
+            <p class="list">- Open the folder (When I say "the folder" I'm talking about the "How To Website How To" folder).</p>
+            <p class="list">- Create another folder in the folder.</p>
+            <p class="list">- Rename the new folder inside the folder "assets".</p>
+            <p class="list">- Move all screenshots taken into "assets" folder from now on (Don't forget to move "ss1.png" from the desktop to the "assets" folder).</p>
+            <p class="list">- Go to the view tab near the top of file explorer.</p>
+            <p class="list">- In the Show/Hide section; Toggle on "File name extensions".</p>
+            <p class="list">- Inside of the folder create a new text file using the right click menu; name the file "index.html"; select yes on the pop-up.</p>
+            <p class="list">- Inside of the folder create a new text file using the right click menu; name the file "style.css"; select yes on the pop-up.</p>
+            <p class="list">- Inside of the folder create a new text file using the right click menu; name the file "main.js"; select yes on the pop-up.</p>
+            <img src="assets/ss2.png">
+            <p class="list">- Repeat the steps to take a screenshot but take one of the files in the folder (You can save them directly to the assets folder now that it's been created).</p>
+            <p class="list">- Rename the image to "ss2.png"</p>
+        </div>
+
+*
+repeat screenshot steps but take oen of the code that was just added
+rename image "ss11.png"
+add the following code in the blank line just below the recently added code:
+*
+<div id="page4" name="page">
+            <p>3. Getting Ready to Code 😨</p>
+            <p class="list">- Open Visual Studio Code (vs for short... I am not typing that another 30 times).</p>
+            <p class="list">- In the file explorer, select "index.html", "style.css", and "main.js"</p>
+            <p class="list">- Drag and drop the files into vs. (They should appear).</p>
+            <p class="list">- If prompted with untrusted files alert agree to using the files.</p>
+            <p class="list">- Click into index.html in the top bar of vs if you're not already inside of it.</p>
+            <p class="list">- Go to the folder in file explorer and double click open "index.html".</p>
+            <p class="list">- Repeat the steps to take a screenshot but take one of the top bar of the web browser that should've opened (If it didn't open... well... good luck).</p>
+            <p class="list">- Rename the image to "ss3.png"</p>
+            <p class="list">- Click and drag the middle of the top bar of the web browser all the way to the left edge of the screen.</p>
+            <img src="assets/ss3.png">
+            <p class="list">- Let go of the mouse.</p>
+            <p class="list">- When the grid of applications shows up you must select visual studio code.</p>
+            <p class="list">- Your screen should now be split-screen between the web browser and vs.</p>
+            <p class="list">- Click into vs on line 1 of "index.html".</p>
+        </div>
+
+*
+repeat screenshot steps but take one of the code that was just added
+rename image "ss12.png"
+add the following code in the blank line just below the recently added code:
+*
+<div id="page5" name="page">
+            <p>4. Coding 😎</p>
+            <p class="list">- Add the code between the "*" symbols (Don't add "*" symbols into the actual code, only what is between them):</p>
+            <pre class="list">
+                <code> 
+* 
+&lt!DOCTYPE html&gt
+&lthtml&gt
+    &ltbody&gt
+        
+    &lt/body&gt
+    &ltscript src="main.js"&gt&lt/script&gt
+    &ltlink rel="stylesheet" href="style.css"&gt
+&lt/html&gt
+*
+                </code>
+            </pre>
+            <img src="assets/ss4.png">
+            <p class="list">- After every change to code in vs press (Ctrl + S) to save it.</p>
+            <p class="list">- To see your changes you can refresh the browser.</p>
+            <p class="list">- Repeat the steps to take a screenshot but take one of the code that was just added (Include the line numbers in the screenshots).</p>
+            <p class="list">- Rename the image to "ss4.png".</p>
+        </div>
+*
+repeat screenshot steps with code
+rename image "ss13.png"
+add the following code below the previous code:
+<div id="page7" name="page">
+            <p>5. More Coding</p>
+            <p class="list">Switch to the "index.html" tab in vs.</p>
+            <p class="list">- Add the following code to "index.html" between &ltbody&gt and &lt/body&gt:</p>
+            <pre class="list">
+                <code> 
+* 
+&ltdiv id="page1"&gt
+            &ltp style="margin-left:20vw" id="header"&gtHello!!! &lt/p&gt&ltp&gtWelcome to my "How To" where you will create a How To Website!&lt/p&gt
+            &ltp class="list"&gt- Meaning a website that shows you how to make a website that shows you how to make a website... and so on.&lt/p&gt
+            &ltp&gtWhat you will need:&lt/p&gt
+            &ltdiv style="margin-bottom: 25px;"&gt
+            &ltp class="list" style="margin-bottom:0px;"&gt- 1 computer (with monitor and has Windows).&lt/p&gt
+            &ltp class="list" style="margin-bottom:0px;"&gt- Visual Studio Code.&lt/p&gt
+            &lt/div&gt
+            &ltp&gtThat's all! Now lets begin the tutorial (Use the &lt and &gt buttons to switch pages&lt/and&gt)&lt/p&gt
+        &lt/div&gt
+
+*
+                </code>
+            </pre>
+            <img src="assets/ss6.png">
+            <p class="list">- Repeat the steps to take a screenshot but take one of the code that was just added.</p>
+            <p class="list">- Rename the image to "ss6.png".</p>
+        </div>
+repeat screenshot steps with code
+rename image "ss14.png"
+add the following code:
+*
+<div id="page8" name="page">
+            <p>5. Even MOREEE Coding</p>
+            <p class="list">Switch to the "index.html" tab in vs.</p>
+            <p class="list">- Add the following code to "index.html" on line 14 which should be blank:</p>
+            <pre class="list">
+                <code> 
+* 
+&ltdiv style="display: grid; grid-template-columns: min-content min-content; margin-left:27%;"&gt
+            &ltbutton class="b" id="leftButton"&gt&lt&lt/button&gt
+            &ltbutton class="b" id="rightButton"&gt&gt&lt/button&gt
+            &ltdiv hidden&gtby Jacob Tapper&lt/div&gt
+        &lt/div&gt
+        
+*
+                </code>
+            </pre>
+            <img src="assets/ss7.png">
+            <p class="list">- Repeat the steps to take a screenshot but take one of the code that was just added.</p>
+            <p class="list">- Rename the image to "ss7.png".</p>
+        </div>
+
+*
+repeat screenshot steps with code
+rename image "ss15.png"
+add following code:
+*
+<div id="page9" name="page">
+            <p>8. Lotssss of Coding</p>
+            <p class="list">Switch to the "main.js" tab in vs.</p>
+            <p class="list">- Add the following code to "main.js":</p>
+            <pre class="list">
+                <code> 
+* 
+let page=1;
+window.onload = (e)=>{
+    hideAllPages();
+    document.getElementById("page1").hidden=false;
+    rainbow();
+    document.getElementById("leftButton").onclick=(e)=>{
+        changePage(false);
+    }
+    document.getElementById("rightButton").onclick=(e)=>{
+        changePage(true);
+    }
+}
+function changePage(right){
+    let pages = document.getElementsByName("page");
+    (right)?page++:page--;
+    if(page==0)page++;
+    if(page>pages.length)page--;
+    hideAllPages();
+    unhidePage();
+}
+function hideAllPages(){
+    document.getElementsByName("page").forEach((i)=>{i.hidden=true;})  
+}
+function unhidePage(){
+    document.getElementById("page"+page).hidden=false;
+}
+function rainbow(){
+    let header = document.getElementById("header").style;
+    header.backgroundImage="linear-gradient(to left, blue, blue, blue, blue, blue, red)"
+    header.webkitBackgroundClip="text"
+    header.color="transparent"
+}
+        
+*
+                </code>
+            </pre>
+            <img src="assets/ss8.png">
+            <p class="list">- Repeat the steps to take a screenshot but take one of the code that was just added.</p>
+            <p class="list">- Rename the image to "ss8.png".</p>
+        </div>
+*
+repeat screenshot steps with code
+rename image "ss16.png"
